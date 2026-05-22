@@ -1,42 +1,86 @@
 ---
-title: "Hello MessageDaily"
+title: "自动化信息收集系统介绍"
 date: 2026-05-22
 draft: false
-tags: ["hello", "first-post"]
+tags: ["DailyNews"]
 categories: ["daily"]
-summary: "Welcome to MessageDaily - my daily message blog built with Hugo and deployed on GitHub Pages."
+summary: "介绍自动化信息收集系统——一个自动搜集 AI 行业信息并智能汇总的工具，实现从信息源采集到结构化输出的全流程自动化。"
 ---
 
-## Hello, World!
+## 自动化信息收集系统
 
-This is the first post on **MessageDaily**, a blog built with [Hugo](https://gohugo.io/) and the [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme.
+在 AI 行业日新月异的今天，信息过载成为每个从业者的痛点。每天有大量论文发布、产品更新、行业动态涌现，人工追踪耗时且容易遗漏关键信息。**自动化信息收集系统**应运而生——它能够自动搜集 AI 行业信息并完成智能汇总，将分散的信息流转化为结构化的知识产出。
 
-### What is MessageDaily?
+### 系统架构
 
-MessageDaily is a space for sharing daily thoughts, technical notes, and interesting findings. The blog is:
+系统采用模块化设计，核心流程分为三个阶段：
 
-- **Fast** - Built with Hugo, one of the fastest static site generators
-- **Simple** - Markdown-based writing, no complex CMS
-- **Free** - Hosted on GitHub Pages
+**1. 信息源采集**
 
-### What to expect
+系统从多个维度持续采集 AI 行业信息：
 
-Here are some topics I plan to write about:
+- **学术论文**：自动追踪 arXiv、顶会（NeurIPS、ICML、ACL、ICSE 等）最新论文，按关键词和主题过滤
+- **行业新闻**：监控科技媒体、公司官方博客、产品发布公告
+- **开源动态**：跟踪 GitHub trending 项目、重要仓库的 release 和 commit 动态
+- **社交媒体**：采集 Twitter/X、微信公众号等平台的技术讨论与观点
 
-1. AI & Machine Learning research notes
-2. Software engineering best practices
-3. Productivity tips and tools
-4. Book reviews and reading notes
+采集模块支持定时调度与增量抓取，避免重复数据入库。
 
-### Code example
+**2. 信息处理与汇总**
 
-```python
-def hello():
-    print("Welcome to MessageDaily!")
-    return True
+原始信息经过多步处理后输出为结构化内容：
 
-if __name__ == "__main__":
-    hello()
+- **去重与过滤**：基于语义相似度去除重复信息，按预设规则过滤低质量内容
+- **分类与标注**：自动识别信息所属领域（LLM、Agent、RL、CV、NLP 等），打标签归档
+- **摘要生成**：利用 LLM 对长文本生成精炼摘要，提取核心观点与关键数据
+- **关联分析**：识别不同信息源之间的关联，构建事件脉络（如：某篇论文的技术方案被某产品采纳）
+
+**3. 输出与分发**
+
+处理结果以多种形式输出：
+
+- **日报/周报**：自动生成 Markdown 格式的每日或每周行业简报
+- **结构化数据库**：所有信息存入可检索的知识库，支持按主题、时间、来源查询
+- **推送通知**：关键信息实时推送到指定渠道（如 GitHub Pages 博客、邮件、即时通讯）
+
+### 技术栈
+
+```
+采集层:  Python (Scrapy / httpx) + RSS + API
+处理层:  LLM (摘要/分类/关联) + 向量数据库 (去重/检索)
+调度层:  定时任务 (Cron / GitHub Actions)
+输出层:  Hugo 博客 + Markdown 生成 + 推送服务
+存储层:  SQLite / PostgreSQL + 向量索引
 ```
 
-Stay tuned for more posts!
+### 典型工作流
+
+```
+[信息源] → 采集模块 → 原始数据池
+                         ↓
+              去重 → 过滤 → 分类标注
+                         ↓
+              LLM 摘要生成 → 关联分析
+                         ↓
+              日报/周报输出 → 博客发布 / 推送通知
+```
+
+### 应用场景
+
+| 场景 | 说明 |
+|------|------|
+| **研究追踪** | 每日自动汇总 LLM、Agent、RL 等方向的最新论文与核心贡献 |
+| **竞品监控** | 跟踪特定公司或产品的技术动态与发布节奏 |
+| **投资研判** | 汇总行业报告、融资新闻、政策动态，辅助决策 |
+| **团队知识管理** | 为团队提供持续更新的行业知识库，降低信息获取成本 |
+
+### 后续规划
+
+- [ ] 增加多语言信息源支持（中英双语采集）
+- [ ] 引入用户自定义关注主题与关键词
+- [ ] 集成更多推送渠道（企微、飞书、Slack）
+- [ ] 基于阅读反馈优化推荐算法
+
+---
+
+本系统正是 MessageDaily 博客背后的驱动力——让 AI 行业信息的收集与整理从手工劳动变为自动化流水线，把更多时间留给思考与创造。
