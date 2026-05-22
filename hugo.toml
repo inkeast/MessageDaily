@@ -1,0 +1,48 @@
+baseURL = 'https://inkeast.github.io/MessageDaily/'
+locale = 'zh-cn'
+title = 'MessageDaily'
+theme = 'PaperMod'
+
+[params]
+  defaultTheme = 'auto'
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  description = 'Daily thoughts and messages'
+
+[params.homeInfoParams]
+  Title = 'MessageDaily'
+  Content = 'Welcome to my daily message blog.'
+
+[[params.socialIcons]]
+  name = 'github'
+  url = 'https://github.com/inkeast'
+
+[menu]
+[[menu.main]]
+  identifier = 'posts'
+  name = 'Posts'
+  url = '/posts/'
+  weight = 10
+[[menu.main]]
+  identifier = 'archives'
+  name = 'Archives'
+  url = '/archives/'
+  weight = 20
+[[menu.main]]
+  identifier = 'tags'
+  name = 'Tags'
+  url = '/tags/'
+  weight = 30
+
+[outputs]
+  home = ['HTML', 'RSS']
+
+[markup]
+[markup.highlight]
+  style = 'dracula'
+  lineNos = false
+  codeFences = true
+  guessSyntax = true
