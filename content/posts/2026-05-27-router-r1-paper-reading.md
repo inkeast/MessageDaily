@@ -5,6 +5,7 @@ draft: false
 tags: ["Agent", "模型路由", "强化学习", "论文精读"]
 categories: ["paper-reading"]
 summary: "深度精读 UIUC NeurIPS 2025 论文——首次将 LLM 模型路由从单轮一对一映射升级为多轮序贯决策过程。Router-R1 将路由器本身实例化为 LLM，通过强化学习训练其交替执行'思考'和'路由'动作，动态整合多个 LLM 的互补优势。在 7 个 QA 基准上平均 EM 达到 0.416，超越 RouteLLM、GraphRouter、FrugalGPT 等 14 种基线方法，同时通过成本奖励实现性能-成本 Pareto 优化。"
+math: true
 ---
 
 > **论文链接**：[https://arxiv.org/abs/2506.09033](https://arxiv.org/abs/2506.09033)
