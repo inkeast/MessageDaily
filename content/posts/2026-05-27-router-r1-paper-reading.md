@@ -134,7 +134,7 @@ Router-R1 将这个问题重新定义为一个**序贯决策问题（Sequential 
 
 从数学角度，Router-R1 将问题建模为带 KL 正则化的策略优化目标：
 
-$$\max_{\pi} \mathbb{E}_{x\sim D, y\sim\pi(\cdot|x;\mathcal{P})}\left[r_\phi(x,y) - \beta \log \frac{\pi(y|x;\mathcal{P})}{\pi_{\text{ref}}(y|x;\mathcal{P})}\right]$$
+<div>$$\max_{\pi} \mathbb{E}_{x\sim D, y\sim\pi(\cdot|x;\mathcal{P})}\left[r_\phi(x,y) - \beta \log \frac{\pi(y|x;\mathcal{P})}{\pi_{\text{ref}}(y|x;\mathcal{P})}\right]$$</div>
 
 其中：
 - π 是待优化的策略（即路由器 LLM）
@@ -206,7 +206,7 @@ Router-R1 的核心工作机制可以用一个"思考-路由-整合"的循环来
 
 #### 第一层：格式奖励（Format Reward）
 
-$$\mathbf{R}_{\text{format}} = \begin{cases} -1, & \text{如果格式不正确} \\ \;\;\;0, & \text{如果格式正确} \end{cases}$$
+<div>$$\mathbf{R}_{\text{format}} = \begin{cases} -1, & \text{if format is incorrect} \\\; 0, & \text{if format is correct} \end{cases}$$</div>
 
 格式奖励确保模型的输出符合预定义的结构——例如 `<think >` 块必须正确开关，`<search>` 必须与 `<info>` 配对，每个 `<search>` 中的 LLM 名称必须是路由池中存在的有效名称，等等。
 
@@ -214,13 +214,13 @@ $$\mathbf{R}_{\text{format}} = \begin{cases} -1, & \text{如果格式不正确} 
 
 #### 第二层：最终结果奖励（Outcome Reward）
 
-$$\mathbf{R}_{\text{outcome}} = \mathbf{EM}(y_a, g_t)$$
+<div>$$\mathbf{R}_{\text{outcome}} = \mathbf{EM}(y_a, g_t)$$</div>
 
 结果奖励基于**精确匹配（Exact Match, EM）**——如果模型输出的最终答案与标准答案完全匹配，得 1 分，否则得 0 分。这是最核心的信号：回答对了就奖励，回答错了就不奖励。
 
 #### 第三层：成本奖励（Cost Reward）
 
-$$\mathbf{R}_{\text{cost}} \propto -m(P_{\text{LLM}}) \cdot T_{\text{out}}$$
+<div>$$\mathbf{R}_{\text{cost}} \propto -m(P_{\text{LLM}}) \cdot T_{\text{out}}$$</div>
 
 成本奖励是本文的一大创新。它将调用 LLM 的计算成本纳入考量——调用的模型越大、生成的 token 越多，成本越高，奖励越低。具体来说，成本奖励与"模型参数量 × 输出 token 数 × 每 token 定价"成反比。
 
@@ -230,7 +230,7 @@ $$\mathbf{R}_{\text{cost}} \propto -m(P_{\text{LLM}}) \cdot T_{\text{out}}$$
 
 三个奖励按优先级组合：
 
-$$r_\phi(x,y) = \mathbf{R}_{\text{format}} + (1-\alpha)\mathbf{R}_{\text{outcome}} + \alpha\mathbf{R}_{\text{cost}}$$
+<div>$$r_\phi(x,y) = \mathbf{R}_{\text{format}} + (1-\alpha)\mathbf{R}_{\text{outcome}} + \alpha\mathbf{R}_{\text{cost}}$$</div>
 
 其中 α 是控制性能-成本平衡的超参数。α=0 时完全追求性能，α 越大越注重节省成本。
 

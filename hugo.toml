@@ -42,7 +42,16 @@ theme = 'PaperMod'
 
 [markup]
 [markup.highlight]
-  style = 'dracula'
-  lineNos = false
-  codeFences = true
-  guessSyntax = true
+style = 'dracula'
+lineNos = false
+codeFences = true
+guessSyntax = true
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
+[markup.goldmark.extensions]
+[markup.goldmark.extensions.passthrough]
+enable = true
+[markup.goldmark.extensions.passthrough.delimiters]
+block = [['$$', '$$']]
+inline = [['$', '$']]
