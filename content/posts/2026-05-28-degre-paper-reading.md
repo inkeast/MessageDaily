@@ -164,7 +164,9 @@ DeGRe 将这一思想创新性地应用到了推荐重排序场景中：Lookahea
 
 **形式化层面**：给定用户 $u$，候选物品集 $\mathcal{V}_u = \{v_1, v_2, \dots, v_N\}$（$N=12$），用户上下文特征 $\mathcal{X}_u$，找到一个长度为 $L$（$L=6$）的排列 $l^* = [v_{i_1}, v_{i_2}, \dots, v_{i_L}]$，使得列表的整体效用 $V(l|\mathcal{X}_u)$ 最大化：
 
-$$l^* = \arg\max_{l \in \Pi(\mathcal{V}_u)} V(l|\mathcal{X}_u)$$
+$$
+l^* = \arg\max_{l \in \Pi(\mathcal{V}_u)} V(l|\mathcal{X}_u)
+$$
 
 其中 $\Pi(\mathcal{V}_u)$ 表示候选集的所有可能排列。
 
@@ -179,7 +181,9 @@ DeGRe 将这个排列优化问题进一步抽象为一个**序列决策过程**�
 
 用概率链规则分解：
 
-$$P_\theta(l|\mathcal{V}_u, \mathcal{X}_u) = \prod_{t=1}^{L} P_\theta(v_{i_t}|l_{<t}, \mathcal{V}_u \setminus l_{<t}, \mathcal{X}_u)$$
+$$
+P_\theta(l|\mathcal{V}_u, \mathcal{X}_u) = \prod_{t=1}^{L} P_\theta(v_{i_t}|l_{<t}, \mathcal{V}_u \setminus l_{<t}, \mathcal{X}_u)
+$$
 
 ### 3.3 DeGRe 解决的两个本质问题
 
@@ -223,7 +227,9 @@ DeGRe 的核心创新之一是使用**累积回归（Cumulative Regression）**�
 
 具体来说，给定子序列 $l_{1:t}$（前 t 步的物品），评估器预测：
 
-$$P(V \geq k|l_{1:t}) = \sigma(f_k(l_{1:t}))$$
+$$
+P(V \geq k|l_{1:t}) = \sigma(f_k(l_{1:t}))
+$$
 
 其中 $k \in \{1, 2, \dots, t\}$，$\sigma$ 是 sigmoid 函数，$f_k$ 是模型对阈值 $k$ 的输出。
 
@@ -231,7 +237,9 @@ $$P(V \geq k|l_{1:t}) = \sigma(f_k(l_{1:t}))$$
 
 最后，期望累积值可以通过简单的求和得到：
 
-$$\mathbb{E}[V|l_{1:t}] = \sum_{k=1}^{t} P(V \geq k|l_{1:t})$$
+$$
+\mathbb{E}[V|l_{1:t}] = \sum_{k=1}^{t} P(V \geq k|l_{1:t})
+$$
 
 #### 4.1.3 因果序列编码器
 
@@ -281,7 +289,9 @@ DeGRe 使用 **Beam Search（束搜索）** 在排列空间中搜索：
 
 **软标签分布** $q_t$：利用评估器对**所有剩余候选物品**的价值估计，构造一个概率分布：
 
-$$q_t(v_i) = \frac{\exp(\hat{V}([l_{<t}; v_i]))}{\sum_{v_j \in \text{剩余候选}} \exp(\hat{V}([l_{<t}; v_j]))}$$
+$$
+q_t(v_i) = \frac{\exp(\hat{V}([l_{<t}; v_i]))}{\sum_{v_j \in \text{剩余候选}} \exp(\hat{V}([l_{<t}; v_j]))}
+$$
 
 软标签的价值在于：它不仅告诉生成器"选 A"，还传递了"B 比 C 好，C 比 D 好"等相对关系信息。这就是知识蒸馏中经典的"暗知识（Dark Knowledge）"。
 
@@ -289,7 +299,9 @@ $$q_t(v_i) = \frac{\exp(\hat{V}([l_{<t}; v_i]))}{\sum_{v_j \in \text{剩余候�
 
 挖掘到的 $B$ 条序列质量参差不齐，DeGRe 用 softmax 加权让高质量序列贡献更多梯度：
 
-$$w_l = \frac{\exp(\hat{V}(l)/\tau_w)}{\sum_{l'} \exp(\hat{V}(l')/\tau_w)}$$
+$$
+w_l = \frac{\exp(\hat{V}(l)/\tau_w)}{\sum_{l'} \exp(\hat{V}(l')/\tau_w)}
+$$
 
 温度系数 $\tau_w$ 控制分布的"锐度"——温度越低，越集中于最优序列；温度越高，分布越均匀。
 
@@ -313,7 +325,9 @@ $$w_l = \frac{\exp(\hat{V}(l)/\tau_w)}{\sum_{l'} \exp(\hat{V}(l')/\tau_w)}$$
 
 生成器的输出空间被严格限制在候选集 $\mathcal{V}_u$ 中。这一设计借鉴了 **Pointer Network（指针网络）** 的思想：
 
-$$P_\theta(v_i|l_{<t}) = \frac{\exp(\mathbf{h}_t^{dec} \cdot \mathbf{m}_i)}{\sum_{v_j \in \text{剩余候选}} \exp(\mathbf{h}_t^{dec} \cdot \mathbf{m}_j)}$$
+$$
+P_\theta(v_i|l_{<t}) = \frac{\exp(\mathbf{h}_t^{dec} \cdot \mathbf{m}_i)}{\sum_{v_j \in \text{剩余候选}} \exp(\mathbf{h}_t^{dec} \cdot \mathbf{m}_j)}
+$$
 
 解码器每一步输出一个"指针"，指向候选集中的一个物品。这确保了：
 - 生成的物品**严格来自候选集**（不会"凭空捏造"不存在的物品）
@@ -323,7 +337,9 @@ $$P_\theta(v_i|l_{<t}) = \frac{\exp(\mathbf{h}_t^{dec} \cdot \mathbf{m}_i)}{\sum
 
 生成器的总损失函数包含两部分：
 
-$$\mathcal{L}_{Gen} = \sum_{l \in \mathcal{T}_{syn}} w_l \cdot \sum_{t=1}^{L} \left[ \underbrace{\mathcal{L}_{CE}(v_{i_t}, P_{\theta,t})}_{\text{前瞻模仿（硬标签）}} + \underbrace{\alpha \mathcal{L}_{KL}(q_t \| P_{\theta,t})}_{\text{价值对齐（软标签）}} \right]$$
+$$
+\mathcal{L}_{Gen} = \sum_{l \in \mathcal{T}_{syn}} w_l \cdot \sum_{t=1}^{L} \left[ \underbrace{\mathcal{L}_{CE}(v_{i_t}, P_{\theta,t})}_{\text{前瞻模仿（硬标签）}} + \underbrace{\alpha \mathcal{L}_{KL}(q_t \| P_{\theta,t})}_{\text{价值对齐（软标签）}} \right]
+$$
 
 - **前瞻模仿**（交叉熵损失）：让生成器学习评估器选择的具体物品
 - **价值对齐**（KL 散度损失）：让生成器学习评估器对整个候选空间的价值排序
