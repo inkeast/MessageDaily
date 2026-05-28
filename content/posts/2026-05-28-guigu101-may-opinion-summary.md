@@ -2,7 +2,7 @@
 title: "硅谷101 5月观点总结"
 date: 2026-05-28
 draft: false
-tags: ["硅谷101", "播客", "AI行业", "Token经济学", "Gemini", "机器人", "AI Agent", "DeepSeek"]
+tags: ["硅谷101", "Agent", "具身智能", "灰色信源"]
 categories: ["opinion-summary"]
 summary: '整理自硅谷101五月发布的五期播客节目，涵盖 Token 经济学、Google Gemini 发展历程与出走创业、机器人数据困境、AI Agent 社交革命、DeepSeek 与模型效率突围等话题。共6大主题18条观点+3条跨主题洞察，每条以金句+背景+解释形式呈现，让没看过原节目的读者也能快速理解观点背后的推理逻辑。'
 ---
