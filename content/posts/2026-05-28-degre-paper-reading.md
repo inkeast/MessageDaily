@@ -2,6 +2,7 @@
 title: "DeGRe: Dense-supervised Generative Reranking for Recommendation 精读"
 date: 2026-05-28
 draft: false
+math: true
 tags: ["推荐系统", "论文精读"]
 categories: ["paper-reading"]
 summary: "深度精读 KDD 2026 论文 DeGRe——首个通过密集监督弥合离线探索与在线效率差距的生成式重排序框架。从推荐系统多阶段架构、重排序三阶段演进脉络、启发式标签偏差与信用分配两大痛点出发，详述 DeGRe 的离线-在线解耦设计、Lookahead Evaluator 累积回归、密集监督蒸馏到轻量级生成器的完整技术路线，并在淘宝闪购在线 A/B 测试中实现 GMV +3.75%。"
