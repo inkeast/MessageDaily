@@ -4,7 +4,7 @@ date: 2026-06-22
 draft: false
 tags: ["AI趋势", "AI布局", "投资", "灰色信源"]
 categories: ["podcast-summary"]
-summary: "Cerebras Systems在2026年5月中旬IPO后市值一度逼近千亿美元，被外界视为英伟达的挑战者。本期晚点聊LateTalk邀请到Cerebras早期投资人、现高通创投投资人周南，回顾了九年前在百度美研完成这笔投资的全过程——从Scaling Law在硅谷萌芽、Wafer-Scale Engine架构的技术尽调，到百度美研作为AI人才"黄埔军校"的辉煌与地缘政治下的遗憾。对话深入分析了为什么OpenAI会签下百亿美元订单、推理需求爆发如何改变算力格局、Cerebras自建云平台的战略逻辑，以及当下AI基础设施投资的新窗口：推理优化、异构芯片、Physical AI的下一个'顿悟时刻'。"
+summary: "Cerebras Systems在2026年5月中旬IPO后市值一度逼近千亿美元，被外界视为英伟达的挑战者。本期晚点聊LateTalk邀请到Cerebras早期投资人、现高通创投投资人周南，回顾了九年前在百度美研完成这笔投资的全过程——从Scaling Law在硅谷萌芽、Wafer-Scale Engine架构的技术尽调，到百度美研作为AI人才「黄埔军校」的辉煌与地缘政治下的遗憾。对话深入分析了为什么OpenAI会签下百亿美元订单、推理需求爆发如何改变算力格局、Cerebras自建云平台的战略逻辑，以及当下AI基础设施投资的新窗口：推理优化、异构芯片、Physical AI的下一个「顿悟时刻」。"
 ---
 
 > **来源**：晚点聊LateTalk ·「英伟达挑战者？Cerebras 投资故事」
