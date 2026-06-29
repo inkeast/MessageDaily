@@ -152,7 +152,7 @@ SKILL-DISCO 在这条研究链上的独特定位可以用三个关键词概括�
 
 论文给出严格的数学定义：
 
-> **FSM 定义的 Scenario（场景）**：一个场景如果其执行动力学可以用有限状态机 $\mathcal{M}=(\mathcal{S},\mathcal{A},\delta,\mathcal{S}_0,\mathcal{S}_{goal})$ 来表示，就称为 FSM 定义的场景。其中 $\mathcal{S}$ 是有限状态集，$\mathcal{A}$ 是有限动作集，$\delta: \mathcal{S}\times\mathcal{A}\rightarrow\mathcal{S}$ 是确定性状态转换函数，$\mathcal{S}_0$ 是初始状态集，$\mathcal{S}_{goal}$ 是目标状态集。
+> **FSM 定义的 Scenario（场景）**：一个场景如果其执行动力学可以用有限状态机 $\mathcal{M}=(\mathcal{S},\mathcal{A},\delta,\mathcal{S}\_0,\mathcal{S}\_{goal})$ 来表示，就称为 FSM 定义的场景。其中 $\mathcal{S}$ 是有限状态集，$\mathcal{A}$ 是有限动作集，$\delta:\; \mathcal{S}\times\mathcal{A}\rightarrow\mathcal{S}$ 是确定性状态转换函数，$\mathcal{S}\_0$ 是初始状态集，$\mathcal{S}\_{goal}$ 是目标状态集。
 
 通俗讲：只要一个任务环境的"规则"是固定的——状态有限、动作有限、动作的效果确定——它就是 FSM 定义的。ALFWorld 和 WebArena 都满足这个条件。
 
@@ -173,6 +173,8 @@ SKILL-DISCO 在这条研究链上的独特定位可以用三个关键词概括�
 论文最终将问题抽象为：
 
 > **过程技能发现问题**：给定一组成功轨迹 $\mathcal{T}^+$ 和一个提升函数 $\phi$（把具体轨迹提升为参数化抽象表示），发现一组过程技能 $\mathcal{K}$，其中每个技能是一个匹配多条轨迹的参数化控制流子图。
+
+> **可重用性评分**：对于技能 $k$，其可重用性评分定义为 $r_k = \dfrac{\left|\{\tau \in \mathcal{T}^+ : k \text{ 匹配 } \tau\}\right|}{|\mathcal{T}^+|}$，即包含该技能模式的成功轨迹占全部成功轨迹的比例。
 
 这个抽象的关键在于：**它不要求预先知道环境的 FSM**（现实中 Agent 通常不知道完整的状态转换图），而是从**观察到的成功行为**中反向推断共享的过程结构。这是从"行为"到"知识"的蒸馏。
 
@@ -261,7 +263,7 @@ SKILL-DISCO（Skill Distillation and Compilation）是一个两阶段、五步�
 
 三条轨迹的操作细节不同，但抽象后的控制流结构完全一致——它们被合并为一个技能 `systematic_search_locations`。
 
-每个聚类的**可重用性评分**定义为：有多少比例的轨迹包含这个技能模式。评分越高，说明这个技能越通用。
+每个聚类的**可重用性评分**定义为：有多少比例的轨迹包含这个技能模式，即上文公式中的 $r_k$。评分越高，说明这个技能越通用。
 
 经过这三个步骤，蒸馏阶段产出一组紧凑的 PFSM 子图——每个子图代表一个可重用的过程技能。
 
