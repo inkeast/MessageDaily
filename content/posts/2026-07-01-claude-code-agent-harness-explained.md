@@ -4,7 +4,7 @@ date: 2026-07-01
 draft: false
 tags: ["行业访谈", "AI趋势", "Agent", "Harness", "灰色信源"]
 categories: ["podcast-summary"]
-summary: "Claude Code源代码泄露后，Agent Harness的关键模块被完整呈现出来，成为最好的教学样本。本期「十字路口」邀请到Learn Claude Code教程（GitHub超5万星）作者、CLAI创始人来新璐，从Harness的三层架构（执行能力层、上下文环境层、治理编排层）到底层设计哲学，深入拆解Claude Code的沙箱环境、记忆"做梦"机制、上下文压缩策略，以及从LangChain到Agent Runtime的范式迁移。来新璐还分享了他对CLI vs MCP之争的判断、Agent Harness赛道的创业格局，以及一个令人兴奋又有些可怕的未来图景——零人公司。"
+summary: "Claude Code源代码泄露后，Agent Harness的关键模块被完整呈现出来，成为最好的教学样本。本期「十字路口」邀请到Learn Claude Code教程（GitHub超5万星）作者、CLAI创始人来新璐，从Harness的三层架构（执行能力层、上下文环境层、治理编排层）到底层设计哲学，深入拆解Claude Code的沙箱环境、记忆「做梦」机制、上下文压缩策略，以及从LangChain到Agent Runtime的范式迁移。来新璐还分享了他对CLI vs MCP之争的判断、Agent Harness赛道的创业格局，以及一个令人兴奋又有些可怕的未来图景——零人公司。"
 ---
 
 > **来源**：十字路口播客 ·「探秘 Claude Code，搞懂 Agent Harness｜对谈来新璐」
