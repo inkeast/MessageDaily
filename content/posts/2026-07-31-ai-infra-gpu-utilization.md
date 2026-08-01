@@ -1,5 +1,5 @@
 ---
-title: "GPU其实很"闲"：AI Infra四层架构与榨干硅极限的效率革命"
+title: "GPU其实很闲：AI Infra四层架构与榨干硅极限的效率革命"
 date: 2026-07-31
 draft: false
 tags: ["灰色信源", "硅谷101", "AI趋势", "AI Infra", "GPU利用率", "推理引擎", "SGLang", "vLLM", "KV Cache", "强化学习", "开源模型", "英伟达", "DeepSeek", "AGI"]
