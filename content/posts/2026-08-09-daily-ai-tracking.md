@@ -174,3 +174,9 @@ summary: "8月9日：苹果千问合作落地Mac端Apple智能；OpenAI下一代
 - **核心内容**：一项研究发现，自我改进的LLM智能体即使冻结权重，也会因信任自身记忆而性能退化。智能体存储过往片段并用LLM评分复用，但测试模型对其错误答案的自评分中，有31%至54%被误判为正确。作者将这一现象称为"记忆奖励膨胀"。
 - **落地应用场景**：Agent系统的长期可靠性设计。自我改进Agent（如自主编程助手/自主研究助手）在长时间运行中会因信任自身记忆而产生系统性误差累积。这要求Agent架构设计中引入外部验证信号或记忆质量校准机制，防止"自我强化错误"的正反馈循环。
 - **相关链接**：[🌐 AI Hot追踪](https://aihot.virxact.com/items/cmsk5m3kq0ahqro4bn4nh1r6r)
+
+#### Firebird在亚美尼亚启动独联体地区最大AI工厂
+
+- **核心内容**：Firebird在亚美尼亚启动独联体（CIS）地区最大规模AI工厂，由NVIDIA加速计算和Dell Technologies基础设施驱动，部署Blackwell与Rubin架构GPU。亚美尼亚总理等政府官员出席开幕式，标志着该国正式跻身区域AI算力枢纽行列。
+- **落地应用场景**：区域AI基础设施竞争格局重塑。独联体地区此前缺乏大规模AI训练/推理集群，Firebird工厂填补了这一空白，为东欧、中亚国家的高校、企业和科研机构提供本地化AI算力服务（模型训练、推理API、行业解决方案）。NVIDIA+Dell的组合降低了部署门槛，主权AI算力正从少数大国向中等国家扩散。
+- **相关链接**：[🌐 点击查看新闻来源](https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx)
