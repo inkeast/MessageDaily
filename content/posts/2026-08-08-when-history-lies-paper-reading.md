@@ -5,7 +5,7 @@ draft: false
 tags: ["论文精读", "Agent", "工具使用", "策略蒸馏", "上下文鲁棒性", "多轮交互"]
 categories: ["paper-reading"]
 math: true
-summary: "深度精读论文《When History Lies》——首次形式化"历史诱导的策略劫持"现象：结构有效、语义合理的历史轨迹仍可劫持 Agent 已有的正确策略，在 Qwen3-1.7B 上翻转 32.1% 的正确决策。论文提出 ContextPollute-Bench（同步三视图 Original/Polluted/Oracle State，十一类干扰算子）与 Oracle-OPD 方法（基于 Oracle State 的教师通过反向 KL 在策略蒸馏迁移到仅观察污染历史的学生），将 1.7B 模型的 BTA 从 47.2% 提升至 87.0%，8B 教师蒸馏后达 91.9%，并迁移到干净历史、未见工具与噪声多跳 QA。"
+summary: "深度精读论文《When History Lies》——首次形式化『历史诱导的策略劫持』现象：结构有效、语义合理的历史轨迹仍可劫持 Agent 已有的正确策略，在 Qwen3-1.7B 上翻转 32.1% 的正确决策。论文提出 ContextPollute-Bench（同步三视图 Original/Polluted/Oracle State，十一类干扰算子）与 Oracle-OPD 方法（基于 Oracle State 的教师通过反向 KL 在策略蒸馏迁移到仅观察污染历史的学生），将 1.7B 模型的 BTA 从 47.2% 提升至 87.0%，8B 教师蒸馏后达 91.9%，并迁移到干净历史、未见工具与噪声多跳 QA。"
 ---
 
 > **论文链接**：[arxiv.org/abs/2608.06057](https://arxiv.org/abs/2608.06057)
