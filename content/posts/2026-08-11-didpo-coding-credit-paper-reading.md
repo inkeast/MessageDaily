@@ -4,7 +4,7 @@ date: 2026-08-11
 draft: false
 tags: ["论文精读", "Agent", "Coding", "强化学习", "后训练"]
 categories: ["paper-reading"]
-summary: "编码智能体在 RLVR 训练中长期受困于"信用分配粒度不足"——一个动作里同时打包了对代码不同区域的多种修改，谁贡献了通过、谁制造了失败，传统方法无法区分。DiDPO 从代码 diff 的结构出发，用"可分组性分数"动态选择锚点，把完整 diff 切成可比较的子 diff 组，把 episode 级优势投影到 token 级信号。Qwen2.5-7B-Coder 上超越可比方法超 10%，并附带开源 verl-code 代码库。本精读按九部分结构拆解：从背景、定位、问题抽象、解法、实验证据到优势根源的因果链，再到必要知识反推与通用性灵感。"
+summary: "编码智能体在 RLVR 训练中长期受困于「信用分配粒度不足」——一个动作里同时打包了对代码不同区域的多种修改，谁贡献了通过、谁制造了失败，传统方法无法区分。DiDPO 从代码 diff 的结构出发，用「可分组性分数」动态选择锚点，把完整 diff 切成可比较的子 diff 组，把 episode 级优势投影到 token 级信号。Qwen2.5-7B-Coder 上超越可比方法超 10%，并附带开源 verl-code 代码库。本精读按九部分结构拆解：从背景、定位、问题抽象、解法、实验证据到优势根源的因果链，再到必要知识反推与通用性灵感。"
 ---
 
 > **论文链接**：[DiDPO: Diff-in-Diff Policy Optimization for Coding Agent Training (arXiv)](https://arxiv.org/abs/2608.07147)
