@@ -4,7 +4,7 @@ date: 2026-08-12
 draft: false
 tags: ["论文精读", "DailyNews", "PaperReading", "Agent", "可解释性", "AI趋势"]
 categories: ["paper-reading"]
-summary: "这篇来自华为与华中科技大学的 empirical study 首次系统地把 LLM Agent 的失败归因到"被加载的 Skill"上。作者借鉴差分测试思想，构建配对执行（有 Skill vs 无 Skill / 语义匹配 Skill），在 SkillsBench 与 SWE-Skills-Bench 上确认了 307 个技能诱导失败（125 功能失败 + 182 效率回归），并开发分类法驱动的 SkillTriage 归因工具。最反直觉的发现：看似相关的 Skill 比不相关 Skill 更有害——它让 Agent 错误实现或漏掉任务必需元素；效率回归的最大来源不是提示长度，而是"过度程序"（过度验证 67 例、重实现管道 30 例）。"
+summary: "这篇来自华为与华中科技大学的 empirical study 首次系统地把 LLM Agent 的失败归因到「被加载的 Skill」上。作者借鉴差分测试思想，构建配对执行（有 Skill vs 无 Skill / 语义匹配 Skill），在 SkillsBench 与 SWE-Skills-Bench 上确认了 307 个技能诱导失败（125 功能失败 + 182 效率回归），并开发分类法驱动的 SkillTriage 归因工具。最反直觉的发现：看似相关的 Skill 比不相关 Skill 更有害——它让 Agent 错误实现或漏掉任务必需元素；效率回归的最大来源不是提示长度，而是「过度程序」（过度验证 67 例、重实现管道 30 例）。"
 ---
 
 > **论文链接**：[arXiv:2608.11888](https://arxiv.org/abs/2608.11888)
