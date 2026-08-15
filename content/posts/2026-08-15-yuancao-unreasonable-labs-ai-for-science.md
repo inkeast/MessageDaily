@@ -4,7 +4,7 @@ date: 2026-08-15
 draft: false
 tags: ["灰色信源", "硅谷101", "AI for Science", "AI4S", "DeepMind", "OpenAI", "Anthropic", "Unreasonable Labs", "AI趋势", "符号主义", "持续学习", "世界模型"]
 categories: ["podcast-summary"]
-summary: 'Jeff Dean 带 Jeff Dean 系元老出走谷歌创立 Discovery Loop 当周，前 DeepMind 科学家、Unreasonable Labs 联合创始人曹原在硅谷101拆解 AI for Science 为何在此时爆发：代码与数学能力到位后科研成为下一个智能爆发点，但真正的瓶颈从建模移到了物理世界的验证环节；LLM 无法凭训练数据产生真正新的科学概念，概念抽象可能是 AGI 的"最后一公里"甚至不可计算；他主张 AI and Science 而非 AI for Science——科学难题是驱动 AI 本身进化的催化剂，并给出"AI 拿诺贝尔奖至少还需二三十年"的长期判断。'
+summary: 'Jeff Dean 带三位谷歌元老出走创立 Discovery Loop 当周，前 DeepMind 科学家、Unreasonable Labs 联合创始人曹原在硅谷101拆解 AI for Science 为何在此时爆发：代码与数学能力到位后科研成为下一个智能爆发点，但真正的瓶颈从建模移到了物理世界的验证环节；LLM 无法凭训练数据产生真正新的科学概念，概念抽象可能是 AGI 的"最后一公里"甚至不可计算；他主张 AI and Science 而非 AI for Science——科学难题是驱动 AI 本身进化的催化剂，并给出"AI 拿诺贝尔奖至少还需二三十年"的长期判断。'
 ---
 
 ## 先说结论
