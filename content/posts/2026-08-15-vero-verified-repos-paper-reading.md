@@ -4,7 +4,7 @@ date: 2026-08-15
 draft: false
 tags: ["论文精读", "Agent", "Coding", "学术调研"]
 categories: ["paper-reading"]
-summary: "AI agent 能写出"保证正确"的软件仓库吗？UC Berkeley Dawn Song 组牵头推出 Vero——首个仓库级"实现+证明"联合合成基准：43 个多模块 Lean 4 仓库、743 个 API、2705 条规格，并首创让 agent 形式化证明"基准本身有错"的审计机制。最强配置 GPT-5.5 (xhigh) + Codex 仅完全解决 27/43，仍有 10 个实例、219 条规格抵抗全部 8 个配置。本精读覆盖其基准构建、反作弊协议、审计机制与失败模式的因果分析。"
+summary: "AI agent 能写出“保证正确”的软件仓库吗？UC Berkeley Dawn Song 组牵头推出 Vero——首个仓库级“实现+证明”联合合成基准：43 个多模块 Lean 4 仓库、743 个 API、2705 条规格，并首创让 agent 形式化证明“基准本身有错”的审计机制。最强配置 GPT-5.5 (xhigh) + Codex 仅完全解决 27/43，仍有 10 个实例、219 条规格抵抗全部 8 个配置。本精读覆盖其基准构建、反作弊协议、审计机制与失败模式的因果分析。"
 ---
 
 > **论文链接**：[Vero: Can AI Agents Build Formally Verified Software Repositories?](https://arxiv.org/abs/2608.13522)

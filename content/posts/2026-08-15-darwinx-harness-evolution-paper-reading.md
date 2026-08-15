@@ -4,7 +4,7 @@ date: 2026-08-15
 draft: false
 tags: ["论文精读", "Agent", "Harness", "AI自进化", "强化学习"]
 categories: ["paper-reading"]
-summary: "LLM Agent 的能力不只取决于模型权重，还取决于包裹模型的 Harness（提示词、工具、技能、控制流）。Salesforce AI Research 的 DarwinX 在完全冻结模型权重的前提下，把 Agent 自进化重构为对 Harness 种群的"自然选择"：preserve-and-extend 契约只接纳"净增益为正且回退有界"的变体，树状 archive 保留多条谱系供跨谱系重组，失败/教师/自采三种证据共用同一编辑接口，适应度完全来自 benchmark 自带 verifier。四个基准平均提升约 17 分：Terminal-Bench 2.1 达 83.2%，WebArena-Infinity 从 43.5% 跃升至 93.0%，且零适应迁移到 SWE-bench Verified 达 84.2%。本精读逐部分拆解其机制，并建立"方法差异→机制变化→指标提升"的因果链。"
+summary: "LLM Agent 的能力不只取决于模型权重，还取决于包裹模型的 Harness（提示词、工具、技能、控制流）。Salesforce AI Research 的 DarwinX 在完全冻结模型权重的前提下，把 Agent 自进化重构为对 Harness 种群的“自然选择”：preserve-and-extend 契约只接纳“净增益为正且回退有界”的变体，树状 archive 保留多条谱系供跨谱系重组，失败/教师/自采三种证据共用同一编辑接口，适应度完全来自 benchmark 自带 verifier。四个基准平均提升约 17 分：Terminal-Bench 2.1 达 83.2%，WebArena-Infinity 从 43.5% 跃升至 93.0%，且零适应迁移到 SWE-bench Verified 达 84.2%。本精读逐部分拆解其机制，并建立“方法差异→机制变化→指标提升”的因果链。"
 ---
 
 > **论文链接**：[DarwinX: Evolving Agent Harnesses Through Natural Selection](https://arxiv.org/abs/2608.07545)
