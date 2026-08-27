@@ -1,0 +1,11 @@
+{{- /* Per-article visit counter (busuanzi page PV/UV). This partial is only rendered on single article pages. */ -}}
+{{- if and (eq .Kind "page") (not (.Param "hideMeta")) }}
+<div class="post-meta" style="margin-top:1.5rem">
+    <span id="busuanzi_container_page_pv" style="display:none">
+        本文访问 <span id="busuanzi_value_page_pv"></span> 次
+    </span>
+    <span id="busuanzi_container_page_uv" style="display:none">
+        &nbsp;·&nbsp;本文访客 <span id="busuanzi_value_page_uv"></span> 人
+    </span>
+</div>
+{{- end }}
