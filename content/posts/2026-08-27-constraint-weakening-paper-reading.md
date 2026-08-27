@@ -1,10 +1,10 @@
 ---
-title: "When \“Must\“ Becomes \“Maybe\“: Constraint Weakening in LLM Agent Workflows 精读"
+title: "When “Must“ Becomes “Maybe“: Constraint Weakening in LLM Agent Workflows 精读"
 date: 2026-08-27
 draft: false
 tags: ["论文精读", "Agent", "AI安全", "Benchmark"]
 categories: ["paper-reading"]
-summary: "LLM 多角色工作流中，上游确立的安全约束（如\“未获审批不得执行\“）经摘要、计划、工单等交接变换传给下游后，是否仍然\“说话算数\“？深圳大学团队提出\“操作性状态保持\“概念并设计阶段分离受控实验：1296 个主实验 episode 中，直接交接对照 100% 保持约束，而正常级别的交接压缩使约束失活率达 100%、违规执行 54.2%；恢复全部四个状态字段则将两者归零。下游验证可在不改工件的情况下消除违规（0%），证明工件修复与端点遏制是互补的系统功能层。核心发现：语义可用不等于操作保持——内容还在，约束力没了。"
+summary: "LLM 多角色工作流中，上游确立的安全约束（如“未获审批不得执行“）经摘要、计划、工单等交接变换传给下游后，是否仍然“说话算数“？深圳大学团队提出“操作性状态保持“概念并设计阶段分离受控实验：1296 个主实验 episode 中，直接交接对照 100% 保持约束，而正常级别的交接压缩使约束失活率达 100%、违规执行 54.2%；恢复全部四个状态字段则将两者归零。下游验证可在不改工件的情况下消除违规（0%），证明工件修复与端点遏制是互补的系统功能层。核心发现：语义可用不等于操作保持——内容还在，约束力没了。"
 ---
 
 > **论文链接**：[When "Must" Becomes "Maybe": Constraint Weakening in LLM Agent Workflows](https://arxiv.org/abs/2608.24569)
