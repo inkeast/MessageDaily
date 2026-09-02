@@ -4,7 +4,7 @@ date: 2026-08-31
 draft: false
 tags: ["论文精读", "模型路由", "Agent", "AI趋势"]
 categories: ["paper-reading"]
-summary: "深度精读北京师范大学统计学院与香港理工大学合作的 TACIT-SWITCH。论文研究 LLM Agent 运行中何时把控制权从便宜小模型永久移交给强模型这一可恢复性感知停时问题，最大创意是把医学统计的生存分析工具箱搬进 agent 路由：用配对 Cheap-Strong 双 rollout 结局加离线教师标注的粗移交窗口构成区间删失监督（TACIT），再用混合治愈模型拆开两个不确定性——强模型能否救回（逻辑斯蒂分量）与累积风险何时越过移交阈值（对数正态 AFT 分量），部署时无需教师。机制仿真 73.52% 对 62.40% 等三类基线提升 7.39-11.12 个百分点；ALFWorld 4B→27B 上 48.5% vs 22.4%（+26.1pp），DABench 73.1% 且成本最低。统计学家跨界做 agent 基础设施的范例之作。"
+summary: "深度精读北师大统计学院与香港理工大学合作的 TACIT-SWITCH。论文研究 LLM Agent 运行中何时把控制权从便宜小模型永久移交给强模型这一停时问题，把医学统计的生存分析工具箱搬进 agent 路由：配对 Cheap-Strong 双 rollout 结局加教师标注的粗移交窗口构成区间删失监督，混合治愈模型拆开两个不确定性——强模型能否救回与累积风险何时越过阈值，部署时无需教师。机制仿真 73.52% 对三类基线提升 7.39-11.12 个百分点；ALFWorld 4B→27B 上 48.5% vs 22.4%，DABench 73.1% 且成本最低。统计学家跨界的范例之作。"
 ---
 
 # TACIT-SWITCH: Cost-Aware Model Escalation for LLM Agents from Censored Supervision —— 精读
