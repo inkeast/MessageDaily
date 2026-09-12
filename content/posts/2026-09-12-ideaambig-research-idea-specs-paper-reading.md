@@ -1,10 +1,10 @@
 ---
-title: "IdeaAMBIG 精读：从论文想法到能跑的代码之间，隔着 660 个"没人写的细节""
+title: "IdeaAMBIG 精读：从论文想法到能跑的代码之间，隔着 660 个“没人写的细节”"
 date: 2026-09-12
 draft: false
 tags: ["学术调研", "AI4S", "评测", "基准"]
 categories: ["paper-reading"]
-summary: "Yale×TUM×腾讯发布 IdeaAMBIG：660 个证据落地的"实现关键缺口"基准（163 个真实缺口来自可复现性报告与 GitHub issue + 497 个受控合成缺口），评测 LLM 能否发现科研想法规格中的缺失决策。13 个 LLM 最好者 Macro Defect Recovery 仅 9.6%——想法到实现的鸿沟被首次量化，且当前模型几乎看不见它。"
+summary: "Yale×TUM×腾讯发布 IdeaAMBIG：660 个证据落地的“实现关键缺口”基准（163 个真实缺口来自可复现性报告与 GitHub issue + 497 个受控合成缺口），评测 LLM 能否发现科研想法规格中的缺失决策。13 个 LLM 最好者 Macro Defect Recovery 仅 9.6%——想法到实现的鸿沟被首次量化，且当前模型几乎看不见它。"
 ---
 
 # IdeaAMBIG 精读：从论文想法到能跑的代码之间，隔着 660 个"没人写的细节"

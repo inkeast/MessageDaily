@@ -1,10 +1,10 @@
 ---
-title: "GenV 精读：把 Z3 等价性判定蒸馏成语言模型的"第六感""
+title: "GenV 精读：把 Z3 等价性判定蒸馏成语言模型的“第六感”"
 date: 2026-09-12
 draft: false
 tags: ["学术调研", "奖励模型", "形式化验证"]
 categories: ["paper-reading"]
-summary: "CWRU×AWS（实习合作）提出 GenV：把离线 Z3 等价 oracle 蒸馏为 reference-free 的连续等价分，专治 autoformalization 中"表面合法但语义错位"的欺骗性轨迹。GenV+HN 在 VPU 检测上 F1 0.832（process RM 仅 0.246），logit lens/SAE 机制分析证明信号真实存在于残差流而非捷径。"
+summary: "CWRU×AWS（实习合作）提出 GenV：把离线 Z3 等价 oracle 蒸馏为 reference-free 的连续等价分，专治 autoformalization 中“表面合法但语义错位”的欺骗性轨迹。GenV+HN 在 VPU 检测上 F1 0.832（process RM 仅 0.246），logit lens/SAE 机制分析证明信号真实存在于残差流而非捷径。"
 ---
 
 # GenV 精读：把 Z3 等价性判定蒸馏成语言模型的"第六感"

@@ -4,7 +4,7 @@ date: 2026-09-12
 draft: false
 tags: ["学术调研", "代码评审", "评测", "安全"]
 categories: ["paper-reading"]
-summary: "同日两篇论文从两端夹击"静态/测试通过=安全"的假设：Toronto Metropolitan 的 SPDF 度量静态过-动态败缺口（654 个静态干净样本中 14.53% 被运行时利用验证击穿）；Tampere 大学的静默失败实证（1,030 条 Agent 修复轨迹中 170 例确认静默失败，Omission 占 48.2%）建立四维分类学。与 SWE-Gate、PatchBench 共同固化"测试通过≠安全"证据链。"
+summary: "同日两篇论文从两端夹击“静态/测试通过=安全”的假设：Toronto Metropolitan 的 SPDF 度量静态过-动态败缺口（654 个静态干净样本中 14.53% 被运行时利用验证击穿）；Tampere 大学的静默失败实证（1,030 条 Agent 修复轨迹中 170 例确认静默失败，Omission 占 48.2%）建立四维分类学。与 SWE-Gate、PatchBench 共同固化“测试通过≠安全”证据链。"
 ---
 
 # SPDF × Silent Failures 精读：LLM 代码安全评测的双警报日

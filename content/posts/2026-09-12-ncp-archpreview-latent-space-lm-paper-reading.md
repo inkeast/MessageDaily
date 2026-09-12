@@ -1,5 +1,5 @@
 ---
-title: "NCP-ArchPreview 精读：当语言模型开始预测"概念"而不是 token"
+title: "NCP-ArchPreview 精读：当语言模型开始预测“概念”而不是 token"
 date: 2026-09-12
 draft: false
 tags: ["学术调研", "LLM", "架构"]

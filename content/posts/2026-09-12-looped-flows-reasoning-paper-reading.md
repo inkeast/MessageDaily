@@ -1,5 +1,5 @@
 ---
-title: "Looped Flows 精读：把"想得更久"做进架构——循环流的局部训练之路"
+title: "Looped Flows 精读：把“想得更久”做进架构——循环流的局部训练之路"
 date: 2026-09-12
 draft: false
 tags: ["学术调研", "LLM", "架构", "推理"]

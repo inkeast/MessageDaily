@@ -1,10 +1,10 @@
 ---
-title: "The Last AI Built by Humans 精读：RSI 五级自治框架与"结构递归 vs 有效递归"的证伪标准"
+title: "The Last AI Built by Humans 精读：RSI 五级自治框架与“结构递归 vs 有效递归”的证伪标准"
 date: 2026-09-12
 draft: false
 tags: ["学术调研", "Agent", "RSI", "AI自进化"]
 categories: ["paper-reading"]
-summary: "Theseus Lab 32 人团队（含清华/上交，腾讯混元等六家工业案例）发布 RSI 系统综述：以改进闭环为分析单元、L1-L5 自治分级框架，用 HCI 指数量化 2023-2026 能力轨迹（工具 Agent 39.9 vs 数学 86.4——交互能力 headroom 最大），区分"结构递归"与"有效递归"，并给出安全继承/自治归因/可靠验证三大挑战的判定标准。"
+summary: "Theseus Lab 32 人团队（含清华/上交，腾讯混元等六家工业案例）发布 RSI 系统综述：以改进闭环为分析单元、L1-L5 自治分级框架，用 HCI 指数量化 2023-2026 能力轨迹（工具 Agent 39.9 vs 数学 86.4——交互能力 headroom 最大），区分“结构递归”与“有效递归”，并给出安全继承/自治归因/可靠验证三大挑战的判定标准。"
 ---
 
 # The Last AI Built by Humans 精读：RSI 五级自治框架与"结构递归 vs 有效递归"的证伪标准

@@ -4,7 +4,7 @@ date: 2026-09-12
 draft: false
 tags: ["学术调研", "Agent", "安全", "协议分析"]
 categories: ["paper-reading"]
-summary: "Purdue+UT Dallas（Elisa Bertino 组）对 Linux 基金会 A2A 协议做首个系统性安全分析：NL 规范→验证 FSM→受限 LLM 推理+对抗验证的三阶段框架。FSM 构建在 TCP ground-truth 上恢复 11/11 状态、19/20 转移（F1 0.84）；在"攻击者完全合规"假设下发现 11 个新漏洞——跨客户端上下文注入、委托链多跳身份丢失凭证收割等，全部无需实现缺陷。"
+summary: "Purdue+UT Dallas（Elisa Bertino 组）对 Linux 基金会 A2A 协议做首个系统性安全分析：NL 规范→验证 FSM→受限 LLM 推理+对抗验证的三阶段框架。FSM 构建在 TCP ground-truth 上恢复 11/11 状态、19/20 转移（F1 0.84）；在“攻击者完全合规”假设下发现 11 个新漏洞——跨客户端上下文注入、委托链多跳身份丢失凭证收割等，全部无需实现缺陷。"
 ---
 
 # A2ABreak 精读：把 A2A 协议规范编译成状态机之后，11 个新漏洞自己浮出水面

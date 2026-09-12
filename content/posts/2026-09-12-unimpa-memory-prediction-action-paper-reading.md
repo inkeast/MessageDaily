@@ -1,5 +1,5 @@
 ---
-title: "UniMPA 精读：给 VLA 模型一个"动作锚定"的统一接口，训练 epoch 砍半还涨点"
+title: "UniMPA 精读：给 VLA 模型一个“动作锚定”的统一接口，训练 epoch 砍半还涨点"
 date: 2026-09-12
 draft: false
 tags: ["学术调研", "世界模型", "具身智能", "VLA"]
