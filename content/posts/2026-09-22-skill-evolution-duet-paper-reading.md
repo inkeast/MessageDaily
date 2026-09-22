@@ -4,7 +4,7 @@ date: 2026-09-22
 draft: false
 tags: ["论文精读", "Agent", "AI自进化", "Harness", "学术调研"]
 categories: ["paper-reading"]
-summary: "2026年9月同主题连发的两篇论文不约而同地把"Agent 技能库"当作可进化的资产：Adobe+Brown 的 EVOLVE 让冻结模型在真实用户流量中演化 SKILL.md 技能库（Widening/Deepening 两轴 + Matched Replay Gate 保守准入）；港城大+NUS+南科大的 GraphSkillEvo 则把技能表示为"全局指导+有向图"，用种群进化（4算子变异/交叉）优化。本文合并精读二者，共用背景与灵感节，逐篇拆解问题定义、解法与评估，并用因果链解释优势根源（保守准入防评分漂移、图结构压缩搜索空间），交叉对照 Reflexion/ExpeL/Voyager/Safe-Policy-Improvement/GEPA 谱系。两文共同指向一条结论：把"改模型权重"换成"改模型身边的自然语言资产"，是一条更稳、更安全、可迁移的持续适应路线。"
+summary: "2026年9月同主题连发的两篇论文不约而同地把「Agent 技能库」当作可进化的资产：Adobe+Brown 的 EVOLVE 让冻结模型在真实用户流量中演化 SKILL.md 技能库（Widening/Deepening 两轴 + Matched Replay Gate 保守准入）；港城大+NUS+南科大的 GraphSkillEvo 则把技能表示为「全局指导+有向图」，用种群进化（4算子变异/交叉）优化。本文合并精读二者，共用背景与灵感节，逐篇拆解问题定义、解法与评估，并用因果链解释优势根源（保守准入防评分漂移、图结构压缩搜索空间），交叉对照 Reflexion/ExpeL/Voyager/Safe-Policy-Improvement/GEPA 谱系。两文共同指向一条结论：把「改模型权重」换成「改模型身边的自然语言资产」，是一条更稳、更安全、可迁移的持续适应路线。"
 ---
 
 > **论文链接**：

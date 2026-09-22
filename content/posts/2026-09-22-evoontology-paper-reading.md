@@ -4,7 +4,7 @@ date: 2026-09-22
 draft: false
 tags: ["论文精读", "Agent", "上下文召回", "AI自进化", "学术调研"]
 categories: ["paper-reading"]
-summary: "EvoOntology（中国人民大学 ruc-datalab）提出一个面向数据智能体的"自进化本体层"：把数据库的领域概念、字段映射与约束封装成可被 agent 在运行时按需查询的 MCP 服务，并用 builder agent 自动构建初版本体、用"诊断—归因—修补—门控"四步环从失败轨迹中持续进化。本文按九部分结构精读，重点拆解三层架构、四步进化环，以及为何"静态语义层全量注入反而掉分"是全篇最有证明力的实验设计，并从因果链上解释其优势根源。"
+summary: "EvoOntology（中国人民大学 ruc-datalab）提出一个面向数据智能体的「自进化本体层」：把数据库的领域概念、字段映射与约束封装成可被 agent 在运行时按需查询的 MCP 服务，并用 builder agent 自动构建初版本体、用「诊断—归因—修补—门控」四步环从失败轨迹中持续进化。本文按九部分结构精读，重点拆解三层架构、四步进化环，以及为何「静态语义层全量注入反而掉分」是全篇最有证明力的实验设计，并从因果链上解释其优势根源。"
 ---
 
 > **论文链接**：[EvoOntology: A Self-Evolving Ontology Layer for Data Agents](https://arxiv.org/abs/2609.15779)

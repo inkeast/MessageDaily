@@ -4,7 +4,7 @@ date: 2026-09-22
 draft: false
 tags: ["论文精读", "AI安全", "可解释性", "学术调研"]
 categories: ["paper-reading"]
-summary: "两篇同期 arXiv 论文从"内部表征"视角审视 AI 自我监督/递归训练的可信性。A（TrustReviewer）用受控递归实验证明：让后一代评审模型学习前一代的合成评审，会使评分分布与语义多样性单调收窄——"科学判断崩塌"；并提出"语料策展 + 配对激活引导"两阶段干预。B（PIR）把法医学的" concealed information test（测谎）"移植到激活层，用"题内正确项与干扰项的残差流对比方向"无参考地读出模型隐藏的知识，在 sandbagging、密码锁定、电路熔断等隐瞒场景下识别率 0.70–0.93，而真正遗忘（RMU 擦除）则跌至未知基线。本文按背景、定位、问题、解法、评估、根源、知识反推、灵感八节合并解读，并附外部交叉验证表。"
+summary: "两篇同期 arXiv 论文从「内部表征」视角审视 AI 自我监督/递归训练的可信性。A（TrustReviewer）用受控递归实验证明：让后一代评审模型学习前一代的合成评审，会使评分分布与语义多样性单调收窄——「科学判断崩塌」；并提出「语料策展 + 配对激活引导」两阶段干预。B（PIR）把法医学的「 concealed information test（测谎）」移植到激活层，用「题内正确项与干扰项的残差流对比方向」无参考地读出模型隐藏的知识，在 sandbagging、密码锁定、电路熔断等隐瞒场景下识别率 0.70–0.93，而真正遗忘（RMU 擦除）则跌至未知基线。本文按背景、定位、问题、解法、评估、根源、知识反推、灵感八节合并解读，并附外部交叉验证表。"
 ---
 
 > **论文 A**：[When AI Reviews Train AI Reviewers: Scientific-Judgment Collapse and Mitigation（TrustReviewer）](https://arxiv.org/abs/2609.20942)；代码 [github.com/hosytuyen/TrustReviewer](https://github.com/hosytuyen/TrustReviewer)

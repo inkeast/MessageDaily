@@ -4,7 +4,7 @@ date: 2026-09-22
 draft: false
 tags: ["论文精读", "Coding", "强化学习", "Agent", "学术调研"]
 categories: ["paper-reading"]
-summary: "本文合并精读两篇同主题论文：CoVer（UT San Antonio）与 DENSE（复旦+美团）。二者共同回答 RL 与智能体自改进中"信号从哪来、可不可信"这一核心问题。CoVer 在单策略 GRPO 内协同训练 coder 与 verifier，用协方差门控的互信息奖励挤出退化测试、用三级去重降低估计方差，把"自生成测试的信息价值"变成可证明的训练信号；DENSE 在完全结果盲视（无奖励、无验证器、无标签）下，把一条执行轨迹蒸馏成证据接地的嵌套 shortcut 树，用 REFIT 协议隔离出反馈这一唯一信息通道。文章从背景、定位、问题定义、解法、评估、根源、知识反推到通用灵感和交叉验证表，系统梳理两条"信号质量"路线如何从不同方向逼近同一结论：高质量信号胜过信号特权。
+summary: "本文合并精读两篇同主题论文：CoVer（UT San Antonio）与 DENSE（复旦+美团）。二者共同回答 RL 与智能体自改进中「信号从哪来、可不可信」这一核心问题。CoVer 在单策略 GRPO 内协同训练 coder 与 verifier，用协方差门控的互信息奖励挤出退化测试、用三级去重降低估计方差，把「自生成测试的信息价值」变成可证明的训练信号；DENSE 在完全结果盲视（无奖励、无验证器、无标签）下，把一条执行轨迹蒸馏成证据接地的嵌套 shortcut 树，用 REFIT 协议隔离出反馈这一唯一信息通道。文章从背景、定位、问题定义、解法、评估、根源、知识反推到通用灵感和交叉验证表，系统梳理两条「信号质量」路线如何从不同方向逼近同一结论：高质量信号胜过信号特权。"
 ---
 
 > **论文 A**：[Information-Gain Rewards over Diversity-Pruned Tests: GT-Anchored Verifier Co-Training for Reliable Code Generation（CoVer）](https://arxiv.org/abs/2609.21208)
