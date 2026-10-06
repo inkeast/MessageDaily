@@ -4,7 +4,7 @@ date: 2026-10-05
 draft: false
 tags: ["论文精读", "Agent", "长上下文", "可解释性", "PaperReading"]
 categories: ["paper-reading"]
-summary: "四篇合读，共同主题是「不动或轻动主模型权重的能力改造」：FOCUS 用免训练的反事实效用估计做 agent 上下文的决策保持压缩（AppWorld 成功率 56.0%→64.9%，峰值 token 降 35%）；E-MoE 把 MoE 路由决策用作扩散语言模型的离散共享隐变量，打破反向过程因子化（NFE=1 生成困惑度比 MDLM 低 2.2 倍）；密歇根团队以软标签蒸馏改造文本嵌入空间的可扩散性，让连续扩散模型的生成困惑度 17.8 超过 GPT-2-M 的 20.8；PersonaDose 为激活引导加剂量-响应校准，把「调系数」变成「请求人格分数」（分级目标误差 MAE 低至 4.7 点）。四篇分别作用于上下文、隐变量结构、嵌入空间与激活流四个层面，展示了一条「改数据流、不改参数」的能力改造路线。"
+summary: "四篇合读，主题是「不动或轻动主模型权重的能力改造」：FOCUS 免训练估计反事实效用，做 agent 上下文的决策保持压缩（AppWorld 56.0%→64.9%，峰值 token 降 35%）；E-MoE 把 MoE 路由用作扩散 LM 的离散隐变量，打破反向过程因子化（NFE=1 困惑度比 MDLM 低 2.2 倍）；密歇根团队以软标签蒸馏改造嵌入可扩散性，生成困惑度 17.8 超过 GPT-2-M 的 20.8；PersonaDose 为激活引导加剂量-响应校准（分级误差 MAE 低至 4.7 点）。四篇作用于上下文、隐变量、嵌入与激活四层面。"
 ---
 
 > **论文一**：[FOCUS: Training-Free Decision-Preserving Context Compression for LLM Agents](https://arxiv.org/abs/2609.37590)
