@@ -1,6 +1,6 @@
 ---
 title: "AI冠军网络：企业AI落地中「从不失败」的最高ROI杠杆"
-date: 2026-10-21
+date: 2026-10-21T00:05:00+08:00
 draft: false
 tags: ["灰色信源", "The AI Daily Brief", "企业AI", "AI趋势", "组织管理"]
 categories: ["podcast-summary"]

@@ -1,6 +1,6 @@
 ---
 title: "代码将解、运维未解：a16z对谈Grepper CEO谈AI的能力边界"
-date: 2026-10-21
+date: 2026-10-21T00:05:00+08:00
 draft: false
 tags: ["灰色信源", "a16z", "行业访谈", "AI Infra", "Coding", "可观测性"]
 categories: ["podcast-summary"]

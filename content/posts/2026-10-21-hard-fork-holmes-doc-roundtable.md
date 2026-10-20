@@ -1,6 +1,6 @@
 ---
 title: "Hard Fork圆桌：霍尔姆斯纪录片里的谎言与爱，以及OpenAI抓内鬼的一周"
-date: 2026-10-21
+date: 2026-10-21T00:05:00+08:00
 draft: false
 tags: ["灰色信源", "Hard Fork", "AI趋势", "OpenAI", "苹果", "Character AI"]
 categories: ["podcast-summary"]
