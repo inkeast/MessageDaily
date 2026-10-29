@@ -1,6 +1,6 @@
 ---
 title: "一个人、十小时、四个前沿模型同场踢球：Wes Roth 的 Blood Bench 与「导演式建造」范式"
-date: 2026-10-29T18:26:00+08:00
+date: 2026-10-29T18:15:00+08:00
 draft: false
 tags: ["灰色信源", "Wes Roth", "AI趋势", "Agent", "Benchmark", "Coding", "游戏"]
 categories: ["podcast-summary"]
