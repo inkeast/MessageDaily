@@ -1,6 +1,6 @@
 ---
 title: "10 人公司、月发版 7.7 万次：Spawn「最 AI 化公司」playbook，兼看本周头条"
-date: 2026-11-01T18:15:00+08:00
+date: 2026-11-01T18:05:00+08:00
 draft: false
 tags: ["灰色信源", "The AI Daily Brief", "Agent", "AI趋势", "法律科技", "投资"]
 categories: ["podcast-summary"]

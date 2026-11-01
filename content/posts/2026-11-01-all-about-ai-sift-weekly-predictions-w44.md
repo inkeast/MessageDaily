@@ -1,6 +1,6 @@
 ---
 title: "Sift 周预测第 44 周：14 事件 9 注净赚 2 美元，与 Eli Lilly「一份预测、两条相反交易」"
-date: 2026-11-01T18:25:00+08:00
+date: 2026-11-01T18:05:00+08:00
 draft: false
 tags: ["灰色信源", "All About AI", "预测市场", "量化交易", "创业", "Agent"]
 categories: ["podcast-summary"]
