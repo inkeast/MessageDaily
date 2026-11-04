@@ -1,0 +1,107 @@
+---
+title: "10美元复刻Excel：Matthew Berman宣布『自造软件比买软件便宜』的三个条件已经凑齐"
+date: 2026-11-04T18:06:00+08:00
+draft: false
+tags: ["灰色信源", "Matthew Berman", "AI趋势", "编程", "开源", "商业模式"]
+categories: ["podcast-summary"]
+summary: 'Matthew Berman用13分钟宣布一个拐点：模型够好、token够便宜、agent够自主三个条件上月同时成立，自造软件在成本上已反超购买——他称花约10美元token在90分钟内全功能复刻Excel（官方单机授权节目称约180美元），另展示30分钟搭成的YouTube数据工具与开源PDF阅读器Folio；结合ArtCraft整套Adobe开源克隆，他判断软件价值趋零、未来一切软件事实开源，连维护与安全也会被常驻agent压便宜。广告段与专名疑点已标注，均为节目陈述未经核实。'
+---
+
+## 先说结论
+
+Matthew Berman 在 11 月 3 日这期 13 分钟的视频（"They did it..."）里给出的判断是：**自造软件的 token 成本已经跌破买软件的价格，消费者自造软件的时代从"能不能"变成了"划算不划算"，而他认定上个月天平已经倒了**。他自己的证据是花约 10 美元 token、90 分钟到两小时端到端全功能复刻了 Excel（节目称单机买断授权约 180 美元、订阅 7–10 美元/月），外加三个自用小件；别人的证据是整套 Adobe 被开源克隆（ArtCraft）。由此他把两个月前"软件已解决"的论断（本站[已成文](/posts/2026-10-11-matt-berman-decompile-software-solved-verifiable-loops/)）从"AI 能克隆软件"推进到"消费者克隆软件在经济上成立"。以下均为节目内容转述，数字与判断未经独立核实；文中广告段已明确标注。
+
+## 从一份讨厌的 Acrobat 到"三条件凑齐"
+
+开场是个小事：他配新电脑要读 PDF，Windows 没有好用的内置阅读器，只好装 Adobe Acrobat——臃肿、捆绑用不上的功能、推销其他产品、还让他登录。于是他决定自己写一个（就是后文的 Folio）。他强调这事听着基础，"一个 PDF 阅读器嘛"，但含义巨大：**消费者要开始自造软件了**。
+
+这件事在他看来需要三个条件同时成立：**①模型够好；②token 够便宜**——如果烧几千万 token 才能造出一个 10–30 美元就能买到的软件，没人会干；**③够容易**——模型包进 agent 后已经自主到"随口一说它就去做了"。他说这几个月条件陆续到位，而 **Opus 5.5 是他心中"指哪打哪"的转折点**。背后是一道永远在算的账：自建加维护的成本 vs 购买（通常是订阅）的成本——"我们已经过了临界点：自建加维护比直接买更便宜"。自建还有额外红利：哪怕某个功能只对你一个人有价值，也可以做进去。
+
+他的模型测试史给这条能力曲线做了注脚：从"用 Python 写个贪吃蛇"到魔方模拟，再到把模型指向"地球上最复杂的软件之一"Excel。GPT-5 与 Fable 发布前的那代模型：能接近、有毛边、功能不全；最新一代：**90 分钟到两小时内端到端克隆，每个功能都在**，浏览器版，链接放在视频简介里。
+
+## 三个自用件与一整套 Adobe 克隆
+
+他展示的自建件有三个。**Folio**：PDF 阅读/编辑器，支持电子签、对 PDF 提问、涂画批注，轻量、快、免费开源。**Outlier Tracker**：起因是他常用的 YouTube 数据工具 One of Ten（转写如此，疑为 1of10）不停堆他用不到的功能、强制登录验证、扩展程序占掉 YouTube 画面约 30%——他自己花 **约 30 分钟**搭出了只需要的功能：单视频统计、追踪、频道分析，"现在它是我的了"。**Excel 克隆**：完整 Excel 进浏览器，"每个你会想要的功能都有"。
+
+别人走得更远：ArtCraft 把**整个 Adobe 套件开源免费**——PhotoCraft 长得就是 Photoshop，VectorCraft 做矢量，FilmCraft 基本就是 Premiere，甚至包括 After Effects。方法不过是"把 AI 指向一个现有软件，说'迭代到完全克隆为止'"。这也呼应他前一期讲的反编译爆发（背景本站已展开，见[前文](/posts/2026-10-11-matt-berman-decompile-software-solved-verifiable-loops/)，此处不重复）：反编译热潮正是他相信"未来一切软件事实开源"的直接证据。他的推论是：**任何拿着每月 200 美元 Claude 或 ChatGPT 订阅的人，都能造出任意软件免费发布；别人再在它的基础上改成自己想要的样子，成本只是初次构建的零头**——"如果这听起来耳熟，它叫开源"。软件的价值正在趋近于零。
+
+（说明：视频中段插入 NVIDIA 笔记本的赞助口播——转写作"RTX Spark"、机器为"Surface Laptop Ultra"，规格描述是 Grace CPU + Blackwell GPU、最高 128GB 统一内存、原生 CUDA、本地跑模型同时打游戏剪视频。该规格与 NVIDIA DGX Spark 吻合，但具体产品名未能确认，按广告处理，不构成任何背书。）
+
+## 反方与他的回答：维护、安全与"slop 软件"
+
+对"消费者/企业自造软件"最常见的反驳是：造出来只是开始，还要维护、管安全、持续更新；攻击越来越多，vibe code 出来的"slop 软件"可能满是漏洞。Berman 的回答有三层：**①** 模型写出的代码越来越好，"越来越 hardened、越来越安全"这件事本身会随模型进步发生；**②** 可以画一条曲线，让一个 agent 常驻——持续更新、持续找安全问题——的成本，已经低于从别人手里买软件；**③** 就算自己不想养，也可以直接用别人用 token 养着的开源件（比如 ArtCraft），社区在持续投入。他的收束是：token 价格趋近于零之后，会出现一种"纯粹想造"的驱动力，**软件的文艺复兴**——每个个体造恰好自己需要的软件。
+
+要诚实标注的是：这条"agent 维护成本更低"的曲线是他口头描述的图，不是节目里给出的实测数据；安全叙事也止步于趋势判断。
+
+## 更大的图：SaaS 已死回访、Omakase 与边界
+
+他把这一期接回自己两年前的"SaaS is Dead"：当时论的是企业软件会塌缩成两层——agent 干活，加上一层存"ground truth"的传统数据库（他强调这层 AI 做不了）；他当时**不认为消费者会自造软件**——"不是做不到，是不划算"。几周之后，这个保留意见作废：数学反转了。
+
+结尾他点了两个延伸：Rails 之父亲手做的新操作系统 Omakase（转写作 Omaki，疑为 Omakase，未完全确认）——AI 写进 DNA，操作系统随时可以被定制成你想要的样子，"也许新操作系统真有空间"；以及顺带推荐 DeepSeek v4.1 Flash，称其为"现在地球上最好的开源模型之一"（本站已[专文](/posts/2026-10-29-matt-berman-deepseek-v41-flash-crushed/)）。
+
+节目没有回答的：企业采购、合规、数据安全这些 to B 现实约束一个没碰——整套论证全部发生在个体消费者的尺度上；"软件价值趋零"如果成立，先被冲击的也是长尾工具类软件而非深度绑定业务与数据的系统。
+
+## 机制与启发（可迁移的链条）
+
+- **token 单价跌破软件售价 → 个体从买转向造 → 长尾工具软件定价权崩塌 → 订阅软件被迫向服务、数据与集成要价值**。观察指标：热门工具的开源克隆数量与维护活跃度、被克隆的时间间隔。启发：功能清单不再是护城河，绑定与切换成本才是。
+- **"指着现有软件迭代到克隆"的方法论普及 → 功能层面的创新被瞬时抹平 → 差异化锚点移向品牌、分发与社区**。观察指标：新品发布后出现可用开源替代的时长。启发：在"发布即开源"的世界里，速度和社区是中小开发者仅剩的杠杆。
+- **常驻 agent 巡检修补的成本 < 商业软件订阅费（随 token 降价继续拉开）→ 开源软件长期由"token 补贴"供养 → 维护不再是个体自造的致命短板**。观察指标：AI 维护的开源项目的 issue 响应与安全补丁时滞。启发：安全焦虑不该是拒绝自造软件的理由，而是成本表里的一个变量。
+
+## ASR 校正表
+
+| 转写原文 | 处理 | 说明 |
+| --- | --- | --- |
+| Opus 5.5 / Fable / GPT-5 | 保留 | 与公开模型线一致，无需改 |
+| RTX Spark（广告段） | 保留原文 | 规格与 NVIDIA DGX Spark 吻合，疑为 DGX Spark；"Surface Laptop Ultra"无法确认，不擅改 |
+| One of Ten | 保留原文 | 疑为 YouTube 分析工具 1of10，正文已标注 |
+| Omaki | 修正为 Omakase | 疑为 Ruby on Rails 创造者 DHH 的 AI 原生操作系统项目，附录已替换并标注 |
+| ArtCraft / PhotoCraft / VectorCraft / FilmCraft | 保留 | 套件与子产品名按转写 |
+| Folio / Outlier Tracker | 保留 | 项目名按转写 |
+
+
+
+## 转写原文（修正版）
+
+> 附录为 ASR 转写全文，仅应用校正表中已确认的替换（Omaki→Omakase），无删节；每段先英文原文、后中文翻译。
+
+### [0s - 120s]
+
+So I've been working on a project recently that made me rethink how all of software is going to be built. I was setting up a new PC, and I needed to read a PDF. And the first thing that I did was try to open it, of course. But Windows doesn't have a good built-in PDF reader, and so reluctantly, I had to go to Adobe Acrobat. Now I know there's a few other alternatives out there, but Acrobat is kind of the standard. So I went to download it, I installed it, and I hated every second of it. It's bloated. It comes with a bunch of features I don't need. It's trying to push other products. It's even trying to get me to log in. And all the while, I'm sitting here, and all I'm trying to do is read, maybe edit a PDF. This is really simple stuff. In that moment, rather than suffer with this piece of software, I decided to make my own. And I know this sounds really basic, like okay, a PDF reader, very basic software. But it actually has massive implications that I want to talk about in this video, because then I started building other pieces of software that I need. And not only that, there are other developers out there who are building entire software suites. Like somebody literally cloned the entire Adobe suite, including Premiere and After Effects. And so I feel like we're getting into this world where consumers are going to be building their own software. And there are a few things that needed to come together all at the same time to make this happen. And over the last month, I am now convinced they have. Number one, the models had to get good enough, and I'm going to get back to that in a second. Number two, they had to be cheap enough. If you're having to burn tens of millions of tokens to build a piece of software that you can go buy for ten, twenty, thirty dollars, why would you do it? And then three, it had to be easy enough. And the models wrapped in agents have become so autonomous that it very much is that easy. So this has been growing over the last few months. The models have gotten so good, and Opus 5.5 was.
+
+【译】我最近在做一个项目，它让我重新思考所有软件未来将如何被构建。我在配置一台新电脑，需要读一份 PDF。我做的第一件事当然是试着打开它。但 Windows 没有好用的内置 PDF 阅读器，于是我只好不情愿地转向 Adobe Acrobat。我知道还有别的替代品，但 Acrobat 算是事实上的标准。于是我去下载、安装，而我痛恨其中的每一秒：它臃肿，捆绑一堆我用不到的功能，还想着向我推销别的产品，甚至要我登录。而我坐在那儿，只是想读一读、顶多编辑一下 PDF——真的很简单的事。在那一刻，我不想再忍受这个软件，决定自己做一个。我知道这听起来很初级——一个 PDF 阅读器，非常基础的软件——但它背后有我想在这期视频里谈的巨大含义：因为接着我开始构建其他我需要的软件。不止如此，还有其他开发者在构建整套软件套件——有人真的克隆了整个 Adobe 套件，包括 Premiere 和 After Effects。所以我感觉我们正在进入一个消费者将自建软件的世界。而要有几样东西同时凑齐，这一切才会发生。在过去这个月里，我现在确信它们已经凑齐。第一，模型必须足够好，这个我稍后再谈。第二，它们必须足够便宜：如果你要烧掉几千万 token 才能构建一个花 10 美元、20 美元、30 美元就能买到的软件，你为什么要这么做？第三，它必须足够容易：而包在 agent 里的模型已经自主到确实就是这么容易。这一切在过去几个月里持续发酵，模型变得非常好，而 Opus 5.5 就是——
+
+### [120s - 240s]
+
+Kind of the peak, the turning point at which I can just tell it to make a piece of software or to clone a piece of software, and it would go off and do so. And it wasn't just the model quality that allowed it to do that; it was also the fact that the price of the tokens and the cost to complete the task had dropped tremendously. And so there's this calculus going on at all times: how much does it cost to build a custom piece of software for what you need and to maintain it versus how much does it cost to buy a piece of software? Often times in a subscription model, so you're paying this ongoing fee for it. And I think we've hit this critical point in which the cost of tokens to build and maintain a piece of software is now less expensive than simply buying it. And the cool thing is, when you're building it yourself, you get the exact features you need, even if the feature wouldn't have applied or been attractive to anybody else. It doesn't matter. You build it for yourself. So the models have now gotten to the point where they're good enough. I mean, let me give you a few examples. So I've been doing model testing for a couple years now. It started way back where I just said, "Okay, make the game Snake in Python," and that was like dead simple. And the models just kept getting better. Where that Snake game was too easy, so I moved on to harder things. And one of those kind of more well-known harder things was build a Rubik's cube simulation. And the models got so good at that, and so I had to come up with these new tests to test the latest models on. And what I decided to do was just simply rebuild software from the ground up, and I would point it at Microsoft Excel, one of the most complex pieces of software on the planet, one of the most used pieces of software on the planet. I would just say a simple prompt go.
+
+【译】（接上句）那个巅峰、那个转折点：我可以直接让它做一个软件、或克隆一个软件，它就会去把它做出来。而让这成为可能的不只是模型质量，还有 token 价格和完成任务的成本大幅下降。所以任何时刻都有这么一笔账在算：为自己构建并维护一个定制软件要花多少，对比购买一个软件要花多少——后者往往是订阅制，你要持续付费。我认为我们已经到了这个临界点：构建并维护一个软件的 token 成本，如今比直接买它更便宜。而且妙在：自己构建时，你得到的就是你恰好需要的功能，哪怕这个功能对任何别人都没有吸引力也无所谓——你是为自己造的。模型如今已经足够好了。我做模型测试好几年了：最早从「用 Python 写个贪吃蛇」开始，那简单得要命。模型不断变强，贪吃蛇太容易，我转向更难的题目，其中比较有名的一个是构建魔方模拟。模型在那个上面也变得很强，所以我得设计新测试来考最新的模型。我决定的就是从零重建软件，把它指向 Microsoft Excel——地球上最复杂、使用最广的软件之一——只给一句简单的提示词：上。
+
+### [240s - 360s]
+
+Clone Excel, and it would do pretty well for a while. When we were on like GPT-5 model and prior to Fable coming out, they would be able to get pretty close. There would be a lot of rough edges, and it wouldn't be feature complete, but you know, it would look like Microsoft Excel. And then these latest generation of models dropped, and it would just simply clone Excel, like end to end, not over multiple days either. I mean, I'm talking about within a matter of 90 minutes or maybe a couple hours. It would fully clone Excel, every feature, every piece of functionality. I would make it browser based, and in fact, I'll go ahead and drop my latest version down below so you can play with it. But the point is, it was able to build it. And now, if you wanted to use Microsoft Excel, the standalone Microsoft Excel is $180 for a single license, but you get a lifetime, which you know, fine. It's a very valuable piece of software. $180 over the lifetime of the piece of software, or you're going to be paying a subscription, which is you know between seven and ten dollars per month, and you get Excel and Word and PowerPoint and everything else. But then I spent maybe ten dollars in tokens to rebuild it with complete feature parity, and now I can take that and open source it and give it to the world for free. And it is becoming more and more apparent that the value of software is approaching zero. The cost of software will be zero because anybody with a $200 a month subscription to Claude or to ChatGPT can simply just build any software they want and release it to the world, and then somebody else can take that base and modify it how they want, costing a fraction of what the original build out costs, and everybody just gets exactly what they need. And if this sounds familiar, it's called open source. I really do believe that all software in the future is going to be de facto open source, and so I'm going to show you some other.
+
+【译】克隆 Excel。有一阵子它做得相当不错。在 GPT-5 那代模型、也就是 Fable 出来之前，它们能做得挺接近：有很多毛边、功能不全，但看起来就是 Excel 的样子。然后最新一代模型发布了，它就能干脆地端到端克隆 Excel——不是花好几天，而是 90 分钟到几个小时之内，把每个功能、每一处细节都克隆全。我做成浏览器版；实际上我会把我最新的版本放在下面（简介里），你们可以自己去玩。重点是：它确实能做出来。而现在，如果你想用 Microsoft Excel：单独的 Excel 是 180 美元一份授权、终身使用——行吧，它是很有价值的软件，180 美元摊在软件整个生命周期上；或者你走订阅，一个月 7 到 10 美元，包含 Excel、Word、PowerPoint 等等一大堆。而我花了大约 10 美元的 token 就重建出了功能完全对等的版本，现在我可以把它开源、免费送给全世界。软件的价值正在趋近于零，这一点越来越明显。软件的成本将会是零：任何每月付 200 美元订阅 Claude 或 ChatGPT 的人，都可以直接构建他们想要的任何软件并发布给世界；然后别人可以拿这个底子改成自己想要的样子，成本只是最初构建的零头——每个人都得到恰好需要的东西。如果这听起来耳熟——它叫开源。我真的相信未来所有软件都会是事实上的开源。所以我再给你们看几个——
+
+### [360s - 480s]
+
+Projects that I made in a minute, but the reason I really think that is because the recent growth in popularity of decompiling software. And if that sounds complicated, it's really not. And I've been building all of this software lately on my new NVIDIA RTX Spark machine. It is truly phenomenal, and it's become my daily driver laptop. Let me tell you about it. This is the new Microsoft Surface Laptop Ultra, and it is unlike other laptops. This is all powered by the NVIDIA RTX Spark. NVIDIA is now making both the CPU and GPU. It's a Grace CPU, a Blackwell RTX GPU, and it shares up to 128 gigs of unified memory. And RTX Spark, which is what's powering it, has CUDA natively, so you have NVIDIA software for accelerating AI right on the machine. I've been testing it. I've been running local models. I've been playing Gears of War. I've been video editing and kind of all at the same time. So the materials that they used to build this laptop feel absolutely premium. And even when I'm running AI and playing games on it, it doesn't get that hot. And I don't really understand how they did that. The fan is relatively quiet. It comes with a 15-inch touchscreen, so I can play with my little Rubik's cube simulation all day long. So go check out the NVIDIA RTX Spark laptops. I'll drop a link down below. And so, besides for the software that I was building for myself, I started seeing other people decompile software, and probably the most well-known one, which I covered in a video, is called ArtCraft. It is the entire Adobe suite of products, open source, and completely free. Here's PhotoCraft. I mean, look at this. It looks exactly like Photoshop. Here's VectorCraft for creating vectors. Here's FilmCraft, which is basically Adobe Premiere. Here it is. It looks beautiful. And so, what this guy did was simply point his AI at an existing piece of software and said, "Iterate until you clone it exactly." And so, this was one of the most exciting projects I had seen in a while. Okay, so it's definitely.
+
+【译】我做的其他项目。但我真正这么认为的原因，是最近反编译软件的流行大爆发。这听起来复杂，其实一点也不。（广告段，按原文收录）我最近所有软件都是在我新的 NVIDIA RTX Spark 机器上做的。它真的出色，已经成了我的日用笔记本。给你们介绍一下：这是新的 Microsoft Surface Laptop Ultra，它与其他笔记本不同——由 NVIDIA RTX Spark 驱动，NVIDIA 现在同时做 CPU 和 GPU：Grace CPU 加 Blackwell RTX GPU，共享最高 128GB 统一内存。RTX Spark 原生支持 CUDA，所以机器上就有 NVIDIA 的 AI 加速软件栈。我一直在测试它：跑本地模型、玩《战争机器》（Gears of War）、剪视频，几乎同时进行。机身用料非常高级，就算边跑 AI 边打游戏也不怎么发热——我也不懂他们怎么做到的。风扇相当安静。它带 15 英寸触摸屏，所以我可以整天玩我那个小魔方模拟。去看看 NVIDIA RTX Spark 笔记本吧，链接我放在下面。（广告段结束）除了我在为自己构建的软件之外，我开始看到别人在反编译软件，最有名的、我也专门做过一期视频的，叫 ArtCraft：整个 Adobe 产品套件，开源、完全免费。这是 PhotoCraft——看，它看起来就跟 Photoshop 一模一样；这是做矢量的 VectorCraft；这是 FilmCraft，基本就是 Adobe Premiere——你看，它很漂亮。这位作者做的事情，就是把 AI 指向一个现有软件，然后说「迭代，直到完全克隆为止」。这是我一时间里看到过最令人兴奋的项目之一。好，所以这确实——
+
+### [480s - 600s]
+
+Happening now, and I'm going to show you a few pieces of software that I've been building myself. But first, how did we actually get here? So a couple years ago, I made this video called "SaaS is Dead," and it proposed this thesis that all software was going to collapse down into agents—agents just being able to accomplish whatever. Like the actual application wasn't even needed anymore. And then the other thing is kind of a layer of database, like the actual ground truth, which needs to be stored in a more traditional database. It can't be done by AI, and so it's going to be those two layers. And that was specifically in the enterprise, but I never really thought that consumers would be able to build their own software. And maybe not—they weren't going to be capable to do it, but it wouldn't make sense to do. But then, you know, fast forward to just a few weeks ago, and that is not the case anymore. Like the math to build your own software now favors building your own software versus buying. And so let me show you Folio. This is my PDF reader editor. You can e-sign with it. You can use AI to ask questions about the PDF, and if there's any other functionality I want, I can just simply add it in here. And it's lightweight. It's lightning fast. It's completely free. It's open source. I'll drop a link down below so you can get it and use it if you want. You can fork it, make it your own. So look here. I'll click here, and you know, simple. It's a PDF reader. You can draw on it. You can add notes to it. You can ask questions to it. You can do a whole bunch of cool stuff, and it just works. And I'm not going to pay for this software again. There's no reason to download Adobe Acrobat. And then there was this piece of software I used for a while called One of Ten. It allowed me to see how other people's videos were performing. It gave me stats on those videos, stats on different channels, and then they just started adding all this functionality that I never needed. And now they're making me authenticate, give them my information. It started to clutter up YouTube, like they would take up 30% of the real estate of the screen. They just have a bunch of features that I will never need. So I built my own.
+
+【译】正在发生。我给你们看几个我自己构建的软件。但先说说我们是怎么走到这里的。几年前我做过一期视频叫《SaaS 之死》，论点是所有软件都会塌缩成 agent——agent 自己就能完成一切，实际的应用甚至都不再需要；再加一层数据库，也就是真正的事实数据（ground truth），它必须存放在更传统的数据库里，这层 AI 干不了——所以最终就剩这两层。那期视频说的是企业场景，而我从没想过消费者也能自建软件——也许不是没能力，而是不划算。但快进到几周前：情况不再如此了，现在「自己造软件」的账算下来，站在造的一边。给你们看 Folio：这是我的 PDF 阅读/编辑器，可以电子签名，可以用 AI 对 PDF 提问，还想要什么功能，我直接加进去就行。它轻量、飞快、完全免费、开源，链接在下面，你们可以用、可以 fork 成自己的。看这里（演示）：就是个 PDF 阅读器，可以涂画、加批注、提问，一堆好玩的功能，能用就行。我再也不会为这类软件付钱了，没有任何理由再去下载 Adobe Acrobat。然后是我用了一阵的一个软件，叫 One of Ten：它让我能看到别人视频的表现，给我视频统计、不同频道的统计。然后他们开始堆一堆我永远不需要的功能，又要我认证、交出我的信息，还把 YouTube 页面弄得很挤——他们的扩展会占掉屏幕 30% 的空间，一堆我用不到的功能。所以我自己造了一个。
+
+### [600s - 720s]
+
+This is called outlier tracker, and now I can see on each video. It gives me some stats on the video. I can track the video. I can do a channel analysis. It's the exact functionality I needed from one of ten, and now it's mine. And this took like thirty minutes to build. And here's that Excel clone that I mentioned. It is full Excel in the browser. I mean, it works perfectly. It's absolutely beautiful. It has all the functionality, every single piece of functionality that you would ever want. And so, where does this fall short? I think one of the common arguments against individuals, consumers building their own software, and also enterprise building their own software, is that it's not enough just to build it. You also have to maintain it, and you have to think about security and keeping it up to date. And there's a reason for that. There have been increasing amount of hacks, and so if you're building, you know, what people would consider slop software or vibe coded software, maybe it's going to be full of a bunch of holes, and you have to maintain the software over time. But I don't know if that's necessarily true. I think AI is writing better and better software, and the models getting better means that they will be more hardened and more secure. And there's this graph that you can plot in which the cost of just running an agent all the time, constantly updating the software, constantly looking for security issues, is actually less than buying the software from someone else. But let's say you don't even want to do that. I mean, you can go and download an open source piece of software because I guarantee there are a lot of other developers who are just creating software and giving the alpha free, like Artcraft, and they are maintaining it. They are just continuously throwing tokens at it, and as the cost of tokens continues to decrease to basically zero, there's almost like this just desire to build, and it's essentially free to build, and you can put stuff out there and have people use it, and it's exciting, and just kind of the.
+
+【译】这个叫 Outlier Tracker：现在我能看每个视频的数据，它给我视频的统计、可以追踪视频、做频道分析——正是我从 One of Ten 那里真正需要的功能，而现在它是我的了。这个大概花了 30 分钟构建。还有我提到的那个 Excel 克隆：完整 Excel 在浏览器里，运行完美，非常漂亮，每一处你会想要的功能都有。那么这套说法哪里不成立？我认为对「个人也好、企业也好自建软件」最常见的反驳是：光造出来不够，你还得维护它，要考虑安全、保持更新。这有它的道理：攻击越来越多，如果你造的是别人所谓的 slop 软件、vibe code 出来的软件，它可能满是漏洞，你得长期维护这个软件。但我不确定这一定成立。我认为 AI 写出的软件会越来越好，模型变强意味着软件会更坚固、更安全。而且可以画这样一条曲线：让一个 agent 全天候运行、持续更新软件、持续寻找安全问题的成本，实际上低于从别人那里买软件。再退一步，就算你根本不想这么干——你也可以去下载一个开源软件，因为我保证有很多开发者就是在造软件然后免费放出来，比如 ArtCraft，而且他们在维护，持续往里砸 token。随着 token 成本继续降到基本为零，几乎会出现一种纯粹的「建造欲」：建东西基本免费，你把东西放出去、有人用，这本身就很令人兴奋——
+
+### [720s - 778s]
+
+Love of the craft of building, and so I really do think we're in this renaissance of software, where every individual is just going to build the software that they need exactly. And the one last thing I want to mention is Omakase, which is a new operating system by the guy who created Ruby on Rails, and they have AI embedded in its DNA to the point where you can customize the operating system to be exactly what you want it to be at all times. And that's super exciting to me. I mean, you can more or less do some of that with Windows right now, but to fully customize the operating system at all times, I think it's quite exciting to think maybe there is room for a new operating system. So I encourage you go check out open source, try to build a little app for yourself, see how far you get, and then see how far you can go. And one of the best open source models on the planet right now is DeepSeek v4.1 Flash. I did a full video about that. You should go check that out right here.
+
+【译】——这就是建造这门手艺本身的热爱。所以我真的认为我们正处在一个软件的文艺复兴里：每个个体都会去构建自己恰好需要的软件。最后想提一件事：Omakase（转写作 Omaki），Ruby on Rails 的创造者做的新操作系统，AI 嵌进了它的 DNA，深到你可以随时把操作系统定制成你想要的样子。这让我非常兴奋。你现在在 Windows 上多少也能做到一部分，但「随时彻底定制操作系统」这件事——我想，也许真的有新操作系统的空间，这想一下就很刺激。所以我鼓励你们：去看看开源世界，试着自己 build 一个小应用，看看你能走多远、还能走多远。目前这个星球上最好的开源模型之一是 DeepSeek v4.1 Flash，我做过一期完整视频，你们该去看看，就在这儿。
