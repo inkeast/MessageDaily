@@ -4,7 +4,8 @@ date: 2026-11-06T12:04:00+08:00
 draft: false
 tags: ["灰色信源", "20VC", "行业访谈", "风险投资", "AI趋势", "OpenAI", "Anthropic"]
 categories: ["podcast-summary"]
-summary: '20VC 周更新闻场（Harry Stebbings×Rory O'Driscoll×Jason Lemkin，2026-11-05 发布）拆解一周行情：OpenAI 轮子从 1.4 万亿砍到 1.25 万亿、Alphabet 一夜蒸发 5000 亿美元，Rory 的判断是两只证券的相对定价而非 AI 见顶；Anthropic GAAP 口径 Q1 约 50 亿→Q3 约 170 亿美元、环比增速 100%腰斩到 50%，Jason 归因定价压力并以自家应用换 Haiku 5.5+Jev 后成本降 72% 作证——2015 年以来他第一次看到实际变便宜。另有 Instinct 每用户每月 20 美元以上的服务成本、DoorDash 170 亿买 Instacart 与「Agent 是生存威胁、第三名竞争者是无名氏」、Kalshi 被起诉次日以 400 亿美元融资、IC 三选一（Cognition 80B/Baseten 30B/Serval 3B）、Crosby 竞购 Weil 与 Salesforce 的「SVP 筹码」并购学。'
+summary: >-
+  20VC 周更新闻场（Harry Stebbings×Rory O'Driscoll×Jason Lemkin，2026-11-05 发布）拆解一周行情：OpenAI 轮子从 1.4 万亿砍到 1.25 万亿、Alphabet 一夜蒸发 5000 亿美元，Rory 的判断是两只证券的相对定价而非 AI 见顶；Anthropic GAAP 口径 Q1 约 50 亿→Q3 约 170 亿美元、环比增速 100%腰斩到 50%，Jason 归因定价压力并以自家应用换 Haiku 5.5+Jev 后成本降 72% 作证——2015 年以来他第一次看到实际变便宜。另有 Instinct 每用户每月 20 美元以上的服务成本、DoorDash 170 亿买 Instacart 与「Agent 是生存威胁、第三名竞争者是无名氏」、Kalshi 被起诉次日以 400 亿美元融资、IC 三选一（Cognition 80B/Baseten 30B/Serval 3B）、Crosby 竞购 Weil 与 Salesforce 的「SVP 筹码」并购学。
 ---
 
 > 信源说明：本文整理自 20VC 主播 Harry Stebbings 的周更新闻讨论场（视频 ID `4nKt18AZDsQ`，2026 年 11 月 5 日发布、节目方标注录制于 11 月 4 日，全长约 69 分钟；转写 35 段、覆盖 0s–4113s，已逐段完整读取，英文转写由 Qwen3-ASR 生成）。常驻嘉宾为 Scale Venture Partners 的 Rory O'Driscoll 与 SaaStr 创始人 Jason Lemkin（三人开场自报家门，经节目公开页面核实）；节目官方议程与 Jason Lemkin 个人的 SaaStr 复盘文章可交叉印证部分事件（DoorDash/Instacart 65 美元每股、Kalshi 由 Sequoia 与 Wellington 领投、Cresta 交易额 27 亿美元等），文中标「经节目议程/SaaStr 复盘核实」；其余数字与判断均为播客口述，以「Harry 称/Rory 认为/Jason 称」归属，本文未逐项独立核实、不为播客观点背书。ASR 疑似错词按上下文校正并集中列于文末校正表，未确认专名保留原文并标「转写疑作」。同频道旧文：[Modal CEO 谈推理新云](/posts/2026-11-03-20vc-erik-modal-inference-market/)、[David Tisch 谈种子基金之死](/posts/2026-11-01-20vc-tisch-boxgroup-ownership-concentration/)。
