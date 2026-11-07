@@ -7,7 +7,7 @@ categories: ["podcast-summary"]
 summary: '美国中期选举民主党横扫，44 项数据中心停建类公投通过 43 项，芯片与新云齐跌。但主持人 NLW 判断数据中心不会停建：新官员开出的是可议价的「报价单」；而 Citrine 报告「瓶颈成为悄悄下调预测的借口」一语点破另一层——Q3 四大厂商资本开支已全部未达标，政策收紧恰好给了巨头削减 capex 的体面理由，Mag7 单日涨回一万亿市值。快讯另覆盖 ChatGPT 搜索量达 Google 两成、GPT 6.2 现身、Meta/OpenAI 编码代理并购、苹果砍 AI 预算、小银行试水 Agent 账户与 Isomorphic 融资。'
 ---
 
-> 信源说明：本文基于 The AI Daily Brief（视频 ID ssEWGHjKHTM，节目自述于 2026 年中期选举翌日录制，转写末段 1536 秒，全长约 25.6 分钟）英文转写整理，主持人为频道常任主播 NLW，是[本博 10-27 泡沫辩论篇](/posts/2026-10-27-ai-daily-brief-bubble-signals/)的后续剧情。文中全部选举结果、市场数据、报告结论与引语均为节目自述及其引用的媒体与研究，未独立核实；归属按「NLW 认为／节目引用」分层标注；ASR 存疑词以「转写疑作」标注。广告口播（KPMG、Robots and Pencils、CData、Blitzy）按惯例略过。
+> 信源说明：本文基于 The AI Daily Brief（视频 ID ssEWGHjKHTM，节目自述于 2026 年中期选举翌日录制，转写末段 1536 秒，全长约 25.6 分钟）英文转写整理，主持人为频道常任主播 NLW，是[本博 10-27 泡沫辩论篇](/posts/2026-10-27-ai-daily-brief-bubble-signals/)的后续剧情；其上一期（选情当晚复盘，见[本博 11-06 篇](/posts/2026-11-06-ai-daily-brief-midterm-blue-wave-data-centers/)）已展开 Pew 民调、州级公投与「Mr. Veto」背景，本文聚焦次日节目新增的市场分化、Citrine 报告与资本开支「泄压阀」机制，重复背景不赘述。文中全部选举结果、市场数据、报告结论与引语均为节目自述及其引用的媒体与研究，未独立核实；归属按「NLW 认为／节目引用」分层标注；ASR 存疑词以「转写疑作」标注。广告口播（KPMG、Robots and Pencils、CData、Blitzy）按惯例略过。
 
 ## 先说结论
 
