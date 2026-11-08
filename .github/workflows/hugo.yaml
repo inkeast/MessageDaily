@@ -24,9 +24,16 @@ jobs:
     env:
       HUGO_VERSION: 0.161.1
     steps:
+      - name: Cache Hugo CLI
+        uses: actions/cache@v4
+        with:
+          path: ${{ runner.temp }}/hugo.deb
+          key: hugo-extended-${{ env.HUGO_VERSION }}-linux-amd64
       - name: Install Hugo CLI
         run: |
-          wget --tries=3 --timeout=45 -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb
+          if [ ! -f ${{ runner.temp }}/hugo.deb ]; then
+            wget --tries=5 --timeout=45 --waitretry=10 -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb
+          fi
           sudo dpkg -i ${{ runner.temp }}/hugo.deb
       - name: Checkout
         uses: actions/checkout@v4
