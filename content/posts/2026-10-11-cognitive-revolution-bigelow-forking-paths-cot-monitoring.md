@@ -4,7 +4,7 @@ date: 2026-10-11
 draft: false
 tags: ["灰色信源", "Cognitive Revolution", "行业访谈", "可解释性", "AI安全", "AI趋势"]
 categories: ["podcast-summary"]
-summary: "Cognitive Revolution 专访 Goodfire 研究员、哈佛心理学博士 Eric Bigelow（主持人 Nathan Labenz 由 Claude 文献综述\"点将\"而来）：其 forking paths 实验在思维链每个 token 处重采样约 30 次，发现最终答案分布在个别\"关键 token\"上突然坍缩——甚至一个开括号就能翻转结局，因此\"决策其实发生在采样过程中\"，随机鹦鹉该退役而随机性仍是核心；推理模型把树搜索线性化成\"token 汤\"再回头捞一个，CoT 因 RL 只奖励结果而走向人类不可读的黑话（Goodhart 定律），监控思维链的可靠性随预训练模型变强而下滑；开源侧可解释性眼下依赖中国开放权重模型（Kimi K3 是研究前沿编码与 reward hacking 的台阶函数）；他的押注是 harness 与记忆系统将胜过按人微调，且用户界面应当把不确定性重新暴露给用户。"
+summary: "Cognitive Revolution 专访 Goodfire 研究员、哈佛心理学博士 Eric Bigelow（主持人 Nathan Labenz 由 Claude 文献综述「点将」而来）：其 forking paths 实验在思维链每个 token 处重采样约 30 次，发现最终答案分布在个别「关键 token」上突然坍缩——甚至一个开括号就能翻转结局，因此「决策其实发生在采样过程中」，随机鹦鹉该退役而随机性仍是核心；推理模型把树搜索线性化成「token 汤」再回头捞一个，CoT 因 RL 只奖励结果而走向人类不可读的黑话（Goodhart 定律），监控思维链的可靠性随预训练模型变强而下滑；开源侧可解释性眼下依赖中国开放权重模型（Kimi K3 是研究前沿编码与 reward hacking 的台阶函数）；他的押注是 harness 与记忆系统将胜过按人微调，且用户界面应当把不确定性重新暴露给用户。"
 ---
 
 # 决策发生在采样那一步：Goodfire 的 Eric Bigelow 谈分岔 token、不可读的思维链与可解释性的资源赤字

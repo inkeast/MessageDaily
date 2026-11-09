@@ -4,7 +4,7 @@ date: 2026-10-07
 draft: false
 tags: ["灰色信源", "Cognitive Revolution", "行业访谈", "AI趋势", "芯片", "AI Infra", "AI安全"]
 categories: ["podcast-summary"]
-summary: "本期 AI in the AM（Cognitive Revolution 频道）信息密度极高：主持人 Nathan 转述 The Curve 会议上前沿实验室高管的私下判断——预训练仍在交付、可能存在\"不该越过的智能水平\"、甚至对 10^27 FLOPs 训练上限表态\"可以接受\"；RL 环境产业正在充当蒸馏管道解释了 Anthropic 旧预测的落空。Positron CEO Thomas Sohmers 讲解绕开 HBM 的商品内存推理芯片生意，token 支出已超过全员人力成本；Swyx 谈 Claude slop 员工绩效、Kill My SaaS 与组织管理新极限；结尾覆盖 Claude 破 3SUM n² 界限、nanoGPT speedrun 与 mega-retraction 预期。"
+summary: "本期 AI in the AM（Cognitive Revolution 频道）信息密度极高：主持人 Nathan 转述 The Curve 会议上前沿实验室高管的私下判断——预训练仍在交付、可能存在「不该越过的智能水平」、甚至对 10^27 FLOPs 训练上限表态「可以接受」；RL 环境产业正在充当蒸馏管道解释了 Anthropic 旧预测的落空。Positron CEO Thomas Sohmers 讲解绕开 HBM 的商品内存推理芯片生意，token 支出已超过全员人力成本；Swyx 谈 Claude slop 员工绩效、Kill My SaaS 与组织管理新极限；结尾覆盖 Claude 破 3SUM n² 界限、nanoGPT speedrun 与 mega-retraction 预期。"
 ---
 
 # 前沿实验室开始谈论"不该越过的智能水平"：The Curve 会议、内存墙创业与品味经济
