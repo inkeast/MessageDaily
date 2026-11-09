@@ -1,6 +1,6 @@
 ---
 title: "40% 的 PR 已由 agent 创建：Jay Parikh 谈 GitHub 的全栈演化——模型路由、Token 财务治理与开源安全的「围墙花园」反命题"
-date: 2026-11-09T12:41:00+08:00
+date: 2026-11-09T12:35:00+08:00
 draft: false
 tags: ["灰色信源", "Latent Space", "行业访谈", "GitHub", "Microsoft", "Agent", "AI趋势"]
 categories: ["podcast-summary"]
