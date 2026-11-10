@@ -17,43 +17,43 @@ summary: "本文为 2026-08-25 精读系列的导览：16 篇触发顶会标准�
 
 | 精读文章 | 一句话核心 |
 |---|---|
-| [SWE Refactor Bench](/posts/2026-08-25-swe-refactor-bench-paper-reading/) | 行为评测的 Blindness 盲区：空 diff 骗过任何行为测试，三阶段协议下最强模型仅 47/100 |
-| [CatchBench](/posts/2026-08-25-catchbench-paper-reading/) | 分数在标签过程公开之前不可解释：PRE/LIVE/POST 三信息状态审计竞技场+可采性门槛 |
-| [Process Evaluation 三层（ICLR 2027）](/posts/2026-08-25-process-eval-scae-paper-reading/) | 动作/任务/步骤是三个层次：judge 的步骤归因有 collider 偏置（+0.537） |
-| [Signal or Noise](/posts/2026-08-25-webdev-skills-bench-paper-reading/) | 长度匹配对照证明 Skill 注入平均负收益，两种机制需相反对策 |
-| [MobilePA-Bench](/posts/2026-08-25-mobilepa-bench-paper-reading/) | 能力门设计：短板以乘法杀伤端到端，Memory 维度全员不及格 |
+| [SWE Refactor Bench](https://inkeast.github.io/MessageDaily/posts/2026-08-25-swe-refactor-bench-paper-reading/) | 行为评测的 Blindness 盲区：空 diff 骗过任何行为测试，三阶段协议下最强模型仅 47/100 |
+| [CatchBench](https://inkeast.github.io/MessageDaily/posts/2026-08-25-catchbench-paper-reading/) | 分数在标签过程公开之前不可解释：PRE/LIVE/POST 三信息状态审计竞技场+可采性门槛 |
+| [Process Evaluation 三层（ICLR 2027）](https://inkeast.github.io/MessageDaily/posts/2026-08-25-process-eval-scae-paper-reading/) | 动作/任务/步骤是三个层次：judge 的步骤归因有 collider 偏置（+0.537） |
+| [Signal or Noise](https://inkeast.github.io/MessageDaily/posts/2026-08-25-webdev-skills-bench-paper-reading/) | 长度匹配对照证明 Skill 注入平均负收益，两种机制需相反对策 |
+| [MobilePA-Bench](https://inkeast.github.io/MessageDaily/posts/2026-08-25-mobilepa-bench-paper-reading/) | 能力门设计：短板以乘法杀伤端到端，Memory 维度全员不及格 |
 
 ### 主题 B：Harness 从提示词到可学习系统
 
 | 精读文章 | 一句话核心 |
 |---|---|
-| [Prime Agent](/posts/2026-08-25-prime-agent-paper-reading/) | 同一模型换 harness：ARC-AGI-3 从 30.2% 到 95.5% 超人类基线 |
-| [AutoSaddler](/posts/2026-08-25-autosaddler-paper-reading/) | harness 优化=离线 mini-batch 学习：三基准 +9~10pp、样本效率 10× |
-| [Task-CoEvolve](/posts/2026-08-25-task-coevolve-paper-reading/) | "在哪评"也是优化变量：20% 评估预算匹配全量搜索 |
-| [Risa](/posts/2026-08-25-risa-routing-paper-reading/) | MoE 路由轨迹做行为坐标系：决策 token 上的一致性是正确性信号 |
+| [Prime Agent](https://inkeast.github.io/MessageDaily/posts/2026-08-25-prime-agent-paper-reading/) | 同一模型换 harness：ARC-AGI-3 从 30.2% 到 95.5% 超人类基线 |
+| [AutoSaddler](https://inkeast.github.io/MessageDaily/posts/2026-08-25-autosaddler-paper-reading/) | harness 优化=离线 mini-batch 学习：三基准 +9~10pp、样本效率 10× |
+| [Task-CoEvolve](https://inkeast.github.io/MessageDaily/posts/2026-08-25-task-coevolve-paper-reading/) | "在哪评"也是优化变量：20% 评估预算匹配全量搜索 |
+| [Risa](https://inkeast.github.io/MessageDaily/posts/2026-08-25-risa-routing-paper-reading/) | MoE 路由轨迹做行为坐标系：决策 token 上的一致性是正确性信号 |
 
 ### 主题 C：经验/技能的资产化与其生命周期
 
 | 精读文章 | 一句话核心 |
 |---|---|
-| [LongWoF-Bench](/posts/2026-08-25-longwof-bench-paper-reading/) | 只有验证器确认的执行经验才可复用：Gene vs Skill +8.7~15.5pp |
-| [SkillAlchemy](/posts/2026-08-25-skillalchemy-paper-reading/) | 来源接地的程序准入：自动技能首次比肩人工且注入零传播 |
-| [Repo2Skill-Evo](/posts/2026-08-25-repo2skill-evo-paper-reading/) | 技能静默失效：最强模型维护 F1 仅 69.7%，定位与编辑双瓶颈 |
+| [LongWoF-Bench](https://inkeast.github.io/MessageDaily/posts/2026-08-25-longwof-bench-paper-reading/) | 只有验证器确认的执行经验才可复用：Gene vs Skill +8.7~15.5pp |
+| [SkillAlchemy](https://inkeast.github.io/MessageDaily/posts/2026-08-25-skillalchemy-paper-reading/) | 来源接地的程序准入：自动技能首次比肩人工且注入零传播 |
+| [Repo2Skill-Evo](https://inkeast.github.io/MessageDaily/posts/2026-08-25-repo2skill-evo-paper-reading/) | 技能静默失效：最强模型维护 F1 仅 69.7%，定位与编辑双瓶颈 |
 
 ### 主题 D：因果测量与系统正确性
 
 | 精读文章 | 一句话核心 |
 |---|---|
-| [Ascp 上下文分配定律](/posts/2026-08-25-ascp-context-allocation-paper-reading/) | 窄窗多轮胜宽窗单轮 +0.144，收益全部来自反事实信号 |
-| [The Mask Is Not the Model](/posts/2026-08-25-mask-not-model-paper-reading/) | 双前向审计 192/192 定位，挖出 Zamba2/Nemotron-H 真实泄漏 |
-| [NFV 神经形式验证](/posts/2026-08-25-neuro-formal-verification-paper-reading/) | 无证明即弃权：92.2% 精度 vs judge 的 72% |
-| [ERPO](/posts/2026-08-25-erpo-paper-reading/) | 查询分布漂移是 RL 崩溃根源：Query-KL 根治高温崩溃 |
+| [Ascp 上下文分配定律](https://inkeast.github.io/MessageDaily/posts/2026-08-25-ascp-context-allocation-paper-reading/) | 窄窗多轮胜宽窗单轮 +0.144，收益全部来自反事实信号 |
+| [The Mask Is Not the Model](https://inkeast.github.io/MessageDaily/posts/2026-08-25-mask-not-model-paper-reading/) | 双前向审计 192/192 定位，挖出 Zamba2/Nemotron-H 真实泄漏 |
+| [NFV 神经形式验证](https://inkeast.github.io/MessageDaily/posts/2026-08-25-neuro-formal-verification-paper-reading/) | 无证明即弃权：92.2% 精度 vs judge 的 72% |
+| [ERPO](https://inkeast.github.io/MessageDaily/posts/2026-08-25-erpo-paper-reading/) | 查询分布漂移是 RL 崩溃根源：Query-KL 根治高温崩溃 |
 
 ### 系统级工作
 
 | 精读文章 | 一句话核心 |
 |---|---|
-| [Apodex 1.1](/posts/2026-08-25-apodex-1.1-paper-reading/) | 双扩展面：环境构建+智能体协调作为与模型规模并列的扩展维度 |
+| [Apodex 1.1](https://inkeast.github.io/MessageDaily/posts/2026-08-25-apodex-1.1-paper-reading/) | 双扩展面：环境构建+智能体协调作为与模型规模并列的扩展维度 |
 
 ## 二、跨论文趋势综合
 

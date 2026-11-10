@@ -11,7 +11,7 @@ summary: 'TWIML 专访 Richard Socher（Recursive/RSI CEO、前 Salesforce 首�
 > **嘉宾身份（已核实）**：Richard Socher——转写中自述「前 Salesforce 首席科学家、You.com 创始人、新公司 Recursive 创始人」。经外部检索核实（socher.org、you.com、recursive.com）：他是 Recursive（即本站旧文所称 RSI）联合创始人兼 CEO、You.com 创始人兼 CEO、AIX Ventures 创始管理合伙人；首个创业公司 MetaMind 于 2016 年被 Salesforce 收购后出任首席科学家兼 EVP；新书《The Eureka Machine: Why AI Is the Key to Unlocking a New Era of Scientific Discoveries》。主持人自述「I'm Sam Charrington」，与 TWIML 主理人身份一致。
 > **归属口径**：未标注「本站查证」的判断均为嘉宾观点或主持人陈述；测试成绩、合作金额、FDA 批准等均为节目或嘉宾单方说法（外部可核实处已注明）。嘉宾已对其基金投资的公司（Profluent、Parallel Bio）做利益披露。
 > **ASR 疑错约定**：转写专名疑似识别错误处，已结合上下文与外部检索校正并列入文末校正表；无法确认处保留原文并以「存疑」标注，不凭空改写。
-> **相关旧文（不重复展开）**：RSI 公司背景（5 亿美元融资、46.5 亿美元估值、八位联创、Socher 任 CEO）本站已专门成文：[《不做AI螺丝钉：被Meta裁员半年后，田渊栋带着46亿美元AI实验室回来了》](/posts/2026-06-05-tian-yuandong-rsi-46billion-ai-lab/)；递归自改进技术路线另见[《当AI开始进化AI》](/posts/2026-06-26-recursive-self-improvement-ai-evolves-ai/)与[《AI自进化的临界点》](/posts/2026-07-06-applex-rsi-self-evolution-verification-taste/)。田渊栋一场讲的「用 AI 自动化 AI 科研」愿景，与本期 Socher 给出的首批实证结果互为印证；本场独有的判断（四支柱框架、三个基准的具体战绩、奖励工程、监管立场）只在本文展开。
+> **相关旧文（不重复展开）**：RSI 公司背景（5 亿美元融资、46.5 亿美元估值、八位联创、Socher 任 CEO）本站已专门成文：[《不做AI螺丝钉：被Meta裁员半年后，田渊栋带着46亿美元AI实验室回来了》](https://inkeast.github.io/MessageDaily/posts/2026-06-05-tian-yuandong-rsi-46billion-ai-lab/)；递归自改进技术路线另见[《当AI开始进化AI》](https://inkeast.github.io/MessageDaily/posts/2026-06-26-recursive-self-improvement-ai-evolves-ai/)与[《AI自进化的临界点》](https://inkeast.github.io/MessageDaily/posts/2026-07-06-applex-rsi-self-evolution-verification-taste/)。田渊栋一场讲的「用 AI 自动化 AI 科研」愿景，与本期 Socher 给出的首批实证结果互为印证；本场独有的判断（四支柱框架、三个基准的具体战绩、奖励工程、监管立场）只在本文展开。
 
 ## 先说结论
 

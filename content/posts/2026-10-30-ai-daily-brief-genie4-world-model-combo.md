@@ -9,7 +9,7 @@ summary: 'The AI Daily Brief 本期主线：Google 发布 Genie 4，世界模型
 
 # Genie 4 把「全家桶」装进世界模型：DeepMind 的下一幕，与一人药企的罗夏测试
 
-> 信源说明：本文基于 The AI Daily Brief（主持人 Mohammad）一期 Headlines + 主话题节目整理（视频 ID HOgj6cJ9oxQ，全长约 28.8 分钟，英文转写 44 段、0s–1729s 已完整读取，文中数字与引语均依英文转写整理）。全部事件、数字、股评与人物言论均为主持人陈述或节目引用的博客文章、招股书、社交媒体帖文与媒体报道，本文未做独立核实，归属按「主持人称／节目引用／当事人认为」分层标注；ASR 疑似错词以「转写疑作」标注，文末附校正表与完整转写原文。同系列前文：今晨发布的 S-1 全本拆读见[《Anthropic 招股书全本》](/posts/2026-10-30-ai-daily-brief-anthropic-s1-numbers/)，OpenAI 数学「倾泻」风波的来龙去脉见[《第一个被 AI 整体掀翻的领域？》](/posts/2026-10-12-ai-daily-brief-math-field-disruption-openai-revenue/)。
+> 信源说明：本文基于 The AI Daily Brief（主持人 Mohammad）一期 Headlines + 主话题节目整理（视频 ID HOgj6cJ9oxQ，全长约 28.8 分钟，英文转写 44 段、0s–1729s 已完整读取，文中数字与引语均依英文转写整理）。全部事件、数字、股评与人物言论均为主持人陈述或节目引用的博客文章、招股书、社交媒体帖文与媒体报道，本文未做独立核实，归属按「主持人称／节目引用／当事人认为」分层标注；ASR 疑似错词以「转写疑作」标注，文末附校正表与完整转写原文。同系列前文：今晨发布的 S-1 全本拆读见[《Anthropic 招股书全本》](https://inkeast.github.io/MessageDaily/posts/2026-10-30-ai-daily-brief-anthropic-s1-numbers/)，OpenAI 数学「倾泻」风波的来龙去脉见[《第一个被 AI 整体掀翻的领域？》](https://inkeast.github.io/MessageDaily/posts/2026-10-12-ai-daily-brief-math-field-disruption-openai-revenue/)。
 
 ## 先说结论
 

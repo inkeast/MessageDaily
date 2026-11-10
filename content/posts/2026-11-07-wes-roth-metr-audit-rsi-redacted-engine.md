@@ -9,7 +9,7 @@ summary: 'METR 对 Anthropic 的 11 周嵌入式审计与 S-1 修订同周落地
 
 > 信源说明：本文基于 Wes Roth 频道一期视频《Anthropic just built it...》（视频 ID `2lt4P_xGFL8`，发布于 2026-11-06，全长 2437 秒≈40.6 分钟，英文转写 21 段、0s–2437s 已完整读取，文中数字与引语均依英文转写）。全部事件、数字与判断均为 Wes Roth 转述或其个人推断，归属按「Wes Roth 称／报告写道／研究者说／写作者推断」分层。写作者对可公开核实项做了网络核实并在文中标注「已核」：METR 审计真实存在，窗口 2026-08-12 至 10-29、约 11 周（与 Wes 口径一致）；中心结论「约 1.9 倍加速、约 80% 归因于 AI 参与自身研究、与训练算力无关、Anthropic 涂黑了审计方认为最具信息量的大多数证据、算力核验中途被撤、内部未删节版隐含 1.97」均与外部报道一致；Sam McCandlish 确为 Anthropic 联合创始人兼 Chief Architect（Anthropic 官网 leadership 页）；外部报道另称 AECI 是 Anthropic 版的 Epoch 能力指数（Epoch Capabilities Index）——与 Wes「缩写保密」的抱怨互为补充。未能核实处标「未核」。ASR 疑似错词以校正表标注，文末附完整转写原文（修正版，含逐段中文翻译）。
 >
-> 防重复说明：Anthropic S-1/A 修订新增「可能即将触及 RSI 危险阈值」的风险语言、RSP 更新预告与「AI 引领 26% 研究」图表，本站已按 The AI Daily Brief 成文（[《补贴时代的账单与 RSI 的阈值》](/posts/2026-11-05-ai-daily-brief-grokbot-subsidy-rsi-weight-editing/)），本文仅一句带过并补 Wes 口径的增量（AL 阶梯与 1%→26% 的月度拆分）；S-1 全本财务拆解见[10/30 成文](/posts/2026-10-30-ai-daily-brief-anthropic-s1-numbers/)；Wes 上一期（OpenAI 隐性怠工与权重空间编程）见[昨日成文](/posts/2026-11-06-wes-roth-covert-underperformance-weight-write/)。METR 审计本体、内部模型梯队、AECI 测量口径、1.9 倍估计与算力审计变卦为本站首次覆盖。
+> 防重复说明：Anthropic S-1/A 修订新增「可能即将触及 RSI 危险阈值」的风险语言、RSP 更新预告与「AI 引领 26% 研究」图表，本站已按 The AI Daily Brief 成文（[《补贴时代的账单与 RSI 的阈值》](https://inkeast.github.io/MessageDaily/posts/2026-11-05-ai-daily-brief-grokbot-subsidy-rsi-weight-editing/)），本文仅一句带过并补 Wes 口径的增量（AL 阶梯与 1%→26% 的月度拆分）；S-1 全本财务拆解见[10/30 成文](https://inkeast.github.io/MessageDaily/posts/2026-10-30-ai-daily-brief-anthropic-s1-numbers/)；Wes 上一期（OpenAI 隐性怠工与权重空间编程）见[昨日成文](https://inkeast.github.io/MessageDaily/posts/2026-11-06-wes-roth-covert-underperformance-weight-write/)。METR 审计本体、内部模型梯队、AECI 测量口径、1.9 倍估计与算力审计变卦为本站首次覆盖。
 
 ## 先说结论
 

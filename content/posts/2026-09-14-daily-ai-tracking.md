@@ -52,10 +52,10 @@ summary: "周日数据面平静而产业面滚烫：Pheo 团队用 66,192 个 ag
 
 | 论文 | 一句话定位 |
 |------|-----------|
-| **NCP-ArchPreview**（293 赞，[精读](/posts/2026-09-12-ncp-archpreview-latent-space-lm-paper-reading/)）| 潜空间语言模型技术报告，当日榜首 |
+| **NCP-ArchPreview**（293 赞，[精读](https://inkeast.github.io/MessageDaily/posts/2026-09-12-ncp-archpreview-latent-space-lm-paper-reading/)）| 潜空间语言模型技术报告，当日榜首 |
 | **SenseNova-U1.5**（236 赞）| 商汤原生统一视觉智能技术报告，已在 9/12 日报主推 |
-| **SpatialBlock**（131 赞，[精读](/posts/2026-09-13-spatialblock-synthetic-spatial-paper-reading/)）| 合成搭积木问题增强 LVLM 空间智能（KAIST×AITRICS）|
-| **EvoSafeHarness**（59 赞，[精读](/posts/2026-09-12-evosafeharness-agent-security-paper-reading/)）| 五机构安全 harness 自动搜索 |
+| **SpatialBlock**（131 赞，[精读](https://inkeast.github.io/MessageDaily/posts/2026-09-13-spatialblock-synthetic-spatial-paper-reading/)）| 合成搭积木问题增强 LVLM 空间智能（KAIST×AITRICS）|
+| **EvoSafeHarness**（59 赞，[精读](https://inkeast.github.io/MessageDaily/posts/2026-09-12-evosafeharness-agent-security-paper-reading/)）| 五机构安全 harness 自动搜索 |
 | **Think Before You Link**（2609.10745）| 多语言实体链接中稀有性引导的推理-检索联合建模，NLP 垂直任务 |
 | **Mi-Ripple**（2609.11317）| 诊断引导的迭代 AI 编辑退化图像修复（频谱陷波 + 粒状纹理保护）|
 | **FreeFlow**（2609.11486）| 无偏层次 Transformer 光流估计，视觉基础任务 |
@@ -116,8 +116,8 @@ summary: "周日数据面平静而产业面滚烫：Pheo 团队用 66,192 个 ag
 
 ## 三、 今日精读清单
 
-1. [Scan the Skill, Govern the Action：agent 技能运行时治理，「许可 ≠ 恶意」的 66k 全语料测量](/posts/2026-09-14-scan-skill-govern-action-oats-paper-reading/)
-2. [TraceMind：从交互轨迹预测人-LLM 共创中的信息摄取，81.17% AUROC](/posts/2026-09-14-tracemind-information-uptake-paper-reading/)
+1. [Scan the Skill, Govern the Action：agent 技能运行时治理，「许可 ≠ 恶意」的 66k 全语料测量](https://inkeast.github.io/MessageDaily/posts/2026-09-14-scan-skill-govern-action-oats-paper-reading/)
+2. [TraceMind：从交互轨迹预测人-LLM 共创中的信息摄取，81.17% AUROC](https://inkeast.github.io/MessageDaily/posts/2026-09-14-tracemind-information-uptake-paper-reading/)
 
 ---
 

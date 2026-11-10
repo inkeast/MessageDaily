@@ -299,21 +299,21 @@ summary: "数据日2026-09-11：潜空间语言模型NCP-ArchPreview以51.3%算�
 
 以下论文已生成独立精读文章（见本博客今日同批发布）：
 
-1. [NCP-ArchPreview：潜空间语言模型](/posts/2026-09-12-ncp-archpreview-latent-space-lm-paper-reading/)
-2. [EvoSafeHarness：安全 Harness 自动进化](/posts/2026-09-12-evosafeharness-agent-security-paper-reading/)
-3. [The Last AI Built by Humans：RSI 五级自治路线图](/posts/2026-09-12-rsi-survey-last-ai-built-by-humans-paper-reading/)
-4. [VP-Control：提交门验证组合](/posts/2026-09-12-vp-control-commit-gates-paper-reading/)
-5. [MCP 注册表随机抽样审计](/posts/2026-09-12-mcp-registry-random-draw-paper-reading/)
-6. [When Synthetic Data Hurts：技能检索灾难遗忘](/posts/2026-09-12-synthetic-data-hurts-skill-retrieval-paper-reading/)
-7. [SPDF × Silent Failures：代码安全评测双警报](/posts/2026-09-12-spdf-silent-failures-eval-crisis-paper-reading/)
-8. [ReqEvolve：用户驱动软件自演化](/posts/2026-09-12-reqevolve-user-driven-self-evolution-paper-reading/)
-9. [A2ABreak：A2A 协议安全分析](/posts/2026-09-12-a2abreak-protocol-security-paper-reading/)
-10. [NSD：负面自蒸馏推理训练](/posts/2026-09-12-nsd-negative-self-distillation-paper-reading/)
-11. [Looped Flows：循环流推理架构](/posts/2026-09-12-looped-flows-reasoning-paper-reading/)
-12. [GenV：自动化形式化生成式奖励模型](/posts/2026-09-12-genv-generative-reward-autoformalization-paper-reading/)
-13. [UniMPA：统一记忆-预测-动作世界模型](/posts/2026-09-12-unimpa-memory-prediction-action-paper-reading/)
-14. [IdeaAMBIG：科研想法规格鸿沟](/posts/2026-09-12-ideaambig-research-idea-specs-paper-reading/)
-15. [Auto-RecSys × ActReview：自主研究与学术评审的流程自动化](/posts/2026-09-12-cognition-mcp-skill-retrieval-forgetting-paper-reading/)
+1. [NCP-ArchPreview：潜空间语言模型](https://inkeast.github.io/MessageDaily/posts/2026-09-12-ncp-archpreview-latent-space-lm-paper-reading/)
+2. [EvoSafeHarness：安全 Harness 自动进化](https://inkeast.github.io/MessageDaily/posts/2026-09-12-evosafeharness-agent-security-paper-reading/)
+3. [The Last AI Built by Humans：RSI 五级自治路线图](https://inkeast.github.io/MessageDaily/posts/2026-09-12-rsi-survey-last-ai-built-by-humans-paper-reading/)
+4. [VP-Control：提交门验证组合](https://inkeast.github.io/MessageDaily/posts/2026-09-12-vp-control-commit-gates-paper-reading/)
+5. [MCP 注册表随机抽样审计](https://inkeast.github.io/MessageDaily/posts/2026-09-12-mcp-registry-random-draw-paper-reading/)
+6. [When Synthetic Data Hurts：技能检索灾难遗忘](https://inkeast.github.io/MessageDaily/posts/2026-09-12-synthetic-data-hurts-skill-retrieval-paper-reading/)
+7. [SPDF × Silent Failures：代码安全评测双警报](https://inkeast.github.io/MessageDaily/posts/2026-09-12-spdf-silent-failures-eval-crisis-paper-reading/)
+8. [ReqEvolve：用户驱动软件自演化](https://inkeast.github.io/MessageDaily/posts/2026-09-12-reqevolve-user-driven-self-evolution-paper-reading/)
+9. [A2ABreak：A2A 协议安全分析](https://inkeast.github.io/MessageDaily/posts/2026-09-12-a2abreak-protocol-security-paper-reading/)
+10. [NSD：负面自蒸馏推理训练](https://inkeast.github.io/MessageDaily/posts/2026-09-12-nsd-negative-self-distillation-paper-reading/)
+11. [Looped Flows：循环流推理架构](https://inkeast.github.io/MessageDaily/posts/2026-09-12-looped-flows-reasoning-paper-reading/)
+12. [GenV：自动化形式化生成式奖励模型](https://inkeast.github.io/MessageDaily/posts/2026-09-12-genv-generative-reward-autoformalization-paper-reading/)
+13. [UniMPA：统一记忆-预测-动作世界模型](https://inkeast.github.io/MessageDaily/posts/2026-09-12-unimpa-memory-prediction-action-paper-reading/)
+14. [IdeaAMBIG：科研想法规格鸿沟](https://inkeast.github.io/MessageDaily/posts/2026-09-12-ideaambig-research-idea-specs-paper-reading/)
+15. [Auto-RecSys × ActReview：自主研究与学术评审的流程自动化](https://inkeast.github.io/MessageDaily/posts/2026-09-12-cognition-mcp-skill-retrieval-forgetting-paper-reading/)
 
 ---
 

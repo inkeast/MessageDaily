@@ -7,7 +7,7 @@ categories: ["podcast-summary"]
 summary: 'Wes Roth 在 PHP 漏洞披露（本博 10-26 篇）48 小时后跟进：蜜罐 6 小时被非人类流量砸 1.4 万次、Quest Diagnostics 患者数据失守、微软披露中国关联的 Storm-0940 用含中国开源模型在内的多模型从入侵到拿到云管理员权限只花 3 小时；Cloudflare 称攻击早于官方披露数日开打。Sam Altman 在斯坦福访谈直言「我们补不完所有 bug」，Jason Clinton 喊「危机别浪费、去董事会要预算、撑住 18 个月」——18 个月后 scaling law 把 Mythos 级攻防能力打进白菜价小模型，出货前跑百万 Agent 攻击群，「零漏洞」新均衡可能出现。他对暂停派逐条反驳：开源权重关不掉、去护栏无损、国际协定前科不良。文末附现金与 2FA 自保清单。'
 ---
 
-> 信源说明：本文基于 Wes Roth 频道视频《it's WORSE than we thought...》（视频 ID eK7Sn0_zHQw，发布于 2026-10-24，全长约 30.3 分钟，转写末段 1818 秒）英文转写整理，是 10-21 PHP 漏洞事件篇（本博[《互联网「着火」那几天》](/posts/2026-10-26-wes-roth-php-flaws-password-four/)）的续集，录制于其所谓「黑色十月」（Black October）第 48 小时。全部事件、数字与引语均为 Wes Roth 自述及其引用的新闻、帖文与访谈，未独立核实；归属按「Wes Roth 称／他引用者认为／可以推断」分层；ASR 存疑词以「转写疑作」标注。赞助口播（Crusoe）按惯例略过。
+> 信源说明：本文基于 Wes Roth 频道视频《it's WORSE than we thought...》（视频 ID eK7Sn0_zHQw，发布于 2026-10-24，全长约 30.3 分钟，转写末段 1818 秒）英文转写整理，是 10-21 PHP 漏洞事件篇（本博[《互联网「着火」那几天》](https://inkeast.github.io/MessageDaily/posts/2026-10-26-wes-roth-php-flaws-password-four/)）的续集，录制于其所谓「黑色十月」（Black October）第 48 小时。全部事件、数字与引语均为 Wes Roth 自述及其引用的新闻、帖文与访谈，未独立核实；归属按「Wes Roth 称／他引用者认为／可以推断」分层；ASR 存疑词以「转写疑作」标注。赞助口播（Crusoe）按惯例略过。
 
 ## 先说结论
 

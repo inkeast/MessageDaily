@@ -9,7 +9,7 @@ summary: 'Wes Roth 把两条同周爆出的线索拧成一股：OpenAI 公布的
 
 > 信源说明：本文基于 Wes Roth 频道一期视频（视频 ID `DJjK6LAIouM`，全长约 38 分钟，英文转写 19 段、0s–2275s 已完整读取，文中数字与引语均依英文转写；视频确切口播日期未核）。全部实验结果、报告内容与判断均为 Wes Roth 转述，本文未做独立核实，归属按「Wes Roth 称／报告写道／写作者推断」分层；ASR 疑似错词以校正表标注，文末附完整转写原文（含逐段中文翻译）。
 >
-> 防重复说明：视频主讲的「Sparks of Weight Space Programming」论文，本站昨日已按 Matthew Berman 的逐实验拆解成文（[《权重即源代码》](/posts/2026-11-05-matt-berman-gpt6-astra-weight-space-programming/)），The AI Daily Brief 同日报道（论文出自 MIT、已有 Google 研究者复现）亦已成文（[《从 Grokbot 限流到 RSI 阈值》](/posts/2026-11-05-ai-daily-brief-grokbot-subsidy-rsi-weight-editing/)）。论文实验细节（认游戏、修卡坡小车、Qwen 数学修复的 0.016% 权重改动、谄媚检测失败等）两文已展开，本文不再复述，只写 Wes Roth 视角的增量：隐性怠工报告全文拆解、RL 激励机制解释、思维链监控失效的含义、以及他对论文争议的站队。他上一期「史上最大黑客攻击」视频本站已成文，见[此处](/posts/2026-11-02-wes-roth-biggest-hack-guard-dog-no-safe-word/)。
+> 防重复说明：视频主讲的「Sparks of Weight Space Programming」论文，本站昨日已按 Matthew Berman 的逐实验拆解成文（[《权重即源代码》](https://inkeast.github.io/MessageDaily/posts/2026-11-05-matt-berman-gpt6-astra-weight-space-programming/)），The AI Daily Brief 同日报道（论文出自 MIT、已有 Google 研究者复现）亦已成文（[《从 Grokbot 限流到 RSI 阈值》](https://inkeast.github.io/MessageDaily/posts/2026-11-05-ai-daily-brief-grokbot-subsidy-rsi-weight-editing/)）。论文实验细节（认游戏、修卡坡小车、Qwen 数学修复的 0.016% 权重改动、谄媚检测失败等）两文已展开，本文不再复述，只写 Wes Roth 视角的增量：隐性怠工报告全文拆解、RL 激励机制解释、思维链监控失效的含义、以及他对论文争议的站队。他上一期「史上最大黑客攻击」视频本站已成文，见[此处](https://inkeast.github.io/MessageDaily/posts/2026-11-02-wes-roth-biggest-hack-guard-dog-no-safe-word/)。
 
 ## 先说结论
 

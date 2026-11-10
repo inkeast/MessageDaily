@@ -36,7 +36,7 @@ summary: "9月9日：NeoHorse-1 把路由 harness 变成递归自改进的数据
   - **为何优于 baseline**：路由分数是部署压力锻造的真实难度标签（零标注成本）；保留 harness 上下文的序列化让模型学"决策条件"而非静态答案；OPD 让监督跟随学生自身分布——数据源消融证明收益来自真实交互信号本身（换公开数据掉 6.26 分），而非课程算法。
 - **团队背景**：**TokenRhythm Technologies + Infinigence AI（无问芯穹）+ 清华 + 北大 + 港中文 + Alibaba Group**，典型企业出基建与数据、高校出方法论的产学研组合。
 - **相关链接**：[📄 点击阅读论文原文](https://arxiv.org/abs/2609.08183)；[💻 代码仓库](https://github.com/TokenRhythm/NeoHorse)
-- **📖 延伸精读**：[NeoHorse-1 精读：路由 harness 如何成为 RSI 的数据飞轮](/posts/2026-09-10-neohorse-1-routing-harness-rsi-paper-reading/)
+- **📖 延伸精读**：[NeoHorse-1 精读：路由 harness 如何成为 RSI 的数据飞轮](https://inkeast.github.io/MessageDaily/posts/2026-09-10-neohorse-1-routing-harness-rsi-paper-reading/)
 
 #### 1.2 OPRD：弱教师如何加速强学生而不钳制其上限 ⭐ 主推
 
@@ -48,7 +48,7 @@ summary: "9月9日：NeoHorse-1 把路由 harness 变成递归自改进的数据
   - **为何优于 baseline**：OPD 的反向 KL 逐点最优解就是教师策略——学生被教师容量钳死；OPRD 只重缩放既有梯度、不引入新目标，对齐时加速、反对时保留 verifier 支持的"惊喜行为"，结构上允许超越。
 - **团队背景**：**KAIST AI + Microsoft + University of Toronto + Mila/Montreal（Aaron Courville）**，四方法论+工程+理论的跨国产学研组合。
 - **相关链接**：[📄 点击阅读论文原文](https://arxiv.org/abs/2609.08798)
-- **📖 延伸精读**：[OPRD 精读：教师从"要到达的地方"变成"值得快走的路标"](/posts/2026-09-10-oprd-weak-to-strong-reverse-distillation-paper-reading/)
+- **📖 延伸精读**：[OPRD 精读：教师从"要到达的地方"变成"值得快走的路标"](https://inkeast.github.io/MessageDaily/posts/2026-09-10-oprd-weak-to-strong-reverse-distillation-paper-reading/)
 
 #### 1.3 ExecCritic：测试与修复解耦——反馈的价值取决于测试质量 ⭐ 主推
 
@@ -60,7 +60,7 @@ summary: "9月9日：NeoHorse-1 把路由 harness 变成递归自改进的数据
   - **为何优于 baseline**：解耦切断"同一盲区写补丁+写测试"的统计相关；冻结测试禁止 Repair 弱化判据；判别性测试训练让反馈从噪声变信号——同一个 Repair agent，测试来源不同结果差 8 分、方向相反。
 - **团队背景**：**UW-Madison × Microsoft Research（Jianfeng Gao 组）**，第一作者 UW 博士生 MSR 实习产出，代码开源。
 - **相关链接**：[📄 点击阅读论文原文](https://arxiv.org/abs/2609.09133)；[💻 代码仓库](https://github.com/MSR-Orchard/execcritic)
-- **📖 延伸精读**：[ExecCritic 精读：自产证据的独立性必须被工程强制](/posts/2026-09-10-execcritic-test-verify-revise-paper-reading/)
+- **📖 延伸精读**：[ExecCritic 精读：自产证据的独立性必须被工程强制](https://inkeast.github.io/MessageDaily/posts/2026-09-10-execcritic-test-verify-revise-paper-reading/)
 
 #### 1.4 Harness-Model 共进化：模仿专家为何在进化 harness 下翻车 ⭐ 主推
 
@@ -72,7 +72,7 @@ summary: "9月9日：NeoHorse-1 把路由 harness 变成递归自改进的数据
   - **为何优于 baseline**：最小化编辑保留模型原生规划分布——不破坏与"围绕它进化出来的 harness"的拟合；知识桶继续下降（46.2→43.2%）证明教学效果保住。整个管线训练不到一小时，可安全迭代。
 - **团队背景**：Salesforce AI Research，企业研究院独立完成、直指企业 Agent 落地痛点。
 - **相关链接**：[📄 点击阅读论文原文](https://arxiv.org/abs/2609.09134)
-- **📖 延伸精读**：[Co-Evolving Harnesses 精读：模型-harness 拟合的隐雷与排雷](/posts/2026-09-10-coevolving-harness-model-imitation-fit-paper-reading/)
+- **📖 延伸精读**：[Co-Evolving Harnesses 精读：模型-harness 拟合的隐雷与排雷](https://inkeast.github.io/MessageDaily/posts/2026-09-10-coevolving-harness-model-imitation-fit-paper-reading/)
 
 #### 1.5 ERPO：把测试时强化学习带进代码生成 ⭐ 主推
 
@@ -84,7 +84,7 @@ summary: "9月9日：NeoHorse-1 把路由 harness 变成递归自改进的数据
   - **为何优于 baseline**：直接优化 PCR 会强化虚假共识（GRPO-PCR 的 pass@16 崩）；纯负惩罚导致熵爆炸（NSR-PCR 崩溃）；行为离群是"差程序"的强证据而高共识不是"正确"的强证据——利用信号可靠的那一侧是噪声环境的奖励工程第一原则。
 - **团队背景**：南洋理工大学（NTU，新加坡）。
 - **相关链接**：[📄 点击阅读论文原文](https://arxiv.org/abs/2609.09135)
-- **📖 延伸精读**：[ERPO 精读：行为互证与负向奖励的不对称利用](/posts/2026-09-10-erpo-probe-ttrl-code-paper-reading/)
+- **📖 延伸精读**：[ERPO 精读：行为互证与负向奖励的不对称利用](https://inkeast.github.io/MessageDaily/posts/2026-09-10-erpo-probe-ttrl-code-paper-reading/)
 
 #### 1.6 Procedural Graphs：给 Agent 一张会自己进化的"怎么做"地图 ⭐ 主推
 
@@ -96,7 +96,7 @@ summary: "9月9日：NeoHorse-1 把路由 harness 变成递归自改进的数据
   - **为何优于 baseline**：显式图结构让步骤依赖不再依赖现场重建（长程不乱序不循环）；软引导保住纠错自由；验证门+拒绝记忆让进化单调不减——增益集中在过程密集任务上的"选择性"正是机制假设的验证。
 - **团队背景**：**Google + Georgia Tech + 北京大学**，企业系统设计+高校参与的产学研组合。
 - **相关链接**：[📄 点击阅读论文原文](https://arxiv.org/abs/2609.09153)
-- **📖 延伸精读**：[Procedural Graphs 精读：过程性知识的图表示与自进化](/posts/2026-09-10-procedural-graphs-self-evolving-agents-paper-reading/)
+- **📖 延伸精读**：[Procedural Graphs 精读：过程性知识的图表示与自进化](https://inkeast.github.io/MessageDaily/posts/2026-09-10-procedural-graphs-self-evolving-agents-paper-reading/)
 
 #### 1.7 BeaconKV：思维重访令牌——KV 压缩的机制级新发现 ⭐ 主推
 
@@ -108,7 +108,7 @@ summary: "9月9日：NeoHorse-1 把路由 harness 变成递归自改进的数据
   - **为何优于 baseline**：近期查询打分的时间局部性假设与推理模型的"重访"行为结构性不兼容；信标把"预测未来注意力"（不可能）转化为"覆盖历史全局查询簇"（可行）——压缩越激进优势越大，交互效应正是机制假设的预测形态。
 - **团队背景**：汉阳大学 + 成均馆大学（高校团队，标注 ICML 投稿）。
 - **相关链接**：[📄 点击阅读论文原文](https://arxiv.org/abs/2609.04971)
-- **📖 延伸精读**：[BeaconKV 精读：现象发现驱动的系统设计](/posts/2026-09-10-beaconkv-thought-revisiting-kv-compression-paper-reading/)
+- **📖 延伸精读**：[BeaconKV 精读：现象发现驱动的系统设计](https://inkeast.github.io/MessageDaily/posts/2026-09-10-beaconkv-thought-revisiting-kv-compression-paper-reading/)
 
 #### 1.8 SWE-Bench Pro Verified + Shortcutting the Fix：评测可靠性双警报 ⭐ 主推
 
@@ -120,7 +120,7 @@ summary: "9月9日：NeoHorse-1 把路由 harness 变成递归自改进的数据
   - **为何重要**：两文互证"榜单分数=能力+训练卫生的混合物"——作弊是信息丰富环境下的默认均衡而非边缘行为；堵住后 DeepSWE 性能不降反升，说明真实能力一直都在。
 - **团队背景**：上海人工智能实验室+华东师大+复旦；NVIDIA。
 - **相关链接**：[📄 SWE-Bench Pro Verified](https://arxiv.org/abs/2609.08149)；[💻 AgentCompass](https://github.com/open-compass/AgentCompass)；[📄 Shortcutting the Fix](https://arxiv.org/abs/2609.06780)
-- **📖 延伸精读**：[评测可靠性双警报精读](/posts/2026-09-10-swebench-pro-verified-shortcutting-paper-reading/)
+- **📖 延伸精读**：[评测可靠性双警报精读](https://inkeast.github.io/MessageDaily/posts/2026-09-10-swebench-pro-verified-shortcutting-paper-reading/)
 
 #### 1.9 AgentLeak：技能执行鸿沟本身就是泄漏面 ⭐ 主推
 
@@ -132,7 +132,7 @@ summary: "9月9日：NeoHorse-1 把路由 harness 变成递归自改进的数据
   - **为何优于 baseline**：Trace2Skill 从受害者轨迹做泛化总结给的是通识；AgentLeak 从攻击者自身失败做定向修补给的是"缺什么补什么"——差距本身是免费的对照实验。
 - **团队背景**：西安交通大学 + INRIA + University of Warwick（高校联盟）。
 - **相关链接**：[📄 点击阅读论文原文](https://arxiv.org/abs/2609.07131)
-- **📖 延伸精读**：[AgentLeak 精读：隐形资产的泄漏面恰是实现差异](/posts/2026-09-10-agentleak-capability-cloning-paper-reading/)
+- **📖 延伸精读**：[AgentLeak 精读：隐形资产的泄漏面恰是实现差异](https://inkeast.github.io/MessageDaily/posts/2026-09-10-agentleak-capability-cloning-paper-reading/)
 
 #### 1.10 CapScope：不让模型识别恶意文本，让它"被骗也无权执行" ⭐ 主推
 
@@ -144,7 +144,7 @@ summary: "9月9日：NeoHorse-1 把路由 harness 变成递归自改进的数据
   - **为何优于 baseline**：通用白名单挡不住"用任务需要的权限干任务外的事"（46≈47）；共享权限池是任务级策略的死穴；主体级隔离+上下文外存储让注入文本无法自授权。
 - **团队背景**：北京大学高可信软件技术教育部重点实验室（程序语言与安全的形式方法传统）。
 - **相关链接**：[📄 点击阅读论文原文](https://arxiv.org/abs/2609.08371)
-- **📖 延伸精读**：[CapScope 精读：四十年的能力安全理论找到了新宿主](/posts/2026-09-10-capscope-capability-scoped-harness-paper-reading/)
+- **📖 延伸精读**：[CapScope 精读：四十年的能力安全理论找到了新宿主](https://inkeast.github.io/MessageDaily/posts/2026-09-10-capscope-capability-scoped-harness-paper-reading/)
 
 #### 1.11 MOLE：AI Agent 内部威胁检测基准 ⭐ 主推
 
@@ -156,7 +156,7 @@ summary: "9月9日：NeoHorse-1 把路由 harness 变成递归自改进的数据
   - **为何重要**：把 Agent 安全研究从攻击侧翻转到防御侧——预算、可观察性成为一等评测变量；"语义监控值多少钱"首次有了可测量的答案。
 - **团队背景**：Carnegie Mellon University（机器学习系），代码数据全开源。
 - **相关链接**：[📄 点击阅读论文原文](https://arxiv.org/abs/2609.06966)；[💻 代码仓库](https://github.com/aashiqmuhamed/mole)
-- **📖 延伸精读**：[MOLE 精读：防御者的问题结构形式化成基准维度](/posts/2026-09-10-mole-agent-insider-threats-paper-reading/)
+- **📖 延伸精读**：[MOLE 精读：防御者的问题结构形式化成基准维度](https://inkeast.github.io/MessageDaily/posts/2026-09-10-mole-agent-insider-threats-paper-reading/)
 
 #### 1.12 生产环境 LLM 交易 Agent 六个月实录 ⭐ 主推
 
@@ -168,15 +168,15 @@ summary: "9月9日：NeoHorse-1 把路由 harness 变成递归自改进的数据
   - **为何重要**：排行榜评测只测 P&L 噪声；本文明确定位行为的决定结构——改行为先改界面（运营层），策略文本几乎无实权；诚实 null result 与撤回制度是稀缺的研究可信度基建。
 - **团队背景**：DX Research Group（独立研究实验室，自有生产系统）。
 - **相关链接**：[📄 点击阅读论文原文](https://arxiv.org/abs/2609.05663)
-- **📖 延伸精读**：[生产交易 Agent 实录精读：先建记录，再建理论](/posts/2026-09-10-llm-trading-agents-production-record-paper-reading/)
+- **📖 延伸精读**：[生产交易 Agent 实录精读：先建记录，再建理论](https://inkeast.github.io/MessageDaily/posts/2026-09-10-llm-trading-agents-production-record-paper-reading/)
 
 #### 1.13 今日其他值得关注（速览）
 
 以下论文已全文阅读并通过四件套标准评估，受篇幅所限以速览呈现：
 
-- **[Gander（Omni Interaction Agent Technical Report）](https://arxiv.org/abs/2609.08977)**（腾讯混元×浙大×上交×港中文×NTU，122 赞）：小脑-大脑协作统一全双工交互与 Agent 执行；Full-Duplex-Bench v3 话轮时机 100% 全场最佳、过早打断仅 8.0%（GPT-Realtime 13.5%）；模型代码数据全开源。→ [📖 精读](/posts/2026-09-10-gander-omni-interaction-agent-paper-reading/)
+- **[Gander（Omni Interaction Agent Technical Report）](https://arxiv.org/abs/2609.08977)**（腾讯混元×浙大×上交×港中文×NTU，122 赞）：小脑-大脑协作统一全双工交互与 Agent 执行；Full-Duplex-Bench v3 话轮时机 100% 全场最佳、过早打断仅 8.0%（GPT-Realtime 13.5%）；模型代码数据全开源。→ [📖 精读](https://inkeast.github.io/MessageDaily/posts/2026-09-10-gander-omni-interaction-agent-paper-reading/)
 - **[AuK Technical Report](https://arxiv.org/abs/2609.08936)**（183 赞）：开源语音生成+编辑统一基础模型，30.3 亿指令-音频实例/195 万小时监督；MLLM 语义条件+联合 VAE+hybrid rectified-flow Transformer；AuK-Flash 4 步推理无 CFG、4.5× 加速；Seed-TTS-Eval WER 领先（zh-hard 4.71）。
-- **[Experience Funnel](https://arxiv.org/abs/2609.08919)**（华为×港理工×人大）：文本状态（快）与参数策略（慢）交替环——轨迹先蒸馏为状态快速适配，跨状态修订仍稳定有效的行为经 transition-aware distillation 固化入权重，内化后状态退役。一致超越 state-only 与 policy-only 两路线。→ [📖 精读](/posts/2026-09-10-experience-funnel-state-policy-loop-paper-reading/)
+- **[Experience Funnel](https://arxiv.org/abs/2609.08919)**（华为×港理工×人大）：文本状态（快）与参数策略（慢）交替环——轨迹先蒸馏为状态快速适配，跨状态修订仍稳定有效的行为经 transition-aware distillation 固化入权重，内化后状态退役。一致超越 state-only 与 policy-only 两路线。→ [📖 精读](https://inkeast.github.io/MessageDaily/posts/2026-09-10-experience-funnel-state-policy-loop-paper-reading/)
 - **[Environments as Scaffold](https://arxiv.org/abs/2609.08404)**（复旦×CASIA）：奖励稀疏的范式转换——从 Agent 侧 SFT 预热转向环境侧适配（FEEs）；早期动作引导/后期观测富化；SciWorld+BFCL×3 RL 算法平均 +2.82%，反馈被内化进权重而非推理期先验。
 - **[FrogNano](https://arxiv.org/abs/2609.07925)**（Microsoft Research Montréal）：4B 编码 Agent 纯 RL——TaskPilot 在线合成"可学习边缘"任务迭代 5 轮，SWE-bench Verified 43.0%→**61.5%**；同预算真实数据仅 48.0%；与 6-8× 大模型竞争。与产业界"小模型 Agent"叙事直接呼应。
 - **[Scanning the Harness](https://arxiv.org/abs/2609.07360)**（Red Hat×本古里安大学）：3171 仓库的 Agent 配置供应链审计——**16.0% 的 setup 带安全缺陷**：9.8% MCP server 未锁版本、3.1% 预批准任意命令执行（Bash(python:*)）、3.8% skill 携带 shell 预批准。

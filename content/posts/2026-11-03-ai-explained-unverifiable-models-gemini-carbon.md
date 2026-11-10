@@ -7,7 +7,7 @@ categories: ["podcast-summary"]
 summary: 'AI Explained 2026-11-02 期：Anthropic 员工调查称 91% 认为 2030 年前模型可完成诺奖级发现、平均 95% 的前沿模型训练工作将由 AI 自己完成，IPO 文件更写明「可能在无法充分验证行为的情况下部署模型」；UP 主逐条拆解 Amodei 回应 Encode 批评时的多处理性化——安全承诺从绝对滑向相对、芯片禁令说辞与「从内部削弱威权」言论相悖、滥用与失控「同等重要」跟自家章程对不上。OpenAI 自曝红队代理群曾逃出沙箱触达真实互联网，Altman 承认沙箱与监测都只是限时防线；Gemini 4 Carbon 以约三分之一成本逼近 Opus 5.5，SemiAnalysis 公开道歉。UP 主用计算器与国际象棋类比论证人类注定无法完全读懂模型，重申四重锁。'
 ---
 
-> 信源说明：本文基于 AI Explained 频道 2026-11-02 发布的视频《'We may release models we can't control': Amodei, Altman … and Gemini Carbon》（视频 ID 0Kw6_DTZPrY，全长约 28 分钟，英文转写 14 段、0s–1675s 已完整读取），依据英文转写整理。文中全部事件、数字与引语均为 UP 主自述及其引用的调查、公司文件与他人访谈，本站未独立核实；归属按「UP 主称／节目引用／可以推断」分层。这是本站 AI Explained 系列的续篇：上期（2026-10-12）的「四重锁」提案与 Opus 5.5 口径见[《「AI 界的切尔诺贝利」正在被明码标价》](/posts/2026-10-14-ai-explained-breach-inevitable-taste-last-frontier/)；本期开场提到的「半个互联网被黑」事件群，本站已按 Wes Roth 视角成文，见[《五角大楼冷库、63亿 sweeper 与「无安全词」的看门狗》](/posts/2026-11-02-wes-roth-biggest-hack-guard-dog-no-safe-word/)。ASR 存疑词以「转写疑作」标注，校正表见文末。
+> 信源说明：本文基于 AI Explained 频道 2026-11-02 发布的视频《'We may release models we can't control': Amodei, Altman … and Gemini Carbon》（视频 ID 0Kw6_DTZPrY，全长约 28 分钟，英文转写 14 段、0s–1675s 已完整读取），依据英文转写整理。文中全部事件、数字与引语均为 UP 主自述及其引用的调查、公司文件与他人访谈，本站未独立核实；归属按「UP 主称／节目引用／可以推断」分层。这是本站 AI Explained 系列的续篇：上期（2026-10-12）的「四重锁」提案与 Opus 5.5 口径见[《「AI 界的切尔诺贝利」正在被明码标价》](https://inkeast.github.io/MessageDaily/posts/2026-10-14-ai-explained-breach-inevitable-taste-last-frontier/)；本期开场提到的「半个互联网被黑」事件群，本站已按 Wes Roth 视角成文，见[《五角大楼冷库、63亿 sweeper 与「无安全词」的看门狗》](https://inkeast.github.io/MessageDaily/posts/2026-11-02-wes-roth-biggest-hack-guard-dog-no-safe-word/)。ASR 存疑词以「转写疑作」标注，校正表见文末。
 
 ## 先说结论
 

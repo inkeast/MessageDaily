@@ -7,7 +7,7 @@ categories: ["podcast-summary"]
 summary: 'Two Minute Papers 主理人 Károly Zsolnai-Fehér 用猫、狗、机器人的三行逻辑题在三分钟内讲清 3-SAT 与指数时间假设（ETH）：三十年来被视为计算世界「物理定律」的这堵墙，如今被 OpenAI 的一篇论文声称推倒——为 3-SAT 给出亚指数上界，且论文不只给证明、还给出算法本身并能精确数出解的个数。Károly 的态度罕见地重：「我原以为这不会发生在我的有生之年。」他同时给出两条清醒限定：专家评审尚未百分之百完成；这不是 P versus NP 被解决。送药路线、频率分配、传感器布点、航天器装载为何与猫狗机器人题同构，看 Karp 归约一节。'
 ---
 
-> 信源说明：本文基于 Two Minute Papers 频道视频《OpenAI Claims It Just Did The Impossible》（视频 ID CWdTBLsbaQs，发布于 2026-10-30，全长约 7.4 分钟，英文转写 4 段覆盖 0–441 秒，已完整读取）整理，属本季短资讯体裁。ETH 被证伪事件的完整背景（OpenAI 的「护送」署名机制、ETH 提出者 Impagliazzo 与 Paturi 的角色、对密码学的影响、反方 Viola 的「我相信 P=NP」）本博已在此前详述，见[《「指数时间假设」被 AI 证伪之后》](/posts/2026-10-28-wes-roth-openai-eth-disproof/)（Wes Roth 同主题视频，早于本期三天）；Károly 本人此前对 OpenAI 722 篇数学论文的报道（含三篇撤回的后记）见[《OpenAI 的 722 篇数学论文里有什么》](/posts/2026-10-14-two-minute-papers-openai-722-math-papers-proofs/)。本文只展开本期独有内容：Károly 的外行友好讲解与两条限定。全部为节目陈述，未经独立核实；ASR 疑似错词以「转写疑作」标注，文末附校正表与完整转写原文。
+> 信源说明：本文基于 Two Minute Papers 频道视频《OpenAI Claims It Just Did The Impossible》（视频 ID CWdTBLsbaQs，发布于 2026-10-30，全长约 7.4 分钟，英文转写 4 段覆盖 0–441 秒，已完整读取）整理，属本季短资讯体裁。ETH 被证伪事件的完整背景（OpenAI 的「护送」署名机制、ETH 提出者 Impagliazzo 与 Paturi 的角色、对密码学的影响、反方 Viola 的「我相信 P=NP」）本博已在此前详述，见[《「指数时间假设」被 AI 证伪之后》](https://inkeast.github.io/MessageDaily/posts/2026-10-28-wes-roth-openai-eth-disproof/)（Wes Roth 同主题视频，早于本期三天）；Károly 本人此前对 OpenAI 722 篇数学论文的报道（含三篇撤回的后记）见[《OpenAI 的 722 篇数学论文里有什么》](https://inkeast.github.io/MessageDaily/posts/2026-10-14-two-minute-papers-openai-722-math-papers-proofs/)。本文只展开本期独有内容：Károly 的外行友好讲解与两条限定。全部为节目陈述，未经独立核实；ASR 疑似错词以「转写疑作」标注，文末附校正表与完整转写原文。
 
 ## 先说结论
 

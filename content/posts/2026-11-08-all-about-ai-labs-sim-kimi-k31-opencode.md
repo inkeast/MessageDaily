@@ -7,7 +7,7 @@ categories: ["podcast-summary"]
 summary: 'All About AI 频道主用 Kimi K3.1 Pro（Moonshot AI）经 OpenCode 从零打造并持续扩建模拟经营游戏 AI Labs Sim：车库起步冲 10GW、与虚构竞对 Vanta Labs 竞速 frontier run；闲置算力按分钟出租（收入-电费、价格全天波动）、每个算力时代解锁一个 AI agent 席位、agent 自己写 playbook、真 Python 优化器进 Git 仓库跑隐藏测试。工作流=语音口述→模型整理 prompt→P1-P2 分期路线图→夜间循环整批实现。他明言 Opus 同样擅长但定价让他选 Kimi；游戏机制清单（weight theft、benchmark gaming、出口管制、废热出售）本身就是 AI 行业热词图鉴，「为自己造游戏」的解放感是本期核心。'
 ---
 
-> 信源说明：本文基于 All About AI 频道视频（视频 ID kzsXy3YxcI0，全长约 20.7 分钟，英文转写 11 段、0s–1244s 已完整读取）整理。频道主即[本博 10-06 用 Opus 5.5 造《Day Trader Tycoon》](/posts/2026-10-06-opus-day-trader-tycoon/)与[10-13 Sift Intelligence 预测股市](/posts/2026-10-13-all-about-ai-sift-intelligence-stock-prediction/)的同一位创作者，本期能力演示与其「造给自己玩的游戏」系列一脉相承。文中全部功能描述、数字与判断均为频道主口播自述，游戏未公开、无第三方验证；归属按「频道主称」标注；ASR 存疑词以「转写疑作」标注。
+> 信源说明：本文基于 All About AI 频道视频（视频 ID kzsXy3YxcI0，全长约 20.7 分钟，英文转写 11 段、0s–1244s 已完整读取）整理。频道主即[本博 10-06 用 Opus 5.5 造《Day Trader Tycoon》](https://inkeast.github.io/MessageDaily/posts/2026-10-06-opus-day-trader-tycoon/)与[10-13 Sift Intelligence 预测股市](https://inkeast.github.io/MessageDaily/posts/2026-10-13-all-about-ai-sift-intelligence-stock-prediction/)的同一位创作者，本期能力演示与其「造给自己玩的游戏」系列一脉相承。文中全部功能描述、数字与判断均为频道主口播自述，游戏未公开、无第三方验证；归属按「频道主称」标注；ASR 存疑词以「转写疑作」标注。
 
 ## 先说结论
 

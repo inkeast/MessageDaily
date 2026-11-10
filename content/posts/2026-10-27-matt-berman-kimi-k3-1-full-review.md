@@ -7,7 +7,7 @@ categories: ["podcast-summary"]
 summary: 'Matthew Berman 在 Kimi K3.1 发布日直播（本博 10-26 篇）之后交出正式评测：官方口径 2.8T 总参/104B 激活/百万上下文，TerminalBench 65.7 距 Opus 5.5 不到 1 分，Artificial Analysis 指数 55 开源第一，"每智能任务成本"2.11 美元约为 Fable 5.1 的四分之一；但他亲手跑的魔方、绳结、Fall Guys 克隆等测试结论是"很好、但离 Opus 5.5 与 GPT-6.1 Sol 差半档"，叠加当场抓到模型编造基准占位数字，他怀疑其"至少部分基于闭源模型"。文章拆出三个可迁移信号：每任务成本战、3D 能力成为新分水岭、榜单信任折价。'
 ---
 
-> 信源说明：本文基于 Matthew Berman 频道视频《They actually did it... (Kimi K3.1)》（视频 ID 5sEVvu4mQ8g，发布于 2026-10-24，全长约 25.8 分钟，转写末段 1550 秒）英文转写整理，是其发布日直播实测（本博[《Kimi K3.1发布日实测》](/posts/2026-10-26-matt-berman-kimi-k3-1-live-vibe-check/)）之后的正式评测篇。文中全部数字与判断为 Berman 自述，或其转述的 Kimi 官方博客、Artificial Analysis 图表，本文未独立核实；归属按「Berman 认为／节目转述官方」分层；ASR 存疑词以「转写疑作」标注（如 Kimmy=Kimi、GPT 6.1 Soul=Sol、Muse Wonderful 疑作 Muse Wonder）。赞助口播（CodeRabbit）按惯例略过。
+> 信源说明：本文基于 Matthew Berman 频道视频《They actually did it... (Kimi K3.1)》（视频 ID 5sEVvu4mQ8g，发布于 2026-10-24，全长约 25.8 分钟，转写末段 1550 秒）英文转写整理，是其发布日直播实测（本博[《Kimi K3.1发布日实测》](https://inkeast.github.io/MessageDaily/posts/2026-10-26-matt-berman-kimi-k3-1-live-vibe-check/)）之后的正式评测篇。文中全部数字与判断为 Berman 自述，或其转述的 Kimi 官方博客、Artificial Analysis 图表，本文未独立核实；归属按「Berman 认为／节目转述官方」分层；ASR 存疑词以「转写疑作」标注（如 Kimmy=Kimi、GPT 6.1 Soul=Sol、Muse Wonderful 疑作 Muse Wonder）。赞助口播（CodeRabbit）按惯例略过。
 
 ## 先说结论
 

@@ -7,7 +7,7 @@ categories: ["podcast-summary"]
 summary: 'The AI Advantage 主持人 Igor 的周五周更（承接本博 10-31 期）：ChatGPT 新增多账户切换；Image 2.6 让 GIF 生成进了对话流（52 秒出邮件+配图，Gmail 连接器只能当附件；人脸会「换人」、解法是只动画局部）；dots 更新了 iOS 通知直回、分享菜单、侧键唤起与 Windows 端 MCP 工作流，短信聊天成了高粘性入口。两个实操配方：日历管理靠规则叠加（recharge blocks）、黑五比价每小时扫描（商品+价格/地区护栏，出结果即通知）。他还预告 ChatGPT 网络安全模型与 Claude 个人财务（连银行账户），并给出其隐私立场：Plaid 安全、你早就在把数据交给信用卡公司。'
 ---
 
-> 信源说明：本文基于 The AI Advantage 频道视频（视频 ID 5LkRDoGVook，全长约 11.5 分钟，英文转写 6 段、0s–692s 已完整读取）整理，主持人为频道主 Igor（自述于美国的新家庭工作室录制）。本频道为其周五消费级 AI 周更系列，[本博 10-31 期](/posts/2026-10-31-ai-advantage-friday-dots-connectors/)已介绍 dots、Grokbot 与连接器背景，本文不重复展开。文中全部功能描述、数字与判断均为 Igor 口播自述，未独立核实；ASR 存疑词以「转写疑作」标注。
+> 信源说明：本文基于 The AI Advantage 频道视频（视频 ID 5LkRDoGVook，全长约 11.5 分钟，英文转写 6 段、0s–692s 已完整读取）整理，主持人为频道主 Igor（自述于美国的新家庭工作室录制）。本频道为其周五消费级 AI 周更系列，[本博 10-31 期](https://inkeast.github.io/MessageDaily/posts/2026-10-31-ai-advantage-friday-dots-connectors/)已介绍 dots、Grokbot 与连接器背景，本文不重复展开。文中全部功能描述、数字与判断均为 Igor 口播自述，未独立核实；ASR 存疑词以「转写疑作」标注。
 
 ## 先说结论
 

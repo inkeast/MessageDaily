@@ -7,7 +7,7 @@ categories: ["podcast-summary"]
 summary: 'Wes Roth 公开他打磨已久的项目 Blood Bench：受 Blood Bowl 启发、让前沿大模型当教练带队打完整联赛的基准游戏——游戏本身公开资料极少，模型必须从零学规则、理解骰子概率与站位、跨赛季养球员（会死）。分工是「导演式建造」：Wes 只做世界观与规则设计，GPT-6 Astra 写全部引擎约 10 小时，Claude 被激将后给出 Metal Slug 风像素美术，测试由 AI 跑数千场完成；上线交给 Codex 连 Hostinger VPS（13 分 30 秒），再让 Codex、Claude Code、Grok Build、Antigravity（Gemini 4 Argon）四家模型同场联赛——目前 Astra 遥遥领先。他也交了学费：错误做法烧掉数周 Codex 配额；最大教训是「理解不能外包」。含 Hostinger 赞助段与 PHP 漏洞事件背景。'
 ---
 
-> 信源说明：本文基于 Wes Roth 频道视频《AI builds EVERYTHING...》（视频 ID 6-sMVePCKS4，发布于 2026-10-28，全长约 33 分钟，转写共 17 段、每段 120 秒，覆盖 0–1966 秒）英文转写整理。文中全部做法、时长与数字均为 Wes Roth 自述，未独立核实；Hostinger 为本期赞助商（600–1080 秒段为赞助段，本文如实标注），其推荐口径不代表独立评价；PHP 漏洞事件背景另见本博[《密码是 4：信任链烂在制度，不在数学》](/posts/2026-10-26-wes-roth-php-flaws-password-four/)与[《20 岁的 PHP 漏洞，与一场 API 密钥大挪移》](/posts/2026-10-26-matt-wolfe-duet-security-agent-blocking/)。归属按「Wes Roth 称／可以推断」分层；ASR 存疑词以「转写疑作」标注。
+> 信源说明：本文基于 Wes Roth 频道视频《AI builds EVERYTHING...》（视频 ID 6-sMVePCKS4，发布于 2026-10-28，全长约 33 分钟，转写共 17 段、每段 120 秒，覆盖 0–1966 秒）英文转写整理。文中全部做法、时长与数字均为 Wes Roth 自述，未独立核实；Hostinger 为本期赞助商（600–1080 秒段为赞助段，本文如实标注），其推荐口径不代表独立评价；PHP 漏洞事件背景另见本博[《密码是 4：信任链烂在制度，不在数学》](https://inkeast.github.io/MessageDaily/posts/2026-10-26-wes-roth-php-flaws-password-four/)与[《20 岁的 PHP 漏洞，与一场 API 密钥大挪移》](https://inkeast.github.io/MessageDaily/posts/2026-10-26-matt-wolfe-duet-security-agent-blocking/)。归属按「Wes Roth 称／可以推断」分层；ASR 存疑词以「转写疑作」标注。
 
 ## 先说结论
 

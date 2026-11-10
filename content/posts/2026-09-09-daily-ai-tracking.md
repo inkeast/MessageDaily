@@ -31,7 +31,7 @@ summary: "9月8日AI领域三大主线：MBZUAI×Cerebras 等产学研联合推�
   - **为何优于 baseline**：投机解码的收益随 batch 增大被验证开销吃掉、扩散 LLM 的有损加速在大 batch 消失——两者都输在"起草与验证分布的耦合度"和"额外算力开销"。Uno 用 LoRA 把草稿分布锚定在验证分布附近（接受率高、TV 损失直接优化接受前缀长度），0.35B 额外参数 + 单 KV cache 让额外开销极小，因此加速能在全 batch 区间保持且严格无损；AR 权重全程冻结，质量天花板就是原模型本身。
 - **团队背景**：MBZUAI 基础模型研究院 + **Cerebras Systems** + UIUC + Cornell Tech + Harvard（典型企业+高校强强联合：Cerebras 提供系统工程与算力视角，高校团队主导算法，Eric Xing、Joel Hestness、Shane Bergsma 等在列）。
 - **相关链接**：[📄 点击阅读论文原文](https://arxiv.org/abs/2609.04010)；[💻 代码仓库](https://s-sahoo.com/uno)
-- 📚 [深入阅读：独立精读文章](/posts/2026-09-09-uno-lossless-diffusion-speedup-paper-reading/)
+- 📚 [深入阅读：独立精读文章](https://inkeast.github.io/MessageDaily/posts/2026-09-09-uno-lossless-diffusion-speedup-paper-reading/)
 
 #### 1.2 **FlowBalance: Verifier-Grounded Self-Improvement from On-Policy Reasoning Experience / 基于验证器锚定的在策略经验自改进**
 - **核心亮点**：
@@ -41,7 +41,7 @@ summary: "9月8日AI领域三大主线：MBZUAI×Cerebras 等产学研联合推�
   - **为何优于 baseline**：GRPO 只用稀疏终点奖励、OPSD 直接模仿特权教师会压缩推理长度、RLSD 把密集信号直接加进 RL 目标无法阻止错误自信自我强化——FlowBalance 的机制差异在于把更新对象从"局部信号"换成"显式归一化分布"，验证器通过符号门控拥有对目标奖励的单调控制权（Prop 3），符号翻转把错误引导从自强化变成精确的反向修正（Prop 4 给出 exp(2β_G·G_H/τ) 的概率比修正因子）。
 - **团队背景**：**腾讯 HY LLM Frontier × 宾夕法尼亚大学（Wharton）**（企业+高校：企业提供工业训练管线，UPenn 团队主导分布匹配理论）。
 - **相关链接**：[📄 点击阅读论文原文](https://arxiv.org/abs/2609.03241)；[💻 代码仓库](https://github.com/alexhuang13/FlowBalance)
-- 📚 [深入阅读：独立精读文章](/posts/2026-09-09-flowbalance-verifier-grounded-self-improvement-paper-reading/)
+- 📚 [深入阅读：独立精读文章](https://inkeast.github.io/MessageDaily/posts/2026-09-09-flowbalance-verifier-grounded-self-improvement-paper-reading/)
 
 #### 1.3 **EmbodiedSkills: A Unified Framework for Orchestrating, Training, and Deploying VLA Agents / VLA 智能体的编排-训练-部署统一框架**
 - **核心亮点**：
@@ -51,7 +51,7 @@ summary: "9月8日AI领域三大主线：MBZUAI×Cerebras 等产学研联合推�
   - **为何优于 baseline**：ACT/DP/RDT/π0/X-VLA/π0.5 等全部是"一次性动作预测"，没有执行前合法性校验与执行后结果验证；EmbodiedSkills 把开放式生成变成提案-验证循环——幻觉操作在运行时被拦截，接口固定让低层策略可以单独适配（task-adapted π0.5 贡献 86.20% 的执行底座）而不动 agent 环路，结构化轨迹又把编排经验变成新的监督信号。
 - **团队背景**：浙江大学 + 南京航空航天大学 + Cornell + NUS + Universal Ubiquitous AI + **杭州云深处科技（DEEP Robotics）**（高校+企业：机器人公司提供部署与硬件场景）。
 - **相关链接**：[📄 点击阅读论文原文](https://arxiv.org/abs/2609.01281)
-- 📚 [深入阅读：独立精读文章](/posts/2026-09-09-embodiedskills-vla-agent-framework-paper-reading/)
+- 📚 [深入阅读：独立精读文章](https://inkeast.github.io/MessageDaily/posts/2026-09-09-embodiedskills-vla-agent-framework-paper-reading/)
 
 #### 1.4 **Verify Before You Distill: Prompt-Level Teacher Gating for On-Policy Distillation（TGOPD） / 蒸馏前先验证：提示级教师门控**
 - **核心亮点**：
@@ -61,7 +61,7 @@ summary: "9月8日AI领域三大主线：MBZUAI×Cerebras 等产学研联合推�
   - **为何优于 baseline**：Vanilla OPD 无差别采纳教师信号；TrOPD/RG-OPD 用温度或奖励调整信号强度但不做"是否采纳"的硬路由；TGOPD 把"教师是否可信"变成可观测、可阈值化的统计量，密集信号与稀疏验证信号按提示各就其位——门控关闭信号本身就贡献了主要收益（消融证实）。
 - **团队背景**：AllSpark Team（企业研究团队；本团队前作 Iris 同样上榜 HF）。
 - **相关链接**：[📄 点击阅读论文原文](https://arxiv.org/abs/2609.02998)
-- 📚 [深入阅读：独立精读文章](/posts/2026-09-09-tgopd-teacher-gating-opd-paper-reading/)
+- 📚 [深入阅读：独立精读文章](https://inkeast.github.io/MessageDaily/posts/2026-09-09-tgopd-teacher-gating-opd-paper-reading/)
 
 #### 1.5 **Safety for Whom? Boundary-Aware Self-Distillation for Controlled LLM Safety Refusal / 安全为了谁：边界感知自蒸馏**
 - **核心亮点**：
@@ -71,7 +71,7 @@ summary: "9月8日AI领域三大主线：MBZUAI×Cerebras 等产学研联合推�
   - **为何优于 baseline**：话题级拒绝把边界划在错误粒度——模型学到的是"回避话题"而非"识别危害"；边界对数据显式展示同一话题内有害/良性的最小对比，教模型在语义特征而非话题特征上切分；自生成+验证避免外部数据风格引入的保守偏置；补偿数据防止分布外雪崩。核心结论：**数据成分（而非训练技巧）决定安全-可用权衡**。
 - **团队背景**：Multiverse Computing（企业，西班牙量子-AI 公司）。
 - **相关链接**：[📄 点击阅读论文原文](https://arxiv.org/abs/2609.04482)
-- 📚 [深入阅读：独立精读文章](/posts/2026-09-09-boundary-aware-safety-refusal-paper-reading/)
+- 📚 [深入阅读：独立精读文章](https://inkeast.github.io/MessageDaily/posts/2026-09-09-boundary-aware-safety-refusal-paper-reading/)
 
 #### 1.6 **Privacy Failure in Split-LLM Training: The Returned Gradient Nullifies the Decoys / 分裂学习隐私失效：返回梯度让诱饵失效**
 - **核心亮点**：
@@ -81,7 +81,7 @@ summary: "9月8日AI领域三大主线：MBZUAI×Cerebras 等产学研联合推�
   - **为何优于 baseline（审计价值）**：以往 split-learning 隐私评估只看前向信道且无正控制校准——仪器本身静默失效；本工作的"注入正控 + 阴性对照 + 先验阈值"三件套把审计从"声明性检查"变成"可证伪实验"，其方法学可移植到任何多节点训练系统。
 - **团队背景**：Georgios Politis、Evangelos Pappas（独立研究者）。
 - **相关链接**：[📄 点击阅读论文原文](https://arxiv.org/abs/2609.04382)
-- 📚 [深入阅读：独立精读文章](/posts/2026-09-09-split-llm-gradient-privacy-failure-paper-reading/)
+- 📚 [深入阅读：独立精读文章](https://inkeast.github.io/MessageDaily/posts/2026-09-09-split-llm-gradient-privacy-failure-paper-reading/)
 
 #### 1.7 **SimpleMemVLA: A Simple but Effective Native-Video Memory for VLA Models / 原生视频记忆的 VLA**
 - **核心亮点**：
@@ -91,7 +91,7 @@ summary: "9月8日AI领域三大主线：MBZUAI×Cerebras 等产学研联合推�
   - **为何优于 baseline**：检索/压缩/循环三族共同的病根是"过早承诺"——在不知道未来决策需要什么时就丢弃信息，提交时刻先于需求时刻必然丢关键证据（真值感知仅 84.1% 说明瓶颈不在感知精度而在信息提交时机）；原生视频上下文把"记什么"推迟到决策时刻由注意力自行选择，且接口与 VLM 预训练分布完全契合。
 - **团队背景**：华中科技大学 + 中关村学院 + 清华大学 + **面壁智能（Modelbest）** + 北京大学 + 人大 + BAAI（高校+企业合作）。
 - **相关链接**：[📄 点击阅读论文原文](https://arxiv.org/abs/2609.05533)；[💻 代码仓库](https://github.com/wadeKeith/SimpleMemVLA)
-- 📚 [深入阅读：独立精读文章](/posts/2026-09-09-simplememvla-native-video-memory-paper-reading/)
+- 📚 [深入阅读：独立精读文章](https://inkeast.github.io/MessageDaily/posts/2026-09-09-simplememvla-native-video-memory-paper-reading/)
 
 #### 1.8 其他值得关注的论文速览
 - **ENEAS（2609.03756，SperidLabs）**：文本提示实例跟踪+语义发现，"高速嵌入匹配+条件式 VLM 仲裁"过滤雕像/画作等本体论误判；SAM 3 官方评测器下 HOTA 26.70 vs 26.51、TETA 17.86 vs 16.65，定性 Pop-Art/Statue 测试消除 SAM 3 大面积误检。→ 企业技术报告，语义严谨性思路可借鉴。[📄 原文](https://arxiv.org/abs/2609.03756)
@@ -166,10 +166,10 @@ summary: "9月8日AI领域三大主线：MBZUAI×Cerebras 等产学研联合推�
 
 ## 附：本期精读文章清单
 
-1. [Uno：扩散增强 LLM 的无损 3× 加速](/posts/2026-09-09-uno-lossless-diffusion-speedup-paper-reading/)
-2. [FlowBalance：验证器锚定的自改进分布学习](/posts/2026-09-09-flowbalance-verifier-grounded-self-improvement-paper-reading/)
-3. [EmbodiedSkills：VLA 智能体的技能编排统一框架](/posts/2026-09-09-embodiedskills-vla-agent-framework-paper-reading/)
-4. [TGOPD：在策略蒸馏的提示级教师门控](/posts/2026-09-09-tgopd-teacher-gating-opd-paper-reading/)
-5. [Safety for Whom：窄边界安全拒绝的精确控制](/posts/2026-09-09-boundary-aware-safety-refusal-paper-reading/)
-6. [Split-LLM 隐私失效：返回梯度让诱饵归零](/posts/2026-09-09-split-llm-gradient-privacy-failure-paper-reading/)
-7. [SimpleMemVLA：去掉记忆模块的具身记忆新范式](/posts/2026-09-09-simplememvla-native-video-memory-paper-reading/)
+1. [Uno：扩散增强 LLM 的无损 3× 加速](https://inkeast.github.io/MessageDaily/posts/2026-09-09-uno-lossless-diffusion-speedup-paper-reading/)
+2. [FlowBalance：验证器锚定的自改进分布学习](https://inkeast.github.io/MessageDaily/posts/2026-09-09-flowbalance-verifier-grounded-self-improvement-paper-reading/)
+3. [EmbodiedSkills：VLA 智能体的技能编排统一框架](https://inkeast.github.io/MessageDaily/posts/2026-09-09-embodiedskills-vla-agent-framework-paper-reading/)
+4. [TGOPD：在策略蒸馏的提示级教师门控](https://inkeast.github.io/MessageDaily/posts/2026-09-09-tgopd-teacher-gating-opd-paper-reading/)
+5. [Safety for Whom：窄边界安全拒绝的精确控制](https://inkeast.github.io/MessageDaily/posts/2026-09-09-boundary-aware-safety-refusal-paper-reading/)
+6. [Split-LLM 隐私失效：返回梯度让诱饵归零](https://inkeast.github.io/MessageDaily/posts/2026-09-09-split-llm-gradient-privacy-failure-paper-reading/)
+7. [SimpleMemVLA：去掉记忆模块的具身记忆新范式](https://inkeast.github.io/MessageDaily/posts/2026-09-09-simplememvla-native-video-memory-paper-reading/)

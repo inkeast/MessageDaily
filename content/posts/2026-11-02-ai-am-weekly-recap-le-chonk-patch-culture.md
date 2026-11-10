@@ -7,7 +7,7 @@ categories: ["podcast-summary"]
 summary: 'AI in the AM 10-31 周精选（87 分钟重剪）复盘：主体内容本站已按直播原文成文，本文只收增量——Mistral Large 4 绰号 Le Chonk 与「1e25 是开源实验室成人礼」的说法；Jordan Schneider 判断中国政府迟早不再容忍主动开源；Nathan 提议用前沿实验室过剩算力研究「知识缺口尺寸学」；以及片尾曲 fix it while it is running 点题的一周：三家公司都在「边跑边修」——Mistral 中途补丁救回大训练、Anthropic 漏放数据集后打补丁发布、业务流程漏洞永远补不完。'
 ---
 
-> 信源说明：本文基于 AI in the AM（Cognitive Revolution 频道）2026-10-31 发布的周精选视频（视频 ID MdpamRtlw0Q，全长约 87 分钟，英文转写 44 段、0s–5202s 已完整读取）。周精选是本周一至周五直播的重剪合集，旁白为主持人 Nathan 的克隆语音（节目自述）。主体访谈与新闻本站已按直播原文成文：10-28 场（Kepler Computing、Arena、Union 三位嘉宾＋当周新闻）见[《二十轮对话过半出现失当行为》](/posts/2026-10-30-ai-am-kepler-arena-union-weekly/)，10-30 场（ServiceNow 威胁研究、Mistral、Binance 失窃案）见[《63 亿美元失窃与 5 美分攻击》](/posts/2026-11-01-cognitive-revolution-binance-hack-open-weights-cyber-defense/)。本文不复述已展开的背景，只做三件事：收录重剪版的增量信息、对齐两篇长文与本期的口径差异、附完整转写原文。人名经节目官网与公司官网核实：主持人 Nathan Labenz、Prakash Narayanan；Kepler Computing CEO Debo Olaosebikan；Union 创始人 Samvit Ramadurgam（本站前作转写作 Samvith，自本文起统一为 Samvit）；Arena CEO Anastasios Angelopoulos。全部数字与判断均为主持人或嘉宾口径，本文未做独立核实；ASR 疑似错词以「转写疑作」标注。
+> 信源说明：本文基于 AI in the AM（Cognitive Revolution 频道）2026-10-31 发布的周精选视频（视频 ID MdpamRtlw0Q，全长约 87 分钟，英文转写 44 段、0s–5202s 已完整读取）。周精选是本周一至周五直播的重剪合集，旁白为主持人 Nathan 的克隆语音（节目自述）。主体访谈与新闻本站已按直播原文成文：10-28 场（Kepler Computing、Arena、Union 三位嘉宾＋当周新闻）见[《二十轮对话过半出现失当行为》](https://inkeast.github.io/MessageDaily/posts/2026-10-30-ai-am-kepler-arena-union-weekly/)，10-30 场（ServiceNow 威胁研究、Mistral、Binance 失窃案）见[《63 亿美元失窃与 5 美分攻击》](https://inkeast.github.io/MessageDaily/posts/2026-11-01-cognitive-revolution-binance-hack-open-weights-cyber-defense/)。本文不复述已展开的背景，只做三件事：收录重剪版的增量信息、对齐两篇长文与本期的口径差异、附完整转写原文。人名经节目官网与公司官网核实：主持人 Nathan Labenz、Prakash Narayanan；Kepler Computing CEO Debo Olaosebikan；Union 创始人 Samvit Ramadurgam（本站前作转写作 Samvith，自本文起统一为 Samvit）；Arena CEO Anastasios Angelopoulos。全部数字与判断均为主持人或嘉宾口径，本文未做独立核实；ASR 疑似错词以「转写疑作」标注。
 
 ## 先说结论
 
@@ -15,7 +15,7 @@ summary: 'AI in the AM 10-31 周精选（87 分钟重剪）复盘：主体内容
 
 ## 重剪周精选本身是个信号：内容资产化先于内容质量
 
-先看形态。AI:AM 每天上午直播、周五（本周因故压到周六）出重剪周精选，旁白用 Nathan 的克隆语音（节目自述「narration is my cloned voice」），广告位由 Claude Opus 5.5 自己写脚本、克隆配音、做动画。这正印证了本周嘉宾的判断：当执行力的边际成本趋近于零，「瓶颈不再是执行力，而是把好想法讲清楚」（Samvit 原话，见[前文](/posts/2026-10-30-ai-am-kepler-arena-union-weekly/)）。直播是资产，重剪是资产的第二次变现——这套「一次录制、多形态分发」的做法本身比任何单条内容都更像 agent 时代的媒体业样本。给读者的导览：想看 Arena 对齐指数（首条消息失当率个位数百分比、二十轮对话失当概率过半、OpenAI 全三信号第一、腾讯欺骗性完成率 13%）、私有基准之争、Arena Max 路由器与 Gemini 4 Carbon 空降 Agent Arena 榜单（Opus 5.5 Max 之后、Sonnet 5.5 与 Astra 之前），读 10-30 长文；想看 Binance 63 亿美元失窃、5–10 美分攻破一家公司、Mistral 开放网络能力的正当性论证与 1e25 算力纪律，读 11-01 长文。本期重剪与两场直播无事实出入，仅详略不同。
+先看形态。AI:AM 每天上午直播、周五（本周因故压到周六）出重剪周精选，旁白用 Nathan 的克隆语音（节目自述「narration is my cloned voice」），广告位由 Claude Opus 5.5 自己写脚本、克隆配音、做动画。这正印证了本周嘉宾的判断：当执行力的边际成本趋近于零，「瓶颈不再是执行力，而是把好想法讲清楚」（Samvit 原话，见[前文](https://inkeast.github.io/MessageDaily/posts/2026-10-30-ai-am-kepler-arena-union-weekly/)）。直播是资产，重剪是资产的第二次变现——这套「一次录制、多形态分发」的做法本身比任何单条内容都更像 agent 时代的媒体业样本。给读者的导览：想看 Arena 对齐指数（首条消息失当率个位数百分比、二十轮对话失当概率过半、OpenAI 全三信号第一、腾讯欺骗性完成率 13%）、私有基准之争、Arena Max 路由器与 Gemini 4 Carbon 空降 Agent Arena 榜单（Opus 5.5 Max 之后、Sonnet 5.5 与 Astra 之前），读 10-30 长文；想看 Binance 63 亿美元失窃、5–10 美分攻破一家公司、Mistral 开放网络能力的正当性论证与 1e25 算力纪律，读 11-01 长文。本期重剪与两场直播无事实出入，仅详略不同。
 
 ## Le Chonk 与「成人礼」：开源实验室的算力门槛在移动
 

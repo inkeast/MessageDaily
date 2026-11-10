@@ -7,7 +7,7 @@ categories: ["podcast-summary"]
 summary: 'OpenAI 一篇博文一次性放出多个数学/物理/计算机突破，最重的一个是证明「指数时间假设（ETH）为假」——这个被当作计算世界物理定律三十年、被数百篇论文当作难度地基的假设被推翻，但 OpenAI 总裁 Brockman 同时安抚「P 大概率仍不等于 NP」。Wes Roth 用密码锁、排班表、珠峰与隧道把 P/NP/ETH 讲成人话：证伪 ETH 意味着山上确实有隧道，只是不知道隧道多长。发布机制也变了：OpenAI 不署名，请 ETH 的两位提出者 Impagliazzo 与 Paturi 亲自「护送」这个推翻自己理论的证明。同期还有纯杨-米尔斯存在性证明（千禧奖的一部分）、QCD 与标准模型的严格化、局部平滑与挂谷猜想。反方先知是 2018 年就公开写「我相信 P=NP」的 Northeastern 教授 Emanuele Viola：聪明人宣布「不可能」之后被算法打脸，历史上反复发生。'
 ---
 
-> 信源说明：本文基于 Wes Roth 频道视频《OpenAI just broke physics...》（视频 ID lskEzJ7ixw0，发布于 2026-10-27，全长约 33 分钟，转写共 50 段、每段 120 秒，覆盖 0–1978 秒）英文转写整理，是本博 [《月增十倍的数学工业》](/posts/2026-10-08-openai-722-math-manuscripts-industrial-math/)与[《数学天启之后，密码学会先倒下吗》](/posts/2026-10-10-wes-roth-math-apocalypse-crypto-cryptography/)的后续一集。文中全部事件、数字与引语均为 Wes Roth 自述及其引用的 OpenAI 博文、Scott Aaronson 文字与他人帖文，未独立核实；归属按「Wes Roth 称／他引用者认为／可以推断」分层；ASR 存疑词以「转写疑作」标注。
+> 信源说明：本文基于 Wes Roth 频道视频《OpenAI just broke physics...》（视频 ID lskEzJ7ixw0，发布于 2026-10-27，全长约 33 分钟，转写共 50 段、每段 120 秒，覆盖 0–1978 秒）英文转写整理，是本博 [《月增十倍的数学工业》](https://inkeast.github.io/MessageDaily/posts/2026-10-08-openai-722-math-manuscripts-industrial-math/)与[《数学天启之后，密码学会先倒下吗》](https://inkeast.github.io/MessageDaily/posts/2026-10-10-wes-roth-math-apocalypse-crypto-cryptography/)的后续一集。文中全部事件、数字与引语均为 Wes Roth 自述及其引用的 OpenAI 博文、Scott Aaronson 文字与他人帖文，未独立核实；归属按「Wes Roth 称／他引用者认为／可以推断」分层；ASR 存疑词以「转写疑作」标注。
 
 ## 先说结论
 

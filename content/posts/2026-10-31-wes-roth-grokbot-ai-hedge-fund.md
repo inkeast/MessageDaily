@@ -7,7 +7,7 @@ categories: ["podcast-summary"]
 summary: 'Wes Roth 受 SpaceX 赞助做的 Grokbot 全流程教程：从「创建第一个 bot」到搭出一整张纸面交易研究台——幕僚长（chief of staff）做唯一联络人并向专科 bot 派活，Hard Code 写代码、Clerk 盯 SEC 文件、Mapper 画供应链（AI 芯片/代工/内存/数据中心/电力/云）、Calendar 记财报与联储日程、Bear 当专职怀疑论者并自证「什么能推翻我」、Analyst 出观点、Keeper 管账、Taxman 报税（业余爱好是抱怨加州）、Paper Trader 按研究下单（仅纸面）。可迁移的其实是三件事：把日常工作拆成可交接的工序再逐件自动化；通知只留给幕僚长（信息降噪）；让 bot 全程写工作日志——数据护城河一年后才兑现，「最后一块拼图装上，传送带才整机转动」。'
 ---
 
-> 信源说明：本文基于 Wes Roth 频道视频《my bots just BROKE Wall St...》（视频 ID rY8FuDONHxw，发布于 2026-10-30，全长约 27.6 分钟，英文转写 14 段覆盖 0–1658 秒，已完整读取）整理。**本期为赞助内容**：Wes Roth 明确说明视频由 SpaceX 赞助（他自称无订阅提成，且从 Grokbot 发布首日就在用）；他在片中称 Grokbot 为 SpaceX 产品、SpaceX 已收购 Cursor、并预告 Grokbot 将按请求路由到 Anthropic/Cursor/Grok 等多家模型——以上均为赞助语境下的主播陈述，本文未独立核实，按「Wes Roth 称」归属。全部交易演示为纸面交易（paper trading），主播反复声明不构成任何投资建议。同频道前文：[《Blood Bench 与「导演式建造」范式》](/posts/2026-10-29-wes-roth-blood-bench-ai-builds-everything/)、[《「指数时间假设」被 AI 证伪之后》](/posts/2026-10-28-wes-roth-openai-eth-disproof/)。ASR 疑似错词以「转写疑作」标注，文末附校正表与完整转写原文。
+> 信源说明：本文基于 Wes Roth 频道视频《my bots just BROKE Wall St...》（视频 ID rY8FuDONHxw，发布于 2026-10-30，全长约 27.6 分钟，英文转写 14 段覆盖 0–1658 秒，已完整读取）整理。**本期为赞助内容**：Wes Roth 明确说明视频由 SpaceX 赞助（他自称无订阅提成，且从 Grokbot 发布首日就在用）；他在片中称 Grokbot 为 SpaceX 产品、SpaceX 已收购 Cursor、并预告 Grokbot 将按请求路由到 Anthropic/Cursor/Grok 等多家模型——以上均为赞助语境下的主播陈述，本文未独立核实，按「Wes Roth 称」归属。全部交易演示为纸面交易（paper trading），主播反复声明不构成任何投资建议。同频道前文：[《Blood Bench 与「导演式建造」范式》](https://inkeast.github.io/MessageDaily/posts/2026-10-29-wes-roth-blood-bench-ai-builds-everything/)、[《「指数时间假设」被 AI 证伪之后》](https://inkeast.github.io/MessageDaily/posts/2026-10-28-wes-roth-openai-eth-disproof/)。ASR 疑似错词以「转写疑作」标注，文末附校正表与完整转写原文。
 
 ## 先说结论
 

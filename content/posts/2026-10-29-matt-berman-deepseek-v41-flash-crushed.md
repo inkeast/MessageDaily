@@ -7,7 +7,7 @@ categories: ["podcast-summary"]
 summary: 'Matthew Berman 实测 DeepSeek V4.1 Flash（V4.1-Flash-1017）：机械表 3D 分解图、Fall Guys 克隆、iPhone Duo 建模、137 个 pastry 逐个计数并推算被遮挡部分、6 分 24 秒代理浏览器提取访谈高光切片，质量逼近 Opus 5.5 而价格是其零头；DeepSweep v1.1 质量成本 Pareto 前沿第一名，每任务成本 0.26 美元（对比 Fable 5.1 Max 7.63、Qwen 3.8 Max 5、Kimi K3.1 Pro 2.11），Base10 推理最高 845 tokens/秒、缓存命中每百万仅 1 美分；DGX 上 50 分钟本地造出 Excel 克隆 Gridline，Opus 写提示词、DeepSeek 执行造出 PDF 阅读器 Folio。榜单上 Kimi K3.1 总分更高，但 Berman 个人判断 DeepSeek 好得多——榜单与体感的裂缝再次出现。'
 ---
 
-> 信源说明：本文基于 Matthew Berman 频道视频《Deepseek crushed everyone》（视频 ID DDZ-a6bAn3Y，发布于 2026-10-28，全长约 21 分钟，转写共 11 段、每段 120 秒，覆盖 0–1271 秒）英文转写整理。同模型另见本博同日[《五周、没升版本号、架构不变，DeepSeek V4.1-Flash-1017 却大幅变强》](/posts/2026-10-29-two-minute-papers-deepseek-v41-flash-1017/)（Two Minute Papers 视角，含「自我反馈学习」推断与每任务成本提醒）；对比模型见[《Kimi K3.1 完整评测》](/posts/2026-10-27-matt-berman-kimi-k3-1-full-review/)与[《Kimi K3.1 上手实测》](/posts/2026-10-26-matt-berman-kimi-k3-1-live-vibe-check/)。文中全部测试结果、跑分与价格均为 Berman 自述或其引用的 Artificial Analysis 等面板数字，未独立核实；归属按「Berman 称／他引用／可以推断」分层。视频含 CoreWeave 广告段（240–360 秒段），本文不展开。
+> 信源说明：本文基于 Matthew Berman 频道视频《Deepseek crushed everyone》（视频 ID DDZ-a6bAn3Y，发布于 2026-10-28，全长约 21 分钟，转写共 11 段、每段 120 秒，覆盖 0–1271 秒）英文转写整理。同模型另见本博同日[《五周、没升版本号、架构不变，DeepSeek V4.1-Flash-1017 却大幅变强》](https://inkeast.github.io/MessageDaily/posts/2026-10-29-two-minute-papers-deepseek-v41-flash-1017/)（Two Minute Papers 视角，含「自我反馈学习」推断与每任务成本提醒）；对比模型见[《Kimi K3.1 完整评测》](https://inkeast.github.io/MessageDaily/posts/2026-10-27-matt-berman-kimi-k3-1-full-review/)与[《Kimi K3.1 上手实测》](https://inkeast.github.io/MessageDaily/posts/2026-10-26-matt-berman-kimi-k3-1-live-vibe-check/)。文中全部测试结果、跑分与价格均为 Berman 自述或其引用的 Artificial Analysis 等面板数字，未独立核实；归属按「Berman 称／他引用／可以推断」分层。视频含 CoreWeave 广告段（240–360 秒段），本文不展开。
 
 ## 先说结论
 

@@ -9,7 +9,7 @@ summary: 'Latent Space Science 主持人 Brandon 与 RJ 追访 Leash Bio 的 Ian
 
 ## 先说结论
 
-这是 Latent Space Science 的一期约 16 分钟追访（主持人 Brandon 与 RJ，嘉宾仍是 Leash Bio 的 Ian Quigley），与本季正片背靠背发布。今年早些时候那期节目（本站整理见《[模型学的是化学家的指纹，不是化学：Leash Bio把湿实验室做成RL环境](/posts/2026-10-18-latent-space-leash-bio-del-rl-env/)）里，Quigley 还把「让语言模型在预测量的筛选数据里当药物化学家」称为一个「有趣但不知能干什么」的想法；这次它已经长成完整产出：预印本（节目称与本期间步上线）、数据集、数千条 rollout 转录与环境包一起发布，旗舰任务是药物化学里最日常的构效关系（SAR）优化。本文依据英文自动转写整理，全部时间段（0s–994s，共 9 段）已完整读取；所有结果均为嘉宾与节目口径，预印本细节待其公开发布后核验。
+这是 Latent Space Science 的一期约 16 分钟追访（主持人 Brandon 与 RJ，嘉宾仍是 Leash Bio 的 Ian Quigley），与本季正片背靠背发布。今年早些时候那期节目（本站整理见《[模型学的是化学家的指纹，不是化学：Leash Bio把湿实验室做成RL环境](https://inkeast.github.io/MessageDaily/posts/2026-10-18-latent-space-leash-bio-del-rl-env/)）里，Quigley 还把「让语言模型在预测量的筛选数据里当药物化学家」称为一个「有趣但不知能干什么」的想法；这次它已经长成完整产出：预印本（节目称与本期间步上线）、数据集、数千条 rollout 转录与环境包一起发布，旗舰任务是药物化学里最日常的构效关系（SAR）优化。本文依据英文自动转写整理，全部时间段（0s–994s，共 9 段）已完整读取；所有结果均为嘉宾与节目口径，预印本细节待其公开发布后核验。
 
 ## 环境长什么样：给 agent 一张目录、一百个分子预算
 

@@ -9,7 +9,7 @@ summary: 'Matthew Berman用13分钟宣布一个拐点：模型够好、token够�
 
 ## 先说结论
 
-Matthew Berman 在 11 月 3 日这期 13 分钟的视频（"They did it..."）里给出的判断是：**自造软件的 token 成本已经跌破买软件的价格，消费者自造软件的时代从"能不能"变成了"划算不划算"，而他认定上个月天平已经倒了**。他自己的证据是花约 10 美元 token、90 分钟到两小时端到端全功能复刻了 Excel（节目称单机买断授权约 180 美元、订阅 7–10 美元/月），外加三个自用小件；别人的证据是整套 Adobe 被开源克隆（ArtCraft）。由此他把两个月前"软件已解决"的论断（本站[已成文](/posts/2026-10-11-matt-berman-decompile-software-solved-verifiable-loops/)）从"AI 能克隆软件"推进到"消费者克隆软件在经济上成立"。以下均为节目内容转述，数字与判断未经独立核实；文中广告段已明确标注。
+Matthew Berman 在 11 月 3 日这期 13 分钟的视频（"They did it..."）里给出的判断是：**自造软件的 token 成本已经跌破买软件的价格，消费者自造软件的时代从"能不能"变成了"划算不划算"，而他认定上个月天平已经倒了**。他自己的证据是花约 10 美元 token、90 分钟到两小时端到端全功能复刻了 Excel（节目称单机买断授权约 180 美元、订阅 7–10 美元/月），外加三个自用小件；别人的证据是整套 Adobe 被开源克隆（ArtCraft）。由此他把两个月前"软件已解决"的论断（本站[已成文](https://inkeast.github.io/MessageDaily/posts/2026-10-11-matt-berman-decompile-software-solved-verifiable-loops/)）从"AI 能克隆软件"推进到"消费者克隆软件在经济上成立"。以下均为节目内容转述，数字与判断未经独立核实；文中广告段已明确标注。
 
 ## 从一份讨厌的 Acrobat 到"三条件凑齐"
 
@@ -23,7 +23,7 @@ Matthew Berman 在 11 月 3 日这期 13 分钟的视频（"They did it..."）�
 
 他展示的自建件有三个。**Folio**：PDF 阅读/编辑器，支持电子签、对 PDF 提问、涂画批注，轻量、快、免费开源。**Outlier Tracker**：起因是他常用的 YouTube 数据工具 One of Ten（转写如此，疑为 1of10）不停堆他用不到的功能、强制登录验证、扩展程序占掉 YouTube 画面约 30%——他自己花 **约 30 分钟**搭出了只需要的功能：单视频统计、追踪、频道分析，"现在它是我的了"。**Excel 克隆**：完整 Excel 进浏览器，"每个你会想要的功能都有"。
 
-别人走得更远：ArtCraft 把**整个 Adobe 套件开源免费**——PhotoCraft 长得就是 Photoshop，VectorCraft 做矢量，FilmCraft 基本就是 Premiere，甚至包括 After Effects。方法不过是"把 AI 指向一个现有软件，说'迭代到完全克隆为止'"。这也呼应他前一期讲的反编译爆发（背景本站已展开，见[前文](/posts/2026-10-11-matt-berman-decompile-software-solved-verifiable-loops/)，此处不重复）：反编译热潮正是他相信"未来一切软件事实开源"的直接证据。他的推论是：**任何拿着每月 200 美元 Claude 或 ChatGPT 订阅的人，都能造出任意软件免费发布；别人再在它的基础上改成自己想要的样子，成本只是初次构建的零头**——"如果这听起来耳熟，它叫开源"。软件的价值正在趋近于零。
+别人走得更远：ArtCraft 把**整个 Adobe 套件开源免费**——PhotoCraft 长得就是 Photoshop，VectorCraft 做矢量，FilmCraft 基本就是 Premiere，甚至包括 After Effects。方法不过是"把 AI 指向一个现有软件，说'迭代到完全克隆为止'"。这也呼应他前一期讲的反编译爆发（背景本站已展开，见[前文](https://inkeast.github.io/MessageDaily/posts/2026-10-11-matt-berman-decompile-software-solved-verifiable-loops/)，此处不重复）：反编译热潮正是他相信"未来一切软件事实开源"的直接证据。他的推论是：**任何拿着每月 200 美元 Claude 或 ChatGPT 订阅的人，都能造出任意软件免费发布；别人再在它的基础上改成自己想要的样子，成本只是初次构建的零头**——"如果这听起来耳熟，它叫开源"。软件的价值正在趋近于零。
 
 （说明：视频中段插入 NVIDIA 笔记本的赞助口播——转写作"RTX Spark"、机器为"Surface Laptop Ultra"，规格描述是 Grace CPU + Blackwell GPU、最高 128GB 统一内存、原生 CUDA、本地跑模型同时打游戏剪视频。该规格与 NVIDIA DGX Spark 吻合，但具体产品名未能确认，按广告处理，不构成任何背书。）
 
@@ -37,7 +37,7 @@ Matthew Berman 在 11 月 3 日这期 13 分钟的视频（"They did it..."）�
 
 他把这一期接回自己两年前的"SaaS is Dead"：当时论的是企业软件会塌缩成两层——agent 干活，加上一层存"ground truth"的传统数据库（他强调这层 AI 做不了）；他当时**不认为消费者会自造软件**——"不是做不到，是不划算"。几周之后，这个保留意见作废：数学反转了。
 
-结尾他点了两个延伸：Rails 之父亲手做的新操作系统 Omakase（转写作 Omaki，疑为 Omakase，未完全确认）——AI 写进 DNA，操作系统随时可以被定制成你想要的样子，"也许新操作系统真有空间"；以及顺带推荐 DeepSeek v4.1 Flash，称其为"现在地球上最好的开源模型之一"（本站已[专文](/posts/2026-10-29-matt-berman-deepseek-v41-flash-crushed/)）。
+结尾他点了两个延伸：Rails 之父亲手做的新操作系统 Omakase（转写作 Omaki，疑为 Omakase，未完全确认）——AI 写进 DNA，操作系统随时可以被定制成你想要的样子，"也许新操作系统真有空间"；以及顺带推荐 DeepSeek v4.1 Flash，称其为"现在地球上最好的开源模型之一"（本站已[专文](https://inkeast.github.io/MessageDaily/posts/2026-10-29-matt-berman-deepseek-v41-flash-crushed/)）。
 
 节目没有回答的：企业采购、合规、数据安全这些 to B 现实约束一个没碰——整套论证全部发生在个体消费者的尺度上；"软件价值趋零"如果成立，先被冲击的也是长尾工具类软件而非深度绑定业务与数据的系统。
 

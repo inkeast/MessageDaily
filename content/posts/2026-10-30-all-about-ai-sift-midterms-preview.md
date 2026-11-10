@@ -9,7 +9,7 @@ summary: 'All About AI 频道主（Filipe）在 11 月 3 日美国中期选举�
 
 # 拿自家预测产品押注中期选举：Sift 赛前留档——参院 60%、标普次日条件分布与 17 点的阿拉斯加分歧
 
-> 信源说明：本文基于 All About AI 频道主（Filipe）一期视频整理（视频 ID 93JxG8dZv84，全长约 11.4 分钟，英文转写 17 段、0s–684s 已完整读取，文中数字均依英文转写）。本频道为个人创作者+创业者频道，全部数字为作者屏幕展示的自家模型输出与持仓，本文未做独立核实；选举预测与市场反应均为模型概率而非事实判断，归属按「作者称／模型展示」标注；ASR 疑似错词以「转写疑作」标注，文末附校正表与完整转写原文。同系列前文：Sift 股票预测首周实验见[《AI 预测股市第一周战绩》](/posts/2026-10-13-all-about-ai-sift-intelligence-stock-prediction/)，历史情景回测见[《Sift 过去情景回测》](/posts/2026-10-22-sift-past-scenario-backtesting/)。
+> 信源说明：本文基于 All About AI 频道主（Filipe）一期视频整理（视频 ID 93JxG8dZv84，全长约 11.4 分钟，英文转写 17 段、0s–684s 已完整读取，文中数字均依英文转写）。本频道为个人创作者+创业者频道，全部数字为作者屏幕展示的自家模型输出与持仓，本文未做独立核实；选举预测与市场反应均为模型概率而非事实判断，归属按「作者称／模型展示」标注；ASR 疑似错词以「转写疑作」标注，文末附校正表与完整转写原文。同系列前文：Sift 股票预测首周实验见[《AI 预测股市第一周战绩》](https://inkeast.github.io/MessageDaily/posts/2026-10-13-all-about-ai-sift-intelligence-stock-prediction/)，历史情景回测见[《Sift 过去情景回测》](https://inkeast.github.io/MessageDaily/posts/2026-10-22-sift-past-scenario-backtesting/)。
 
 ## 先说结论
 

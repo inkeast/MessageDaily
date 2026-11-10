@@ -7,7 +7,7 @@ categories: ["podcast-summary"]
 summary: 'Matthew Berman 逐实验拆解一篇他称为「今年最重要」的论文：GPT-6 Astra 不经梯度下降，把另一个神经网络的原始权重当文本直接读——认出网络被训练玩哪款游戏、预测扩散模型画什么、从中层权重辨认语言与内部组件；也能一次尝试只改 3.5% 权重修好卡坡小车、从零手写胜过 PPO 训练一亿步的游戏网络、并把 Qwen3.5 0.8B 的数学成绩从约 8% 拉到约 48%（改的其实是「推理死循环」缺陷）。边界同样清晰：纯权重分辨不出谄媚模型、对没有死循环的 Gemma 3 无从提升。他由此推断出权重级可解释性、绕过训练范式的自改权重与 RSI。'
 ---
 
-> 信源说明：本文基于 Matthew Berman 近期一期视频（视频 ID `j09uV1oAuIo`，全长约 26 分 47 秒，英文转写 14 段、0s–1607s 已完整读取，文中数字与引语均依英文转写；视频确切口播日期未核）。论文的机构归属 Berman 全程未提；同日 The AI Daily Brief 报道称该研究出自 MIT、由一位博士生主导并已有 Google 研究者复现——那期节目本站亦已成文，见[《从 Grokbot 限流到 RSI 阈值》](/posts/2026-11-05-ai-daily-brief-grokbot-subsidy-rsi-weight-editing/)。全部实验结果、数字与判断均为 Berman 转述论文内容，本文未做独立核实，归属按「Berman 称／论文写道」分层；ASR 疑似错词以「转写疑作」标注，文末附校正表与完整转写原文（含中文翻译）。他上一期「软件成本趋零」视频本站已成文，见[此处](/posts/2026-11-04-matt-berman-software-cost-zero-consumers-build/)。
+> 信源说明：本文基于 Matthew Berman 近期一期视频（视频 ID `j09uV1oAuIo`，全长约 26 分 47 秒，英文转写 14 段、0s–1607s 已完整读取，文中数字与引语均依英文转写；视频确切口播日期未核）。论文的机构归属 Berman 全程未提；同日 The AI Daily Brief 报道称该研究出自 MIT、由一位博士生主导并已有 Google 研究者复现——那期节目本站亦已成文，见[《从 Grokbot 限流到 RSI 阈值》](https://inkeast.github.io/MessageDaily/posts/2026-11-05-ai-daily-brief-grokbot-subsidy-rsi-weight-editing/)。全部实验结果、数字与判断均为 Berman 转述论文内容，本文未做独立核实，归属按「Berman 称／论文写道」分层；ASR 疑似错词以「转写疑作」标注，文末附校正表与完整转写原文（含中文翻译）。他上一期「软件成本趋零」视频本站已成文，见[此处](https://inkeast.github.io/MessageDaily/posts/2026-11-04-matt-berman-software-cost-zero-consumers-build/)。
 
 ## 先说结论
 

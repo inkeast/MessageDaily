@@ -7,7 +7,7 @@ categories: ["podcast-summary"]
 summary: '硅谷101 Alignment 2026年度大会单场Keynote整理：Duke大学ECE助理教授Haozhe "Harry" Wang（上海交大本科、MIT博士、Caltech博后）讲解硅基晶体管逼近物理极限的机制（5纳米以下电子迁移率崩塌、「名义制程」的堆叠数学），为什么二维半导体（单层MoS₂仅约0.65纳米厚、TSMC路线图已列入）迟迟进不了手机——他只给一个词：良率；以及其实验室的AI三级跳：ATOMIC自主显微镜零训练识别材料达99.7%、与Google DeepMind合作的co-scientist接管CVD设备一次长成单层MoS₂/MoSe₂/WS₂、再用AI在65.6%良率的「废料」上挑好区造出晶体管阵列（良率提升约30个百分点）。终点是他命名的autogenic intelligence：AI设计并制造运行自己的芯片，像心智与大脑一样不可分离——并用1916年的「螃蟹化」演化现象设问：硅基生命终将收敛成什么形态。'
 ---
 
-> 基于音频「半导体的未来：从新材料到新芯片，AI能否推动自身进化？｜硅谷101年度线下大会」完整转写整理（音频1784秒，约29.7分钟）。本场为英文Keynote（开头一段为节目中文旁白），与[天文学的AI革命篇](/posts/2026-10-28-guigu101-astro-ai-revolution/)同属硅谷101 Alignment 2026年度线下大会——本场讲者开场提到「之前关于AI与金融的panel」，中途又说「昨天有一场关于望远镜的精彩演讲」，所指正是孙凤梧那一场天文演讲。讲者自述、并经Duke大学电子与计算机工程系官网核实为**Haozhe "Harry" Wang**：Duke ECE（Pierre R. Lamond电子与计算机工程系）助理教授（2023年8月入职建组），上海交通大学本科、MIT博士（2021年）、加州理工学院博士后。文中标注「经核实」的事实共五组：讲者身份、ATOMIC框架（ACS Nano 2025论文）、与Google DeepMind合作的co-scientist论文（arXiv 2608.26701，2026-08-27）、「螃蟹化」（carcinization，Borradaile 1916年提出）、石墨烯获2010年诺贝尔物理学奖；其余事实与数字均为讲者或节目旁白口述口径，未做外部核验。转写疑似错误文末统一标注。
+> 基于音频「半导体的未来：从新材料到新芯片，AI能否推动自身进化？｜硅谷101年度线下大会」完整转写整理（音频1784秒，约29.7分钟）。本场为英文Keynote（开头一段为节目中文旁白），与[天文学的AI革命篇](https://inkeast.github.io/MessageDaily/posts/2026-10-28-guigu101-astro-ai-revolution/)同属硅谷101 Alignment 2026年度线下大会——本场讲者开场提到「之前关于AI与金融的panel」，中途又说「昨天有一场关于望远镜的精彩演讲」，所指正是孙凤梧那一场天文演讲。讲者自述、并经Duke大学电子与计算机工程系官网核实为**Haozhe "Harry" Wang**：Duke ECE（Pierre R. Lamond电子与计算机工程系）助理教授（2023年8月入职建组），上海交通大学本科、MIT博士（2021年）、加州理工学院博士后。文中标注「经核实」的事实共五组：讲者身份、ATOMIC框架（ACS Nano 2025论文）、与Google DeepMind合作的co-scientist论文（arXiv 2608.26701，2026-08-27）、「螃蟹化」（carcinization，Borradaile 1916年提出）、石墨烯获2010年诺贝尔物理学奖；其余事实与数字均为讲者或节目旁白口述口径，未做外部核验。转写疑似错误文末统一标注。
 
 ## 先说结论
 

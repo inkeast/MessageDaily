@@ -9,7 +9,7 @@ summary: '美国 2026 中期选举结果出来后，The AI Daily Brief 主持人
 
 > 信源说明：本文基于 The AI Daily Brief 一期节目（视频 ID `rSzMJZEgYeU`，全长约 21 分钟，英文转写 11 段、0s–1265s 已完整读取，文中数字与引语均依英文转写）。播出于 11 月 3 日美国中期选举次日（主持人称「昨晚」结果陆续出炉）。主持人为 NLW（节目内自宣其新播客 How We Got Here with NLW）。全部选情数字、民调与判断均为节目转述，本文未做独立核实，归属按「主持人称／节目引用」分层；ASR 疑似错词以校正表标注，文末附完整转写原文（含逐段中文翻译）。
 >
-> 相关旧文：选前一周 All About AI 频道用自家预测产品 Sift 做的赛前留档见[《拿自家预测产品押注中期选举》](/posts/2026-10-30-all-about-ai-sift-midterms-preview.md)（其模型当时即判 Talarico 为得州参院热门、民主党参院概率 60%）；本站 10 月 13 日对该频道「2026 五大辩论」的成文见[此处](/posts/2026-10-13-ai-daily-brief-five-debates-2026-money-power-users-sovereignty.md)。同日 Wes Roth 拆 OpenAI「隐性怠工」报告与权重空间编程的视频本站亦已成文，见[此处](/posts/2026-11-06-wes-roth-covert-underperformance-weight-write/)。
+> 相关旧文：选前一周 All About AI 频道用自家预测产品 Sift 做的赛前留档见[《拿自家预测产品押注中期选举》](https://inkeast.github.io/MessageDaily/posts/2026-10-30-all-about-ai-sift-midterms-preview.md)（其模型当时即判 Talarico 为得州参院热门、民主党参院概率 60%）；本站 10 月 13 日对该频道「2026 五大辩论」的成文见[此处](https://inkeast.github.io/MessageDaily/posts/2026-10-13-ai-daily-brief-five-debates-2026-money-power-users-sovereignty.md)。同日 Wes Roth 拆 OpenAI「隐性怠工」报告与权重空间编程的视频本站亦已成文，见[此处](https://inkeast.github.io/MessageDaily/posts/2026-11-06-wes-roth-covert-underperformance-weight-write/)。
 
 ## 先说结论
 

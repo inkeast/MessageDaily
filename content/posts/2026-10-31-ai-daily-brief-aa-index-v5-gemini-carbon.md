@@ -9,7 +9,7 @@ summary: '本期主线是 Artificial Analysis 把智能指数升到 v5：过半�
 
 # 换一把尺子重排整个前沿：AA 智能指数 v5、上线即登顶的 Gemini 4 Carbon，与被摊开的 NVIDIA 反垄断调查
 
-> 信源说明：本文基于 The AI Daily Brief（主持人 Mohammad）一期 Headlines + 主话题节目整理（视频 ID Dz4_db_rRDE，全长约 26.7 分钟，英文转写 14 段、0s–1604s 已完整读取，文中数字与引语均依英文转写整理；720s–960s 为赞助商口播段，未纳入正文）。全部事件、数字、股评与人物言论均为主持人陈述或节目引用的财报、社交媒体帖文与媒体报道，本文未做独立核实，归属按「主持人称／节目引用／当事人认为」分层标注；ASR 疑似错词以「转写疑作」标注，文末附校正表与完整转写原文。同系列前文：Google 组合式世界模型与 Gemini 4 Carbon 的预告见[《Genie 4 把「全家桶」装进世界模型》](/posts/2026-10-30-ai-daily-brief-genie4-world-model-combo/)，AI 泡沫与 capex 信号的上一轮讨论见[《Anthropic IPO 前的泡沫辩论》](/posts/2026-10-27-ai-daily-brief-bubble-signals/)，Kimi K3.1 与开源距前沿的口径见[《开源距前沿五周、网络末日常态化》](/posts/2026-10-28-ai-daily-brief-four-questions-k31-ipo/)。
+> 信源说明：本文基于 The AI Daily Brief（主持人 Mohammad）一期 Headlines + 主话题节目整理（视频 ID Dz4_db_rRDE，全长约 26.7 分钟，英文转写 14 段、0s–1604s 已完整读取，文中数字与引语均依英文转写整理；720s–960s 为赞助商口播段，未纳入正文）。全部事件、数字、股评与人物言论均为主持人陈述或节目引用的财报、社交媒体帖文与媒体报道，本文未做独立核实，归属按「主持人称／节目引用／当事人认为」分层标注；ASR 疑似错词以「转写疑作」标注，文末附校正表与完整转写原文。同系列前文：Google 组合式世界模型与 Gemini 4 Carbon 的预告见[《Genie 4 把「全家桶」装进世界模型》](https://inkeast.github.io/MessageDaily/posts/2026-10-30-ai-daily-brief-genie4-world-model-combo/)，AI 泡沫与 capex 信号的上一轮讨论见[《Anthropic IPO 前的泡沫辩论》](https://inkeast.github.io/MessageDaily/posts/2026-10-27-ai-daily-brief-bubble-signals/)，Kimi K3.1 与开源距前沿的口径见[《开源距前沿五周、网络末日常态化》](https://inkeast.github.io/MessageDaily/posts/2026-10-28-ai-daily-brief-four-questions-k31-ipo/)。
 
 ## 先说结论
 

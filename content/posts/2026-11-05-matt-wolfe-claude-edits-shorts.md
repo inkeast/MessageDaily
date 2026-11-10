@@ -7,7 +7,7 @@ categories: ["podcast-summary"]
 summary: 'Matt Wolfe「Show me your workflow · 我自己版」：给 Claude（Opus 5.5）一个链接，它经 VidIQ 分析全网同类爆款写出脚本；他录一段口播回传，无任何提示词，模型加载自建技能跑完 67 步——转写、切停顿、配 B-roll、ElevenLabs 配乐、字幕、渲染、自检。再把「每月用留存曲线与评论反哺技能」做成近似强化学习的回路。17 年剪辑经验的他自陈矛盾：剪辑边际成本坍缩必然带来内容洪水，自己的价值正从「剪得比别人好」转向「找得到别人没见过的东西」。'
 ---
 
-> **信源**：YouTube 视频 `ep4psgAFOqc`（Matt Wolfe 频道，自称 "Show me your workflow, me edition" 教程/实拍向视频）。时长 1964 秒 ≈ 33 分钟；转写共 17 个 `[Ns - Ms]` 时间段、完整覆盖 0s→1964s，两遍通读无遗漏，本文依据英文 ASR 转写整理（附录含全量中文翻译）。**讲者**：频道主 Matt Wolfe，自述做视频剪辑 17 年（自己的频道+早年客户片），频道以 AI 资讯为主；判断依据为其频道公开内容与节目自述（推断级，未逐项核实）。**利益披露**：本期由 VidIQ 赞助，讲者自述「在对方赞助之前就长期把 VidIQ 用于这套流程」，并提供 1 美元首月推广链接（转写出现 vidiq.com/matwolf 与 vidiq.com/matthewolf 两种拼写）——赞助内容按「节目称」处理。**同域旧文**（背景不复述，仅互链）：消费者自建软件的宏观判断见[《Matt Berman：软件成本归零，消费者自建》](/posts/2026-11-04-matt-berman-software-cost-zero-consumers-build/)；同日发布的[《Latent Space 上海特辑：Kill My SaaS》](/posts/2026-11-05-latent-space-aie-shanghai-swyx/)从供给侧论证「中等 SaaS 被克隆」，本文是需求侧的一个具体消费者的实例，两文互为印证。
+> **信源**：YouTube 视频 `ep4psgAFOqc`（Matt Wolfe 频道，自称 "Show me your workflow, me edition" 教程/实拍向视频）。时长 1964 秒 ≈ 33 分钟；转写共 17 个 `[Ns - Ms]` 时间段、完整覆盖 0s→1964s，两遍通读无遗漏，本文依据英文 ASR 转写整理（附录含全量中文翻译）。**讲者**：频道主 Matt Wolfe，自述做视频剪辑 17 年（自己的频道+早年客户片），频道以 AI 资讯为主；判断依据为其频道公开内容与节目自述（推断级，未逐项核实）。**利益披露**：本期由 VidIQ 赞助，讲者自述「在对方赞助之前就长期把 VidIQ 用于这套流程」，并提供 1 美元首月推广链接（转写出现 vidiq.com/matwolf 与 vidiq.com/matthewolf 两种拼写）——赞助内容按「节目称」处理。**同域旧文**（背景不复述，仅互链）：消费者自建软件的宏观判断见[《Matt Berman：软件成本归零，消费者自建》](https://inkeast.github.io/MessageDaily/posts/2026-11-04-matt-berman-software-cost-zero-consumers-build/)；同日发布的[《Latent Space 上海特辑：Kill My SaaS》](https://inkeast.github.io/MessageDaily/posts/2026-11-05-latent-space-aie-shanghai-swyx/)从供给侧论证「中等 SaaS 被克隆」，本文是需求侧的一个具体消费者的实例，两文互为印证。
 
 ## 先说结论
 
@@ -49,7 +49,7 @@ summary: 'Matt Wolfe「Show me your workflow · 我自己版」：给 Claude（O
 
 1. **技能沉淀 = 个人产线的复利资产**。变化：一次性的工作流被固化为两个可迭代技能（script/editor）+ 月度数据回路（VidIQ 留存曲线/评论/转写当奖励信号）。机制：把「品味」写成 spec，让模型每次执行时都加载、每次反馈后都更新——个人创作从「每次手工」变成「一句话触发」。二阶：月度回路使技能与频道数据共同进化，后来者即使拿到同一套提示词，也拿不到你的历史数据。启发：任何重复性专业工作都可以拆成「分析→脚本→执行→复盘→更新技能」五段；奖励信号用自家历史表现，比通用榜单更贴身。
 2. **剪辑边际成本坍缩 → 内容洪水 → 策展升值**。变化：一条 50 秒短视频的剪辑成本从「人工数小时」降到「拖入文件+36 分钟两轮反馈」（节目称）。机制：FFmpeg headless 剪辑 + 素材自动检索（yt-dlp/VidIQ）+ 生成配乐，把专业软件栈整条搬进对话。二阶：产能过剩使分发位与「可信的发现者」更值钱（讲者自己的定位转移即是证词）；拥抱者×5、拒绝者出局。观察指标：短视频剪辑师接单价、平台内容供给增速、头部创作者的更新频率。启发：与其抵制商品化的环节，不如把自己移到「选题与策展」这层——讲者的原话是「倒逼自己往上走一层」。
-3. **消费者自建的又一个实锤（需求侧）**。变化：非程序员靠 Claude+MVC 生态（VidIQ/ElevenLabs/Hyperframes）+ 开源工具（FFmpeg/yt-dlp/Blender）自建了一条原本需要 DaVinci/Premiere 许可证与外包剪辑师的专业管线。机制：每样「中间层专业软件」都被开源等价物+agent 编排替代——与同日[《Kill My SaaS》](/posts/2026-11-05-latent-space-aie-shanghai-swyx/)一文「模型点开每个界面就能复刻」的供给侧判断互为印证。启发：判断一个 SaaS 的暴露度，看它的功能能否被「开源等价物 + 一段编排」覆盖，以及它的客户里有多少像这样会自己动手的人。
+3. **消费者自建的又一个实锤（需求侧）**。变化：非程序员靠 Claude+MVC 生态（VidIQ/ElevenLabs/Hyperframes）+ 开源工具（FFmpeg/yt-dlp/Blender）自建了一条原本需要 DaVinci/Premiere 许可证与外包剪辑师的专业管线。机制：每样「中间层专业软件」都被开源等价物+agent 编排替代——与同日[《Kill My SaaS》](https://inkeast.github.io/MessageDaily/posts/2026-11-05-latent-space-aie-shanghai-swyx/)一文「模型点开每个界面就能复刻」的供给侧判断互为印证。启发：判断一个 SaaS 的暴露度，看它的功能能否被「开源等价物 + 一段编排」覆盖，以及它的客户里有多少像这样会自己动手的人。
 
 ## 未采用条目及原因
 

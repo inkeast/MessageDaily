@@ -7,7 +7,7 @@ categories: ["podcast-summary"]
 summary: 'Anthropic IPO 逼近，AI 泡沫论重新大声：美股科技连跌三周、对冲基金十年最快减持、30年期美债收益率跌至5.38%显避险迹象；Gartner 称2030年前80%新云破产、8.5万亿收入需求对3.6万亿预测；Firmus IPO 流标、CoreWeave 债券一度跌至不良级，但英伟达1700亿担保与各家数亿合同在托底。主持人逐项拆解：亚马逊仓库里50亿美元GB300更像缺电而非需求崩塌、数据中心债与次贷的关键差别在评级、真正的软肋是收入质量——Ramp 口径下1%客户贡献80%消费且八成是VC供养的初创。结论：一切信号都是「需求」这个唯一变量的代理指标，Anthropic 定价与首日反应是最近的压力测试。'
 ---
 
-> 信源说明：本文基于 The AI Daily Brief 视频节目（视频 ID 3WYxicCws8k，发布于 2026-10-24，全长约 28.4 分钟，转写末段 1701 秒）英文转写整理，主持人为频道常任主播 NLW（与[本博 10-26 网络安全篇](/posts/2026-10-26-ai-daily-brief-cyber-two-eras/)同一主播）。文中全部数字与引语均为 NLW 自述及其引用的报告、媒体与访谈，未独立核实；归属按「NLW 认为／节目引用」分层；ASR 存疑词以「转写疑作」标注。广告口播（KPMG、Robots and Pencils、CData、Blitzy）按惯例略过。
+> 信源说明：本文基于 The AI Daily Brief 视频节目（视频 ID 3WYxicCws8k，发布于 2026-10-24，全长约 28.4 分钟，转写末段 1701 秒）英文转写整理，主持人为频道常任主播 NLW（与[本博 10-26 网络安全篇](https://inkeast.github.io/MessageDaily/posts/2026-10-26-ai-daily-brief-cyber-two-eras/)同一主播）。文中全部数字与引语均为 NLW 自述及其引用的报告、媒体与访谈，未独立核实；归属按「NLW 认为／节目引用」分层；ASR 存疑词以「转写疑作」标注。广告口播（KPMG、Robots and Pencils、CData、Blitzy）按惯例略过。
 
 ## 先说结论
 

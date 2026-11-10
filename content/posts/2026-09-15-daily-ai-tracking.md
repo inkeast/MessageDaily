@@ -182,22 +182,22 @@ summary: "前沿减速辩论进入政策交锋日：Altman 表态 pacing 不等�
 
 以下论文已生成独立精读文章（点击阅读）：
 
-1. [Harness or Model?——污染控制下 harness×模型效应的首次隔离](/posts/2026-09-15-harness-or-model-contamination-controlled-paper-reading/)
-2. [Skill Issue——SKILL 优化在真实仓库上的负结果与测量学教训](/posts/2026-09-15-skill-issue-gepa-skillopt-kotlin-paper-reading/)
-3. [COBRA-Skills——bandit 引导的技能优化，成本砍半](/posts/2026-09-15-cobra-skills-bandit-skill-optimization-paper-reading/)
-4. [DSR——多样性感知技能路由：从排序到集合选择](/posts/2026-09-15-dsr-diverse-skill-routing-dpp-paper-reading/)
-5. [AutoSkill——帧选择技能的自动发现与分类路由](/posts/2026-09-15-autoskill-frame-selection-routing-paper-reading/)
-6. [Is Bash All You Need?——企业 agent 工具接口的受控实验](/posts/2026-09-15-is-bash-all-you-need-tool-interfaces-paper-reading/)
-7. [CQBench——78 万函数对的人机代码质量差](/posts/2026-09-15-cqbench-human-vs-ai-code-quality-paper-reading/)
-8. [GAUGE——用户模拟评测门禁的效度清算](/posts/2026-09-15-gauge-user-simulated-evaluation-validity-paper-reading/)
-9. [Look Before You Leap——静默失败的确定性预检](/posts/2026-09-15-pre-action-verification-silent-failure-paper-reading/)
-10. [Reality Is the Final Verifier——两大鸿沟统一失败理论](/posts/2026-09-15-reality-final-verifier-two-gaps-paper-reading/)
-11. [LifeMem——跨环境终身经验复用](/posts/2026-09-15-lifemem-lifelong-experience-reuse-paper-reading/)
-12. [Studying Without a Syllabus——任务无关环境预处理](/posts/2026-09-15-studying-without-syllabus-env-preprocessing-paper-reading/)
-13. [EvoRS——奖励系统自进化](/posts/2026-09-15-evors-self-evolving-reward-systems-paper-reading/)
-14. [Occamy-1.0——35B 开放 co-work 模型技术报告](/posts/2026-09-15-occamy-open-35b-cowork-model-paper-reading/)
-15. [AMDKernelVault——AMD GPU 内核语料与 agentic 训练](/posts/2026-09-15-amdkernelvault-amd-gpu-kernel-corpus-paper-reading/)
-16. [DataFlex-RL——RLVR 数据政策的负结果与评测敏感性](/posts/2026-09-15-dataflex-rl-data-policies-paper-reading/)
+1. [Harness or Model?——污染控制下 harness×模型效应的首次隔离](https://inkeast.github.io/MessageDaily/posts/2026-09-15-harness-or-model-contamination-controlled-paper-reading/)
+2. [Skill Issue——SKILL 优化在真实仓库上的负结果与测量学教训](https://inkeast.github.io/MessageDaily/posts/2026-09-15-skill-issue-gepa-skillopt-kotlin-paper-reading/)
+3. [COBRA-Skills——bandit 引导的技能优化，成本砍半](https://inkeast.github.io/MessageDaily/posts/2026-09-15-cobra-skills-bandit-skill-optimization-paper-reading/)
+4. [DSR——多样性感知技能路由：从排序到集合选择](https://inkeast.github.io/MessageDaily/posts/2026-09-15-dsr-diverse-skill-routing-dpp-paper-reading/)
+5. [AutoSkill——帧选择技能的自动发现与分类路由](https://inkeast.github.io/MessageDaily/posts/2026-09-15-autoskill-frame-selection-routing-paper-reading/)
+6. [Is Bash All You Need?——企业 agent 工具接口的受控实验](https://inkeast.github.io/MessageDaily/posts/2026-09-15-is-bash-all-you-need-tool-interfaces-paper-reading/)
+7. [CQBench——78 万函数对的人机代码质量差](https://inkeast.github.io/MessageDaily/posts/2026-09-15-cqbench-human-vs-ai-code-quality-paper-reading/)
+8. [GAUGE——用户模拟评测门禁的效度清算](https://inkeast.github.io/MessageDaily/posts/2026-09-15-gauge-user-simulated-evaluation-validity-paper-reading/)
+9. [Look Before You Leap——静默失败的确定性预检](https://inkeast.github.io/MessageDaily/posts/2026-09-15-pre-action-verification-silent-failure-paper-reading/)
+10. [Reality Is the Final Verifier——两大鸿沟统一失败理论](https://inkeast.github.io/MessageDaily/posts/2026-09-15-reality-final-verifier-two-gaps-paper-reading/)
+11. [LifeMem——跨环境终身经验复用](https://inkeast.github.io/MessageDaily/posts/2026-09-15-lifemem-lifelong-experience-reuse-paper-reading/)
+12. [Studying Without a Syllabus——任务无关环境预处理](https://inkeast.github.io/MessageDaily/posts/2026-09-15-studying-without-syllabus-env-preprocessing-paper-reading/)
+13. [EvoRS——奖励系统自进化](https://inkeast.github.io/MessageDaily/posts/2026-09-15-evors-self-evolving-reward-systems-paper-reading/)
+14. [Occamy-1.0——35B 开放 co-work 模型技术报告](https://inkeast.github.io/MessageDaily/posts/2026-09-15-occamy-open-35b-cowork-model-paper-reading/)
+15. [AMDKernelVault——AMD GPU 内核语料与 agentic 训练](https://inkeast.github.io/MessageDaily/posts/2026-09-15-amdkernelvault-amd-gpu-kernel-corpus-paper-reading/)
+16. [DataFlex-RL——RLVR 数据政策的负结果与评测敏感性](https://inkeast.github.io/MessageDaily/posts/2026-09-15-dataflex-rl-data-policies-paper-reading/)
 
 ---
 

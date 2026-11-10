@@ -9,7 +9,7 @@ summary: 'Claude Duet 本周上线，NLW 借实测之机交出一份 32 分钟�
 
 # 主动干活，还是记住一切：NLW 实测 Claude Duet 与他的整套 AI 分工
 
-> 信源说明：本文基于 The AI Daily Brief 2026-10-26 发布的一期节目（视频 ID HyEfRBW10Kk，标题 How I'm Actually Using Claude Duet，时长约 32 分钟，转写覆盖至 1920 秒）整理，主持人为频道常任主播 NLW，与[本博 10-26 性格之争篇](/posts/2026-10-26-ai-daily-brief-personality-beats-intelligence/)、[10-27 泡沫辩论篇](/posts/2026-10-27-ai-daily-brief-bubble-signals/)同一主播，且本文可视为性格之争篇（Muse 与 Dots 的人格卡位）的续篇。依据英文转写整理；全部说法均为 NLW 自述或其转述，本文未做独立核实，归属按「NLW 认为／节目引用」分层；ASR 存疑词以「转写疑作」标注。节目内插播的广告口播（KPMG、Robots and Pencils、CData、Blitzy）按本系列惯例略过。
+> 信源说明：本文基于 The AI Daily Brief 2026-10-26 发布的一期节目（视频 ID HyEfRBW10Kk，标题 How I'm Actually Using Claude Duet，时长约 32 分钟，转写覆盖至 1920 秒）整理，主持人为频道常任主播 NLW，与[本博 10-26 性格之争篇](https://inkeast.github.io/MessageDaily/posts/2026-10-26-ai-daily-brief-personality-beats-intelligence/)、[10-27 泡沫辩论篇](https://inkeast.github.io/MessageDaily/posts/2026-10-27-ai-daily-brief-bubble-signals/)同一主播，且本文可视为性格之争篇（Muse 与 Dots 的人格卡位）的续篇。依据英文转写整理；全部说法均为 NLW 自述或其转述，本文未做独立核实，归属按「NLW 认为／节目引用」分层；ASR 存疑词以「转写疑作」标注。节目内插播的广告口播（KPMG、Robots and Pencils、CData、Blitzy）按本系列惯例略过。
 
 ## 先说结论
 

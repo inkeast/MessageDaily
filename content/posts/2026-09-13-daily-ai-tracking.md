@@ -240,15 +240,15 @@ summary: "周六双主线：Dario Amodei 发表《We Must Pace the Frontier》�
 
 以下论文已生成独立精读文章（点击标题跳转）：
 
-1. [Memory as Plans：把记忆从执行期条件重构为规划期证据，机器人非马尔可夫任务 SOTA](/posts/2026-09-13-memory-as-plans-map-wam-paper-reading/)
-2. [MetroLLM-Bench：LLM 嵌入物理售票机，4B 学生超 GPT-5.6 的容量-天花板曲线](/posts/2026-09-13-metrollm-bench-kiosk-runtime-paper-reading/)
-3. [Nemotron IMO Gold：开源模型金牌的完整配方——自然语言证明生成+测试时搜索](/posts/2026-09-13-nemotron-imo-gold-open-recipe-paper-reading/)
-4. [GLIE：几何先验驱动的检索压缩——100 万页 258GB 到 1GB 的流形参数化](/posts/2026-09-13-glie-generative-late-interaction-paper-reading/)
-5. [Recursive Code World Models：global-local-global 递归构造可执行 3D 世界](/posts/2026-09-13-recursive-code-world-models-paper-reading/)
-6. [World in World：免训练控制视频世界模型的统一证据接口](/posts/2026-09-13-world-in-world-training-free-control-paper-reading/)
-7. [Image Tokenizers as Visual Languages：统一多模态 tokenizer 的测量学](/posts/2026-09-13-image-tokenizers-visual-languages-paper-reading/)
-8. [SpatialBlock：合成积木课程与对照组设计的空间智能范式](/posts/2026-09-13-spatialblock-synthetic-spatial-paper-reading/)
-9. [X-AuT：渐进剪枝+跨尺度蒸馏的语音编码器压缩](/posts/2026-09-13-x-aut-audio-encoder-compression-paper-reading/)
+1. [Memory as Plans：把记忆从执行期条件重构为规划期证据，机器人非马尔可夫任务 SOTA](https://inkeast.github.io/MessageDaily/posts/2026-09-13-memory-as-plans-map-wam-paper-reading/)
+2. [MetroLLM-Bench：LLM 嵌入物理售票机，4B 学生超 GPT-5.6 的容量-天花板曲线](https://inkeast.github.io/MessageDaily/posts/2026-09-13-metrollm-bench-kiosk-runtime-paper-reading/)
+3. [Nemotron IMO Gold：开源模型金牌的完整配方——自然语言证明生成+测试时搜索](https://inkeast.github.io/MessageDaily/posts/2026-09-13-nemotron-imo-gold-open-recipe-paper-reading/)
+4. [GLIE：几何先验驱动的检索压缩——100 万页 258GB 到 1GB 的流形参数化](https://inkeast.github.io/MessageDaily/posts/2026-09-13-glie-generative-late-interaction-paper-reading/)
+5. [Recursive Code World Models：global-local-global 递归构造可执行 3D 世界](https://inkeast.github.io/MessageDaily/posts/2026-09-13-recursive-code-world-models-paper-reading/)
+6. [World in World：免训练控制视频世界模型的统一证据接口](https://inkeast.github.io/MessageDaily/posts/2026-09-13-world-in-world-training-free-control-paper-reading/)
+7. [Image Tokenizers as Visual Languages：统一多模态 tokenizer 的测量学](https://inkeast.github.io/MessageDaily/posts/2026-09-13-image-tokenizers-visual-languages-paper-reading/)
+8. [SpatialBlock：合成积木课程与对照组设计的空间智能范式](https://inkeast.github.io/MessageDaily/posts/2026-09-13-spatialblock-synthetic-spatial-paper-reading/)
+9. [X-AuT：渐进剪枝+跨尺度蒸馏的语音编码器压缩](https://inkeast.github.io/MessageDaily/posts/2026-09-13-x-aut-audio-encoder-compression-paper-reading/)
 
 ---
 

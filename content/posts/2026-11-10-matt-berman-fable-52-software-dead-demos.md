@@ -7,7 +7,7 @@ categories: ["podcast-summary"]
 summary: 'Matthew Berman 以自报「超一千亿 token」的实测称 Fable 5.2 为用过的最好模型：三行提示词生成《战争机器》克隆（约 85 亿 token、约 1.5 万美元），约 50 小时造「完美」Excel 克隆，90 亿 token 做出可上架多人游戏；演示显示 OSWorld 2.1 得 89.3 大幅领先；定价较 Fable 5.1 降约 20% 至每百万输入 8 美元、输出 40 美元。他同时称 Opus 5.5 更快更省、大项目仍用 Opus——能力与成本非对称是核心矛盾。'
 ---
 
-> 信源说明：本文基于 Matthew Berman 频道一期视频《Anthropic just dropped the best model ever... (Fable 5.2)》（视频 ID `0vNyVMDFdkg`，北京时间 2026-11-10 03:02:56 发布，全长 1458 秒≈24 分 18 秒，英文转写 13 段、0s–1458s 已完整读取，文中数字与引语均依英文转写整理）。片中约 240s–330s 为赞助商 Eight Sleep 口播，本文略过、不作展开。全部演示效果、跑分、定价与公司行为均按「Berman 称／演示显示」归属，本站未做独立核实；Fable／Mythos 为 Anthropic 的 Claude 模型线，与本站旧文口径一致；写作者推断处已标注「据此推断」。ASR 疑似错词以文末校正表标注，文末附完整转写原文（修正版）与逐段中文翻译。防重复说明：Fable 5.2 与 Mythos 5.2 同日双发及其官方验证实验（端到端电子设计、千智能体沙箱复现费马大定理）本站[11 月 9 日日报](/posts/2026-11-09-daily-ai-tracking/)已记，本文不重复展开，只聚焦 Berman 的实测与演示增量；片尾提到的 METR 递归自我改进报告，Berman 上一期已专门解读、本站[已按其成文](/posts/2026-11-08-matt-berman-metr-anthropic-rsi-12-months/)，本文仅一句带过并互链。
+> 信源说明：本文基于 Matthew Berman 频道一期视频《Anthropic just dropped the best model ever... (Fable 5.2)》（视频 ID `0vNyVMDFdkg`，北京时间 2026-11-10 03:02:56 发布，全长 1458 秒≈24 分 18 秒，英文转写 13 段、0s–1458s 已完整读取，文中数字与引语均依英文转写整理）。片中约 240s–330s 为赞助商 Eight Sleep 口播，本文略过、不作展开。全部演示效果、跑分、定价与公司行为均按「Berman 称／演示显示」归属，本站未做独立核实；Fable／Mythos 为 Anthropic 的 Claude 模型线，与本站旧文口径一致；写作者推断处已标注「据此推断」。ASR 疑似错词以文末校正表标注，文末附完整转写原文（修正版）与逐段中文翻译。防重复说明：Fable 5.2 与 Mythos 5.2 同日双发及其官方验证实验（端到端电子设计、千智能体沙箱复现费马大定理）本站[11 月 9 日日报](https://inkeast.github.io/MessageDaily/posts/2026-11-09-daily-ai-tracking/)已记，本文不重复展开，只聚焦 Berman 的实测与演示增量；片尾提到的 METR 递归自我改进报告，Berman 上一期已专门解读、本站[已按其成文](https://inkeast.github.io/MessageDaily/posts/2026-11-08-matt-berman-metr-anthropic-rsi-12-months/)，本文仅一句带过并互链。
 
 ## 先说结论
 
@@ -23,7 +23,7 @@ Berman 的结论毫不含糊：Fable 5.2 是他用过的最好的模型——依
 
 第二组演示对准生产力软件。Excel 克隆：约 50 小时完成，Berman 称「找不出一个缺陷或缺失功能」——单元格里的都是真公式、可点入查看，示例销售跟踪表带着完全可用的透视表（pivot table，数据汇总工具）；浏览器版，他承诺发布公开链接供观众自测。视频剪辑侧是达芬奇 Resolve（DaVinci Resolve）克隆：波形显示、片段剪切、磁吸对齐、完整键盘快捷键、关键帧一应俱全；这个名为 Kestrel 的程序是本地 Windows 应用而非网页。更值得记录的是一句旁证：同事 Alex 独立做过同款，并且「已经一直在用自己 vibe code（凭自然语言让模型写码）出来的剪辑器剪真实视频」——工具从演示走进了生产。Berman 的口号由此从「software is dead」升级为「software is solved」。
 
-内容制作侧，他展示了完全由模型生成的动态图形（motion graphics）：一支 1 分 52 秒讲清「软件反编译」的成片花约 950 万 token、约 45 分钟、约 25 美元；「LLM 工作原理」动画同样被评为「完美」（嵌入、transformer 层、损失曲线、下一 token 预测），他说将直接用于后续视频——以前是团队要以天计的活。他此前那支以反编译与 Photoshop 克隆论证「软件已解决」的视频，本站[已成文](/posts/2026-10-11-matt-berman-decompile-software-solved-verifiable-loops/)。
+内容制作侧，他展示了完全由模型生成的动态图形（motion graphics）：一支 1 分 52 秒讲清「软件反编译」的成片花约 950 万 token、约 45 分钟、约 25 美元；「LLM 工作原理」动画同样被评为「完美」（嵌入、transformer 层、损失曲线、下一 token 预测），他说将直接用于后续视频——以前是团队要以天计的活。他此前那支以反编译与 Photoshop 克隆论证「软件已解决」的视频，本站[已成文](https://inkeast.github.io/MessageDaily/posts/2026-10-11-matt-berman-decompile-software-solved-verifiable-loops/)。
 
 ## 物理世界与纯生成的边界：91 美元的水球仿真、37 美元的承重塔与「第一个坏的」
 
@@ -39,7 +39,7 @@ Berman 的结论毫不含糊：Fable 5.2 是他用过的最好的模型——依
 
 ## 定价与收束：降两成、快 2.5 倍，与「内部还压着什么」
 
-定价（Berman 称）：较 Fable 5.1 下调约 20%，现为每百万输入 token 8 美元、输出 40 美元；快速模式（fast mode）提速 2.5 倍，但价格翻倍至 16/80 美元（他没有快速模式权限）。他还提到一件「Anthropic 不常做的事」：本周按订阅状态与时长向用户发放 Fable 用量重置（resets）。这次显性降价与本站此前引述 Anthropic 上市文件 S-1 时记下的口径——「每代模型完成同样任务的成本下降 25%–40%」（[Jamin Ball 拆解 S-1](/posts/2026-11-08-latent-space-anthropic-s1-myths-jamin-ball/)）——互为印证。片尾一句带过：他说这一切「难怪 METR 刚发布那份『Anthropic 有一条通往递归自我改进的直通路』的报告」——公开的 Fable 5.2 已如此，内部模型与投喂的 token 规模可想而知；该报告本站已按他上一期视频[专门成文](/posts/2026-11-08-matt-berman-metr-anthropic-rsi-12-months/)，此处不重复。
+定价（Berman 称）：较 Fable 5.1 下调约 20%，现为每百万输入 token 8 美元、输出 40 美元；快速模式（fast mode）提速 2.5 倍，但价格翻倍至 16/80 美元（他没有快速模式权限）。他还提到一件「Anthropic 不常做的事」：本周按订阅状态与时长向用户发放 Fable 用量重置（resets）。这次显性降价与本站此前引述 Anthropic 上市文件 S-1 时记下的口径——「每代模型完成同样任务的成本下降 25%–40%」（[Jamin Ball 拆解 S-1](https://inkeast.github.io/MessageDaily/posts/2026-11-08-latent-space-anthropic-s1-myths-jamin-ball/)）——互为印证。片尾一句带过：他说这一切「难怪 METR 刚发布那份『Anthropic 有一条通往递归自我改进的直通路』的报告」——公开的 Fable 5.2 已如此，内部模型与投喂的 token 规模可想而知；该报告本站已按他上一期视频[专门成文](https://inkeast.github.io/MessageDaily/posts/2026-11-08-matt-berman-metr-anthropic-rsi-12-months/)，此处不重复。
 
 ## 机制 → 影响 → 启发
 

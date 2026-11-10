@@ -7,7 +7,7 @@ tags: ["灰色信源", "Two Minute Papers", "OpenAI", "可解释性", "RSI", "AI
 summary: 'Two Minute Papers 针对 GPT-6 Astra 读写神经网络权重的 MIT 研究做纠偏：8%→48% 不是「教数学」而是修掉「思考死循环」；读、修、提升是三个独立实验而非一套系统；开源模型已复现部分能力；对 Gemma 3 的提升尝试失败。主持人仍认为「从零写出游戏网络」可能是 AI 的 game changer，且完整基准正在建立。'
 ---
 
-> 信源说明：本文基于 Two Minute Papers 频道一期视频《OpenAI's Astra Just Opened The Black Box Of AI》（视频 ID `GJ6PMUm5oTA`，2026-11-07 发布，全长 348 秒≈5 分 48 秒，英文转写 3 段、0s–348s 已完整读取，文中数字与引语均依英文转写；主持人依频道公开信息为 Dr. Károly Zsolnai-Fehér，转写作「Dr. Karo Jonahifahir」，已列入文末校正表）。全部实验结果与判断均为节目转述论文内容，本文未做独立核实，归属按「节目称/主持人认为」分层；节目开场即称研究来自 MIT，与本站此前按 The AI Daily Brief 成文的口径互证。**防重复说明**：该研究本站已两次成文——Matthew Berman 的逐实验深拆（[《权重即源代码》](/posts/2026-11-05-matt-berman-gpt6-astra-weight-space-programming/)）与 The AI Daily Brief 的报道（含 MIT 归属与 Google 研究者复现，[《补贴时代的账单与 RSI 的阈值》](/posts/2026-11-05-ai-daily-brief-grokbot-subsidy-rsi-weight-editing/)）；实验细节与 RSI 推论不重复展开。本期的独立价值是**纠偏视角**：主持人明说「媒体上的讨论有点被误解」，逐条澄清坊间流传的夸大说法。视频时长不足 6 分钟，按短资讯成文。文末附完整转写原文（修正版）与逐段中文翻译。
+> 信源说明：本文基于 Two Minute Papers 频道一期视频《OpenAI's Astra Just Opened The Black Box Of AI》（视频 ID `GJ6PMUm5oTA`，2026-11-07 发布，全长 348 秒≈5 分 48 秒，英文转写 3 段、0s–348s 已完整读取，文中数字与引语均依英文转写；主持人依频道公开信息为 Dr. Károly Zsolnai-Fehér，转写作「Dr. Karo Jonahifahir」，已列入文末校正表）。全部实验结果与判断均为节目转述论文内容，本文未做独立核实，归属按「节目称/主持人认为」分层；节目开场即称研究来自 MIT，与本站此前按 The AI Daily Brief 成文的口径互证。**防重复说明**：该研究本站已两次成文——Matthew Berman 的逐实验深拆（[《权重即源代码》](https://inkeast.github.io/MessageDaily/posts/2026-11-05-matt-berman-gpt6-astra-weight-space-programming/)）与 The AI Daily Brief 的报道（含 MIT 归属与 Google 研究者复现，[《补贴时代的账单与 RSI 的阈值》](https://inkeast.github.io/MessageDaily/posts/2026-11-05-ai-daily-brief-grokbot-subsidy-rsi-weight-editing/)）；实验细节与 RSI 推论不重复展开。本期的独立价值是**纠偏视角**：主持人明说「媒体上的讨论有点被误解」，逐条澄清坊间流传的夸大说法。视频时长不足 6 分钟，按短资讯成文。文末附完整转写原文（修正版）与逐段中文翻译。
 
 ## 先说结论
 

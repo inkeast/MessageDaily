@@ -7,7 +7,7 @@ categories: ["podcast-summary"]
 summary: 'a16z 围绕今年 AD50 榜单（American Dynamism 50）请两位 American Dynamism 投资人 Connor 与 Aaron 复盘美国再工业化：核心命题是「没有工业基础就没有国防工业基础」，机制上有四条线——国防首购改变首件单位经济、风险资本「提前于需求」建产能、被冷落四十年的「制造中层」转向 co-engineering、以及非顶层设计的资本市场灵活跟投。AI 的当下角色不是替代双手而是放大现场技师：高混合低批量产线重配从系统集成商的三个月数十万美元压缩到技师用 Claude 的二十分钟。反方与边界同样明确：系统未必都被采购、能源需求未必翻四倍，嘉宾的回应是「雪球一旦滚动就回不去了」，而中美电力产量之差「不是技术问题，是意愿问题」。'
 ---
 
-> 信源说明：本文基于 a16z Podcast 一期节目整理（视频 ID cRJ7CfaK1Vc，全长约 49.3 分钟，英文转写 25 段、0s–2957s 已完整读取，文中数字与引语均依英文转写）。嘉宾为 a16z American Dynamism 团队两位投资人 Connor 与 Aaron（姓氏未在转写中出现；Connor 自述曾在陆军服役、后任职 Palantir），主持人姓名未见于转写；主题是今年的 AD50 榜单（American Dynamism 50，转写多作「8050／eighty fifty」，疑为「A-D fifty」连读，文末校正表有说明）。全部公司案例与数字均为嘉宾观点或节目引用，本文未做独立核实；ASR 疑似错词以「转写疑作」标注，文末附校正表与完整转写原文。同频道旧文：[Pat Gelsinger 谈 AI 硬件瓶颈大挪移](/posts/2026-10-10-a16z-pat-gelsinger-hardware-bottlenecks/)——彼时结论「瓶颈从设计挪向制造」恰是本期的前提。
+> 信源说明：本文基于 a16z Podcast 一期节目整理（视频 ID cRJ7CfaK1Vc，全长约 49.3 分钟，英文转写 25 段、0s–2957s 已完整读取，文中数字与引语均依英文转写）。嘉宾为 a16z American Dynamism 团队两位投资人 Connor 与 Aaron（姓氏未在转写中出现；Connor 自述曾在陆军服役、后任职 Palantir），主持人姓名未见于转写；主题是今年的 AD50 榜单（American Dynamism 50，转写多作「8050／eighty fifty」，疑为「A-D fifty」连读，文末校正表有说明）。全部公司案例与数字均为嘉宾观点或节目引用，本文未做独立核实；ASR 疑似错词以「转写疑作」标注，文末附校正表与完整转写原文。同频道旧文：[Pat Gelsinger 谈 AI 硬件瓶颈大挪移](https://inkeast.github.io/MessageDaily/posts/2026-10-10-a16z-pat-gelsinger-hardware-bottlenecks/)——彼时结论「瓶颈从设计挪向制造」恰是本期的前提。
 
 ## 先说结论
 

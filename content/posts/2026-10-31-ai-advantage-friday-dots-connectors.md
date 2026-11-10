@@ -9,7 +9,7 @@ summary: 'The AI Advantage 主持人 Igor 的周五周更：不追 Google Carbon
 
 # 不聊跑分聊落地：Igor 的周五清单——dots 接进手机、Grokbot 长出幻灯片、上下文可以搬家
 
-> 信源说明：本文基于 The AI Advantage 一期周五周更视频整理（视频 ID MNiurW07nLs，全长约 12.1 分钟，英文转写 7 段、0s–725s 已完整读取，文中功能描述与引语均依英文转写整理；主持人自称 Igor，姓氏未在转写中出现）。全部产品动态与价格口径均为主持人陈述或其引用的官方公告与 Reddit 帖文，本文未做独立核实，归属按「主持人称／节目引用」分层标注；ASR 疑似错词以「转写疑作」标注，文末附校正表与完整转写原文。相关互链：主持人开场调侃的 Google Carbon 跑分叙事，与今天整理的另一期节目互为镜像，见[《换一把尺子重排整个前沿》](/posts/2026-10-31-ai-daily-brief-aa-index-v5-gemini-carbon/)；Grokbot 多机器人协作的深度用例见[《一个人的对冲基金：Wes Roth 用 Grokbot 编制一张 24/7 AI 研究台》](/posts/2026-10-31-wes-roth-grokbot-ai-hedge-fund/)。
+> 信源说明：本文基于 The AI Advantage 一期周五周更视频整理（视频 ID MNiurW07nLs，全长约 12.1 分钟，英文转写 7 段、0s–725s 已完整读取，文中功能描述与引语均依英文转写整理；主持人自称 Igor，姓氏未在转写中出现）。全部产品动态与价格口径均为主持人陈述或其引用的官方公告与 Reddit 帖文，本文未做独立核实，归属按「主持人称／节目引用」分层标注；ASR 疑似错词以「转写疑作」标注，文末附校正表与完整转写原文。相关互链：主持人开场调侃的 Google Carbon 跑分叙事，与今天整理的另一期节目互为镜像，见[《换一把尺子重排整个前沿》](https://inkeast.github.io/MessageDaily/posts/2026-10-31-ai-daily-brief-aa-index-v5-gemini-carbon/)；Grokbot 多机器人协作的深度用例见[《一个人的对冲基金：Wes Roth 用 Grokbot 编制一张 24/7 AI 研究台》](https://inkeast.github.io/MessageDaily/posts/2026-10-31-wes-roth-grokbot-ai-hedge-fund/)。
 
 ## 先说结论
 
@@ -54,7 +54,7 @@ Grokbot 本体被他简明定义为「ChatGPT 的 dot 拆成多个会话——�
 | one password | 1Password | 密码管理器产品名 |
 | around PHP（安全风波句） | 保留原文 | 转写作 PHP，指上周某安全风波，未独立核实 |
 | Duot | 保留原文 | 疑为口误或产品名（dot?），原文如此 |
-| Thibault / Omar / The Passionate Few / Ramp / QuickBooks / Grokbot | 保留原文 | 人名、频道与产品名，与[《Wes Roth 用 Grokbot》](/posts/2026-10-31-wes-roth-grokbot-ai-hedge-fund/)一文写法一致 |
+| Thibault / Omar / The Passionate Few / Ramp / QuickBooks / Grokbot | 保留原文 | 人名、频道与产品名，与[《Wes Roth 用 Grokbot》](https://inkeast.github.io/MessageDaily/posts/2026-10-31-wes-roth-grokbot-ai-hedge-fund/)一文写法一致 |
 
 （完）
 

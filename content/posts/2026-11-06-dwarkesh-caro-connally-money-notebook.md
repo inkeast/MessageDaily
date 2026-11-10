@@ -7,7 +7,7 @@ categories: ["podcast-summary"]
 summary: 'Dwarkesh Patel 频道一段 68 秒短片：他追问「怎么让明知不该说的人开口」，受访者（依内容与频道上下文推断为 Robert Caro）以林登·约翰逊的「钱袋管家」John Connally 为例作答——Connally 是唯一经手 LBJ 全部政治献金分配的人，LBJ 在议员的要钱申请上写四档批注：全额、砍半价、no、以及「no, never」（永久拉黑）；追问「为什么他对这个人如此反感」，真正的好故事才浮出水面。这是本站 10 月 30 日「Caro 权力预习课」一文中「金主杠杆」机制的具体毛细血管，也是一份可迁移的采访方法论：找到信息链上的唯一节点、用实物凭证解锁记忆、把问题从事实层推进到动机层。'
 ---
 
-> 信源说明：本文基于 Dwarkesh Patel 频道一段 68 秒 Shorts 切片（视频 ID `CGPQ2-pJ6As`，0s–68s 共 1 段转写，已完整读取，英文转写由 Qwen3-ASR 生成、文末附校正表与带中文翻译的完整转写原文）。短片内受访者未自报姓名，但问答内容（林登·约翰逊研究、John Connally、「跟着笔记走」的一手档案叙事）与频道页面显示的完整专访《What Robert Caro learned about power after studying it for 50 years》完全对应，本文推断其为 Robert Caro 本人在该专访中的切片，标注为推断级。本站此前已成文 Dwarkesh 在专访前一天放出的「预习课」：[《把特权写进债券、把表决搬进密室：Dwarkesh 预习 Robert Caro 的两堂权力课》](/posts/2026-10-30-dwarkesh-caro-power-lessons/)——该文 LBJ 部分展开过「金主杠杆」，本文只做增量，不重复背景。全部史实性陈述均为受访者口述、Caro 著作内容的转述，本文未独立核实。
+> 信源说明：本文基于 Dwarkesh Patel 频道一段 68 秒 Shorts 切片（视频 ID `CGPQ2-pJ6As`，0s–68s 共 1 段转写，已完整读取，英文转写由 Qwen3-ASR 生成、文末附校正表与带中文翻译的完整转写原文）。短片内受访者未自报姓名，但问答内容（林登·约翰逊研究、John Connally、「跟着笔记走」的一手档案叙事）与频道页面显示的完整专访《What Robert Caro learned about power after studying it for 50 years》完全对应，本文推断其为 Robert Caro 本人在该专访中的切片，标注为推断级。本站此前已成文 Dwarkesh 在专访前一天放出的「预习课」：[《把特权写进债券、把表决搬进密室：Dwarkesh 预习 Robert Caro 的两堂权力课》](https://inkeast.github.io/MessageDaily/posts/2026-10-30-dwarkesh-caro-power-lessons/)——该文 LBJ 部分展开过「金主杠杆」，本文只做增量，不重复背景。全部史实性陈述均为受访者口述、Caro 著作内容的转述，本文未独立核实。
 
 ## 先说结论
 

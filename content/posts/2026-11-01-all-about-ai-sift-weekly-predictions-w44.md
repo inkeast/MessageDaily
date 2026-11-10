@@ -7,7 +7,7 @@ categories: ["podcast-summary"]
 summary: 'All About AI 频道主 Filipe 把自家 Sift Intelligence 升级成每周真金白银的短线预测系列：第 44 周选 14 个地缘/宏观/财报事件，周一到周五在 Polymarket/Kalshi 逐个下注 10 美元，最终只成交 9 注、PNL 约 +2 美元——最佳一注是欧元区 GDP 区间 No（35 美分买入赔到 100），最差教训是主动逆着模型押美国 GDP。真正的亮点是 Eli Lilly 财报案例：Sift 出概率、Claude Code（Opus 5.5）当 agent 把「EPS 线内藏 4.57 美元一次性费用」拆成 Polymarket 押 No + 券商买股两条方向相反的交易，财报 7.48 美元一线之下双双重仓命中。'
 ---
 
-> 信源说明：本文基于 All About AI 频道主 Filipe 一期视频整理（视频 ID SaBtmnZGBxo，全长约 13.9 分钟，英文转写 0s–836s 已完整读取，文中数字均依转写）。本频道为个人创作者+创业者频道，全部数字为作者屏幕展示的自家模型输出、持仓与盈亏，本文未做独立核实；按系列惯例以「作者称/模型展示」标注归属，ASR 疑似错词以「转写疑作」标注，文末附校正表与完整转写原文。同系列前文：[《AI 预测股市第一周战绩》](/posts/2026-10-13-all-about-ai-sift-intelligence-stock-prediction/)、[《Sift 过去情景回测》](/posts/2026-10-22-sift-past-scenario-backtesting/)、[《拿自家预测产品押注中期选举》](/posts/2026-10-30-all-about-ai-sift-midterms-preview/)。
+> 信源说明：本文基于 All About AI 频道主 Filipe 一期视频整理（视频 ID SaBtmnZGBxo，全长约 13.9 分钟，英文转写 0s–836s 已完整读取，文中数字均依转写）。本频道为个人创作者+创业者频道，全部数字为作者屏幕展示的自家模型输出、持仓与盈亏，本文未做独立核实；按系列惯例以「作者称/模型展示」标注归属，ASR 疑似错词以「转写疑作」标注，文末附校正表与完整转写原文。同系列前文：[《AI 预测股市第一周战绩》](https://inkeast.github.io/MessageDaily/posts/2026-10-13-all-about-ai-sift-intelligence-stock-prediction/)、[《Sift 过去情景回测》](https://inkeast.github.io/MessageDaily/posts/2026-10-22-sift-past-scenario-backtesting/)、[《拿自家预测产品押注中期选举》](https://inkeast.github.io/MessageDaily/posts/2026-10-30-all-about-ai-sift-midterms-preview/)。
 
 ## 先说结论
 
