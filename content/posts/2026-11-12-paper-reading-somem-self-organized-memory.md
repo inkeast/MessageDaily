@@ -4,7 +4,7 @@ date: 2026-11-12
 draft: false
 tags: ["Agent", "记忆系统", "持续学习", "论文精读"]
 categories: ["paper-reading"]
-summary: "深度精读香港城市大学与腾讯 Jarvis Lab 合作的 SOMEM 论文——让 LLM Agent 用普通 Markdown 文档"自组织"持久记忆：模型（Writer）自由决定记忆怎么分组、怎么修订，运行时只负责校验编辑、保全原始证据、自动重建 Graph/Timeline/Recent 三种访问视图。在 LoCoMo（88.96%）、BEAM-100K（nugget 54.02）、LongMemEval-S（76.50%）上分别超最强基线 2.66/3.10/2.00 个百分点；消融显示去掉 Source 证据层掉 8.64 点为最大损伤；同一份记忆可跨模型复用（GPT-5.6 写、Qwen 读到 93.25%）。本文从记忆系统谱系、问题抽象、机制拆解、实验证据、根源因果链、必要知识反推到六条通用性灵感，完整拆解这项'自组织记忆'方向的开创性工作。"
+summary: "深度精读香港城市大学与腾讯 Jarvis Lab 合作的 SOMEM 论文——让 LLM Agent 用普通 Markdown 文档「自组织」持久记忆：模型（Writer）自由决定记忆怎么分组、怎么修订，运行时只负责校验编辑、保全原始证据、自动重建 Graph/Timeline/Recent 三种访问视图。在 LoCoMo（88.96%）、BEAM-100K（nugget 54.02）、LongMemEval-S（76.50%）上分别超最强基线 2.66/3.10/2.00 个百分点；消融显示去掉 Source 证据层掉 8.64 点为最大损伤；同一份记忆可跨模型复用（GPT-5.6 写、Qwen 读到 93.25%）。本文从记忆系统谱系、问题抽象、机制拆解、实验证据、根源因果链、必要知识反推到六条通用性灵感，完整拆解这项'自组织记忆'方向的开创性工作。"
 ---
 
 > **论文链接**：[arxiv.org/abs/2611.11929](https://arxiv.org/abs/2611.11929)

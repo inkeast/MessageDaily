@@ -4,7 +4,7 @@ date: 2026-11-12
 draft: false
 tags: ["论文精读", "LLM", "Transformer", "KV-Cache", "模型架构", "预训练"]
 categories: ["paper-reading"]
-summary: "上海交大 AI 学院联合小红书 Dots Studio、上海创新研究院提出 DepthGraft：把跨层 KV 共享从单纯的省缓存技巧，重新诠释为一种"结构性正则化"——KV 复用边同时是深层到浅层 KV 投影的直连梯度通路，会重塑 K/V 表征几何（Key 更锐利、Value 子空间更丰富）。基于该分析，DepthGraft 用浅-中-深三阶段 + 跨步对齐的双源层级重构替代 CLA/MLKV 的邻接共享与 YOCO/FusedKV 的全局锚点，在 0.5B–16B dense 与 MoE 上全面超越基线（16B-A3B MoE 12 基准平均 47.04 vs 42.38），同时 KV 缓存省约 1/3、128K TTFT 降 28.8%、训练 FLOPs 不增。本精读覆盖背景谱系、方法与理论、全部关键实验证据、根因因果链与外部交叉验证、反推的必要知识及通用性灵感。"
+summary: "上海交大 AI 学院联合小红书 Dots Studio、上海创新研究院提出 DepthGraft：把跨层 KV 共享从单纯的省缓存技巧，重新诠释为一种「结构性正则化」——KV 复用边同时是深层到浅层 KV 投影的直连梯度通路，会重塑 K/V 表征几何（Key 更锐利、Value 子空间更丰富）。基于该分析，DepthGraft 用浅-中-深三阶段 + 跨步对齐的双源层级重构替代 CLA/MLKV 的邻接共享与 YOCO/FusedKV 的全局锚点，在 0.5B–16B dense 与 MoE 上全面超越基线（16B-A3B MoE 12 基准平均 47.04 vs 42.38），同时 KV 缓存省约 1/3、128K TTFT 降 28.8%、训练 FLOPs 不增。本精读覆盖背景谱系、方法与理论、全部关键实验证据、根因因果链与外部交叉验证、反推的必要知识及通用性灵感。"
 ---
 
 > **论文链接**：[DepthGraft: Structural Regularization through Hierarchical Cross-Layer KV Reconstruction](https://arxiv.org/abs/2611.03142)
