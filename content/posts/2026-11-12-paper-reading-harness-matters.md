@@ -4,7 +4,7 @@ date: 2026-11-12
 draft: false
 tags: ["论文精读", "Agent", "AI安全", "Benchmark"]
 categories: ["paper-reading"]
-summary: "当所有人都把 Web Agent 的安全问题归咎于后端模型时，这篇被 IEEE S&P 2027 接收的论文把聚光灯打在了被忽视的\「执行脚手架（harness）\」上。作者将 web agent harness 抽象为四阶段工作流（目标解释/网页感知/推理规划/动作执行），构建了覆盖三类攻击共 505 个任务的 WEBTRAP FARM 评测框架，并用配对可用性校准任务把\「真防御\」与\「能力不足\」区分开。实验发现：6 个开源 harness 整体攻击成功率高达 32.55%，同一 GPT-4o 后端下不同 harness 的防御成功率差距达 40.90 个百分点；GLMM 统计检验确认 harness、模型及二者交互均显著影响安全结果。更刺眼的是，无任何攻击内容的 naive 攻击成功率竟能超过有显式攻击内容的攻击，暴露出 harness 内禀的安全失效。本精读按九部分结构展开，含指标体系拆解、消融因果链分析与外部工作交叉验证。"
+summary: "当所有人都把 Web Agent 的安全问题归咎于后端模型时，这篇被 IEEE S&P 2027 接收的论文把聚光灯打在了被忽视的「执行脚手架（harness）」上。作者将 web agent harness 抽象为四阶段工作流（目标解释/网页感知/推理规划/动作执行），构建了覆盖三类攻击共 505 个任务的 WEBTRAP FARM 评测框架，并用配对可用性校准任务把「真防御」与「能力不足」区分开。实验发现：6 个开源 harness 整体攻击成功率高达 32.55%，同一 GPT-4o 后端下不同 harness 的防御成功率差距达 40.90 个百分点；GLMM 统计检验确认 harness、模型及二者交互均显著影响安全结果。更刺眼的是，无任何攻击内容的 naive 攻击成功率竟能超过有显式攻击内容的攻击，暴露出 harness 内禀的安全失效。本精读按九部分结构展开，含指标体系拆解、消融因果链分析与外部工作交叉验证。"
 ---
 
 > **论文链接**：[Harness Matters: Measuring and Dissecting Security Resilience in Web Agents](https://arxiv.org/abs/2611.11971)
